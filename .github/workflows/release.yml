@@ -37,7 +37,7 @@ jobs:
       id: getxml
       uses: mavrosxristoforos/get-xml-info@2.0
       with:
-        xml-file: './RAID_WWII_Brazilian_Localization/supermod.xml'
+        xml-file: './RAIDWWII_Brazilian_Localization/supermod.xml'
         xpath: '//mod/@version'
 
     - name: render meta.json

@@ -1,0 +1,6 @@
+Hooks:PostHook(MissionSelectionGui, "_layout_operation_tutorialization", "accented_layout_operation_tutorialization", function(self)
+	local _, _, _, h = self._operation_tutorialization_title:text_rect()
+	--log("accent actualizer: " .. h)
+	self._operation_tutorialization_title:set_height(h)
+	self._operation_tutorialization_title:set_center_y(h)
+end)

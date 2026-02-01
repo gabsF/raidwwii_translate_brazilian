@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<mod 
+        name="Raid WWII Brazilian Localization"
+        description="Um mod que traduz RAID: World War II para Português do Brasil."
+        author="gabsF"
+        priority="-100"
+		version="0.8">
+
+	<updates>
+        <update provider="modworkshop" identifier="51497" important="true"/>
+    </updates>
+
+	<hooks>
+		<post script_path="lua/raid_menu/missionselectiongui.lua" hook_id="lib/managers/menu/raid_menu/missionselectiongui"/>
+	</hooks>
+
+</mod>

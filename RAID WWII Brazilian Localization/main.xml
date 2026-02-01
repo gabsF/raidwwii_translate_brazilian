@@ -1,0 +1,24 @@
+<mod name="Raid WWII Brazilian" author="gabsF" global_key="RaidWWIIBrazilian" min_lib_ver="3.0">
+    <AssetUpdates id="51497" version="0.8" provider="modworkshop"/>
+
+    <Localization directory="loc">
+        <group language="english">
+			
+			<!-- others -->
+			<loc file="others.yaml"/>
+			
+			<!-- missions -->
+			<loc file="missions/camp.yaml"/>
+			<loc file="missions/countdown.yaml"/>
+			<loc file="missions/tutorial.yaml"/>
+			<loc file="missions/hunters.yaml" />
+			<loc file="missions/flakturm.yaml" />
+			<loc file="missions/radiobase.yaml" />
+			<loc file="missions/treasury.yaml" />
+			<loc file="missions/op_enigmatic.yaml" />
+			<loc file="missions/trainyard.yaml" />
+
+		</group>
+    </Localization>
+
+</mod>

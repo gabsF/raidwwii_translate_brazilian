@@ -1,0 +1,1973 @@
+# Menus
+menu_resume_game: "Resumir a partida" #RESUME GAME",
+press_any_key: "Pressione qualquer tecla"
+menu_main_title: "Menu Principal"
+menu_play: "Jogar Online"
+menu_play_offline: "Jogar Offline"
+menu_servers: "Servidores"
+menu_options: "Opções"
+menu_credits: "Créditos"
+menu_quit: "Sair"
+menu_quit_ingame: "Sair"
+savefile_saving: "Salvando..."
+generic_loading: "Carregando"
+debug_loading_level: "Carregando"
+menu_restart_to_camp: "Ir ao meu acampamento" #Return to my camp",]
+menu_restart_mission: "Reiniciar a missão" #Restart mission",
+menu_unavailable: "Indisponível" #Unavailable",
+menu_save_info_loot_title: "Espólio" #Loot",
+
+# Avisos
+dialog_mp_restart_level_client_message: "Tem certeza que deseja sair da missão e retornar ao acampamento?" #Are you sure you want to leave the mission and return to your camp?",
+dialog_cant_join_in_mp: "Você já está em uma partida online. Para se juntar a outra, primeiro deixe a partida atual." #You are already in online game. To join other one, first leave current game.",
+dialog_reset_interface_message: "Você tem certeza que deseja redefinir todas opções de interface ao seu estado padrão?" #Do you really wish to reset all interface options to default state?",
+dialog_err_empty_character_name: "Nome do personagem não deve estar vazio" #Character name must not be empty",
+dialog_request_timed_out_title: "Expirado" #Timed out",
+dialog_creating_lobby_title: "Criando partida" #Creating game",
+dialog_loyalty_reward_skill_rework: |
+ Devido a atualização "Proficiencies", todas as melhorias foram resetadas.
+ Você recebeu $AMOUNT; barras de ouro como uma compensação baseado no nível do seu personagem.
+ Agradecemos o seu interesse em RAID!
+#Due to the Proficiencies rework, all equipped upgrades have been reset.$NL;You've been granted $AMOUNT; gold bars as compensation based on your character's levels.$NL;Thank you for your continued interest in RAID!",
+dialog_dlc_require_restart: "Atenção" #Attention",
+dialog_remove_dead_peer: "Jogador removido devido a conexão perdida" #Player removed due to lost connection",
+dialog_server_left: "O host saiu da partida" #The host left the game",
+dialog_go_to_mod_overrides: "Abrir pasta" #OPEN FOLDER",
+dialog_leaving_lobby_title: "Deixando a partida" #Leaving game",
+dialog_fail_save_game_corrupt: "Falha ao salvar o jogo!" #Failed to save game file!",
+dialog_waiting_for_server_response_title: "Esperando o jogo responder" #Waiting for game to respond",
+dialog_disconnected_from_steam: "Você foi desconectado da Steam. O jogo vai continuar em modo offline." #You've been disconnected from Steam. Game will continue in offline mode.",
+dialog_authentication_host_fail: "Steam não pôde em autenticar o Steam ID para o host." #Steam could not authenticate Steam ID for the host.",
+dialog_loyalty_reward_skill_removed: "Devido a remoção de um ou mais habilidades, você foi reembolsado $AMOUNT; barras de ouro." #Due the removal of one or more Proficiencies, you have been refunded $AMOUNT; gold bars.",
+dialog_information_title: "Informação" #Information",
+dialog_joining_lobby_title: "Se juntando à partida" #Joining game",
+dialog_mp_restart_level_title: "Retornar ao acampamento" #Return to camp",
+dialog_mp_restart_level_host_message: "Tem certeza que deseja retornar ao acampamento?" #Are you sure you want to return to camp?",
+dialog_reset_controls_keybinds_message: "Tem certeza que deseja redefinir todas as teclas ao seu estado padrão?" #Do you really wish to reset all keys to default state?",
+dialog_err_tutorial_not_finished: "Você deve concluir o tutorial antes de se juntar à uma partida online." #You must complete tutorial before joining online game.",
+dialog_dropin_title: "$USER; está se juntando a partida" #$USER; is joining the game",
+dialog_err_failed_creating_lobby: "Falha ao criar a partida." #Failed to create game.",
+dialog_getting_world_list: "Recuperando a lista de mundo" #Getting world list",
+dialog_show_restart_game_message: "Tem certeza que deseja reiniciar a partida atual?" #Are you sure you want to restart current game?",
+dialog_are_you_sure_you_want_to_clear_progress: "Tem certeza que deseja limpar o seu progresso? Isso vai resetar o seu ouro, personagens, personalizações e desafios das armas." #Are you sure you want to clear your progress? This will reset your gold, characters, character customizations and weapon challenges.",
+dialog_are_you_sure_you_want_to_leave_game: "Tem certeza que deseja deixar a partida atual?" #Are you sure you want to leave current game?",
+dialog_accept_changes_title: "Confirmar mudança" #Confirm change",
+dialog_err_failed_searching_lobbys: "Falha ao recuperar as partidas." #Failed retrieving games.",
+dialog_mp_kicked_out_title: "Expulso" #Kicked",
+dialog_dlc_require_restart_desc: "Você precisa reiniciar RAID para acessar novos itens." #You need to restart RAID to access your new items.",
+dialog_reset_advanced_video_message: "Você tem certeza que deseja redefinir todas opções de vídeo avançado ao seu estado padrão?" #Do you really wish to reset all advanced video options to default state?",
+dialog_reset_controls_message: "Você tem certeza que deseja redefinir todas opções de controle ao seu estado padrão?" #Do you really wish to reset all control options to default state?",
+dialog_mp_restart_mission_host_message: |
+ Tem certeza que deseja reiniciar a missão?
+ (A carta de desafio atual será perdida)
+#Are you sure you want to restart the mission?$NL;(used challenge card will be lost)",
+dialog_mp_restart_mission_title: "Reiniciar missão" #Restart mission",
+dialog_reset_video_title: "Redefinindo controles de vídeo" #Resetting Video Controls",
+dialog_reset_all_options_title: "Redefinindo todas as opções" #Resetting all Options",
+dialog_err_room_is_full: "Esta partida está cheia, por favor tente outra." #This room has been filled, please try another one.",
+dialog_reset_interface_title: "Redefinir os controles de interface" #Resetting Interface Controls",
+dialog_err_duplicate_character_name: "Nome do personagem já existe" #Character name already exists",
+dialog_key_binding_forbidden: "Tecla $KEY; é reservado pelo jogo, por favor, tente outra." #Key "$KEY;" is reserved by the game, please try something else.",
+dialog_deleting_current_job_title: "Operação ativa!" #Active operation!",
+dialog_create: "Criar" #Create",
+dialog_are_you_sure_you_want_leave_ready_up: "Tem certeza que deseja retornar ao acampamento?" #Do you want to return to the camp?",
+dialog_reset_advanced_video_title: "Redefinindo os controles de vídeo avançado" #Resetting Advanced Video Controls...",
+dialog_reset_all_options_message: "Tem certeza que deseja redefinir todas opções ao seu estado padrão?" #Do you really wish to reset all options to default state?",
+dialog_authentication_fail: "Steam não pôde autenticar o seu Steam ID." #Steam could not authenticate your Steam ID.",
+dialog_lost_connection_to_server: "Conexão perdida com o host." #Lost connection to the host",
+dialog_reset_controls_title: "Redefinindo os controles do jogo" #Resetting Game Controls",
+dialog_loyalty_reward_title: "Prêmio de lealdade" #Loyalty Reward",
+dialog_rename: "Renomear" #Rename",
+dialog_game_permission_changed: "Tiveram mudanças nas configurações da partida, você não tem mais permissão em se juntar" #The game settings has changed, you no longer have permission to join",
+dialog_reset_video_message: "Tem certeza que deseja redefinir todas as opções de vídeo ao seu estado padrão?" #Do you really wish to reset all video options to default state?",
+dialog_returning_to_main_menu: "Retornando ao menu principal" #Returning to the main menu",
+dialog_request_timed_out_message: "O tempo do pedido para se juntar à partida expirou." #Request to join game timed out",
+dialog_mp_restart_level_message: "Tem certeza que deseja iniciar uma votação para reiniciar?" #Are you sure you want to create a vote for restarting?",
+dialog_deleting_current_job: "Uma OPERAÇÃO ativa não pode ser excluída. Comece uma nova OPERAÇÃO ou INVASÃO para desativá-la." #An active OPERATION cannot be deleted. Start another OPERATION or RAID to deactivate this one.",
+dialog_mp_already_kicked_from_game_message: "Você já foi expulso desta partida e não pode mais se juntar." #You have already been kicked from that game and cannot rejoin it.",
+dialog_reset_controls_keybinds_title: "Redefinindo as teclas" #Resetting Keybindings",
+dialog_err_cant_join_from_game: "Você deve deixar a partida atual antes de se juntar a uma nova." #You must leave your current game before joining a new one.",
+dialog_mp_kicked_out_message: "Você foi expulso pelo host." #You have been kicked by the host.",
+dialog_game_started: "Não pode se juntar à partida." #The game is currently not joinable",
+dialog_err_failed_joining_lobby: "Erro ao se juntar à partida." #Failed joining game.",
+dialog_skip: "Pular" #SKIP",
+dialog_wait_title: "Por favor, aguarde" #Please wait",
+dialog_wait: "Por favor, aguarde" #Please wait",
+dialog_join_others_forbidden_message: "Você não pode se juntar aos outros antes de criar um personagem." #You can't join others before creating a character.",
+dialog_wait_2: "Criando o mundo..." #Creating world...",
+dialog_warning_title: "AVISO"
+character_customization_purchase_confirm_text: "Tem certeza que deseja gastar $AMOUNT; barras de ouro para comprar $CUSTOMIZATION_NAME;?" #Do you want to spend $AMOUNT; gold bars to buy $CUSTOMIZATION_NAME;?",
+character_customization_purchase_confirm_title: "Gastando ouro"
+gold_asset_store_dialog_buy_title: "Gastando ouro" #Spending gold",
+menu_character_skills_retrain_dialog_title: "Gastando ouro" #Spending gold",
+gold_asset_store_dialog_buy_message: "Tem certeza que deseja gastar $AMOUNT; barras de ouro para comprar $GOLD_ITEM_NAME;?" #Are you sure you want to spend $AMOUNT; gold bars to buy $GOLD_ITEM_NAME;?",
+menu_character_skills_selection_confirmation_title: "Confirmar a compra da habilidade" #Confirm Proficiency Purchase",
+menu_character_skills_selection_confirmation_text: "Tem certeza que deseja comprar esta habilidade?" #Do you want to purchase this proficiency?",
+dialog_key_binding_collision: |
+ A tecla "$KEY;" já está vinculado ao "$MAPPED;", por favor escolhe outra tecla.
+dialog_error_title: "Erro"
+dialog_yes: "Sim"
+dialog_no: "Não"
+dialog_cancel: "Cancelar"
+dialog_are_you_sure_you_want_to_quit: "Tem certeza que deseja sair do jogo?"
+dialog_are_you_sure_you_want_to_quit_pause_menu: |
+ Tem certeza que deseja sair do jogo?
+ (O progresso da missão atual será perdida)
+#Are you sure you want to quit?\n(Your current mission progress will be lost)",
+menu_quit_menu: "Menu Principal"
+menu_quit_desktop: "Área de Trabalho"
+dialog_accept_changes: |
+ Deseja manter esta mudança?
+ $TIME;
+#
+# Botões / Botões do controle
+menu_options_controls_default_controller: "$BTN_X; Redefinir ao padrão" #$BTN_X; Reset To Defaults",
+footer_back: "Voltar"
+menu_legend_back: "$BTN_CANCEL; Voltar"
+menu_legend_character_customization_shoulder: "$BTN_TOP_L;$BTN_TOP_R; Cima/Baixo"
+menu_legend_character_customization_equip: "$BTN_A; Equipar"
+menu_legend_character_customization_select: "$BTN_A; Selecionar"
+menu_legend_continue: "$BTN_A; continuar"
+menu_legend_mission_raids: "$BTN_TOP_L; invasões"
+menu_legend_weapons_equipable: "$BTN_BOTTOM_L;$BTN_BOTTOM_R; Filtro"
+menu_legend_ready_up_kick: "$BTN_B; Expulsar"
+menu_legend_mission_continue_save: "$BTN_Y; continuar operação"
+menu_legend_player_skill_cursor_move: "Move Cima/Baixo/Esquer/Direi"
+menu_legend_character_create: "$BTN_A; criar"
+menu_legend_loot_reward_reveal_challenge_card: "$BTN_Y; Revelar uma carta"
+menu_legend_ready_up_start: "$BTN_A; Iniciar"
+menu_legend_mission_operations: "$BTN_TOP_R; operações"
+menu_legend_ready_up_gamercard: "$BTN_Y; Cartão de jogador"
+menu_legend_character_nation: "$BTN_Y; personagem"
+menu_legend_challenge_cards_toggle: "$BTN_TOP_L;$BTN_TOP_R; Alternar cartas"
+menu_legend_comic_book_right: "$BTN_DPAD_RIGHT; Próxima página"
+menu_legend_options_controller_mapping_on_foot: "$BTN_TOP_L; Em pé"
+menu_legend_intel_play_video: "$BTN_A; Tocar"
+menu_legend_options_video_resolution: "$BTN_Y; Aplicar mudança de resolução de vídeo"
+menu_legend_gamercards_label: "Cartões de jogadores:"
+menu_legend_weapons_weapon_skill_apply: "$BTN_Y; Aplicar"
+menu_legend_character_customization_buy: "$BTN_A; Comprar"
+menu_legend_weapons_weapon_skill_select: "$BTN_A; Alternar"
+menu_legend_character_customize: "$BTN_A; personalizar"
+menu_legend_mission_join_join: "$BTN_A; Se juntar"
+menu_legend_gold_asset_store_apply: "$BTN_A; Aplicar"
+menu_legend_player_skill_show_profiles: "$BTN_Y; Mostrar perfis"
+menu_legend_intel_tabs: "$BTN_TOP_L;$BTN_TOP_R; Categoria"
+menu_legend_options_controller_mapping_in_vehicle: "$BTN_TOP_R; Em veículo"
+menu_legend_character_select: "$BTN_A; selecionar"
+menu_legend_mission_next_operation: "$BTN_X; próxima"
+menu_legend_mission_column: "$BTN_BOTTOM_L;$BTN_BOTTOM_R; esquerda/direita"
+menu_legend_character_customization_cursor_move: "Mover Esquer/Direi/Cima/Baixo"
+menu_legend_mission_join_refresh: "$BTN_Y; Atualizar"
+menu_legend_player_skill_hide_profiles: "$BTN_Y; Esconder perfis"
+menu_legend_delete: "$BTN_X; excluir"
+menu_legend_mission_start_operation: "$BTN_Y; começar operação"
+menu_legend_ready_up_ready: "$BTN_A; Pronto"
+menu_legend_player_skill_select: "$BTN_A; Alternar"
+menu_legend_mission_start_raid: "$BTN_Y; começar invasão"
+menu_legend_weapons_equip: "$BTN_A; Equipar"
+menu_legend_comic_book_left: "$BTN_DPAD_LEFT; Página anterior"
+menu_legend_weapons_upgrade: "$BTN_Y; Melhoria"
+menu_legend_clear_progress: "$BTN_X; Limpar progresso"
+menu_legend_gold_asset_store_buy: "$BTN_A; Comprar"
+menu_legend_default_options: "$BTN_Y; Opções no padrão"
+menu_legend_mission_join_filter: "$BTN_X; Filtro"
+menu_legend_character_rename: "$BTN_BOTTOM_R; renomear"
+menu_legend_weapons_category: "$BTN_TOP_L;$BTN_TOP_R; Categoria"
+menu_legend_ready_up_tab: "$BTN_TOP_L;$BTN_TOP_R; Alternar jogadores"
+menu_legend_ready_up_leave: "$BTN_X; Sair do lobby"
+menu_legend_ready_up_suggest_card: "$BTN_Y; Sugerir carta"
+menu_legend_ready_up_select_card: "$BTN_Y; Selecionar carta"
+menu_legend_challenge_cards_rarity: "$BTN_TOP_L;$BTN_TOP_R; Raridade"
+menu_legend_challenge_cards_suggest_card: "$BTN_A; Sugerir"
+menu_legend_challenge_cards_select_card: "$BTN_A; Selecionar"
+menu_legend_challenge_cards_remove_suggestion: "$BTN_X; Remover sugestão"
+menu_legend_challenge_cards_type: "$BTN_BOTTOM_L;$BTN_BOTTOM_R; Tipo"
+menu_legend_challenge_cards_continue_without_card: "$BTN_Y; Continuar sem carta"
+
+# Opções
+menu_header_options_main_screen_name: "Opções"
+menu_header_options_main_screen_subtitle: "Seleção Principal"
+menu_controls: "CONTROLES"
+menu_video: "VÍDEO"
+menu_interface: "Interface"
+menu_sound: "ÁUDIO"
+menu_network: "Rede"
+menu_clear_progress: "Limpar progresso"
+menu_option_default: "Opções no padrão"
+
+# Opções -> Controles
+menu_header_options_controls_subtitle: "Controles"
+menu_options_controls_keybinds_button: "Mudar as teclas"
+menu_options_controls_look_sensitivity_horizontal: "Sensibilidade Horizontal"
+menu_options_controls_look_sensitivity_vertical: "Sensibilidade Vertical"
+menu_options_controls_aiming_sensitivity_vertical: "Sensi. Vertical ao mirar"
+menu_options_controls_aiming_sensitivity_horizontal: "Sensi. Horizontal ao mirar"
+menu_options_separate_aiming_settings: "Separar config. de Sensibilidade"
+menu_options_inverted_y_axis: "Inverter Eixo-Y"
+menu_options_hold_to_aim: "Segurar para mirar"
+menu_options_hold_to_run: "Segurar para correr"
+menu_hold_to_duck: "Segurar para agachar"
+menu_options_hold_to_crouch: "Segurar para agachar"
+menu_options_hold_to_wheel: "Segure para abrir a roda de comunicação" #Hold For Communication Wheel",
+menu_options_weapon_autofire: "Armas sempre no automático" #Weapons Always Full-Auto",
+menu_options_controller_sticky_aim: "Mira Grudento"
+menu_options_controller_vibration: "Vibração"
+menu_options_controller_aim_assist: "Assistência de mira"
+menu_options_controller_southpaw: "Canhoto"
+menu_options_controls_default: "Redefinir ao padrão"
+
+# Opções -> Controles -> Alterar Teclas
+menu_header_options_controls_keybinds_subtitle: "Controles / Teclas"
+menu_options_binding_type_on_foot: "Em pé"
+menu_options_binding_type_in_vehicle: "Em veículo"
+menu_options_controls_edit_keybinds_movement: "Movimento"
+menu_options_controls_edit_keybinds_usage: "Uso"
+menu_options_controls_edit_keybinds_communication: "Comunicação"
+menu_keybind_space: "espaço"
+menu_keybind_left_ctrl: "ctrl esquer."
+menu_keybind_right_ctrl: "ctrl direi."
+menu_keybind_left_shift: "shift esquer."
+menu_keybind_right_shift: "shift direi."
+menu_button_weapon_gadget: "Alternar Gadget de arma"
+menu_button_continue: "Continuar ao lobby"
+menu_button_brake: "Frear"
+menu_button_change_weapon: "Mudar de arma"
+menu_button_unassigned: "N/A"
+menu_button_ingame_menu: "Menu no jogo"
+menu_button_accelerate: "Acelerar"
+menu_button_comm_wheel_follow_me: "Comunicação 'Me segue'"
+menu_button_weapon_slot1: "Secundário"
+menu_button_vehicle_horn: "Buzina"
+menu_button_weapon_slot3: "EQUIPAMENTO"
+menu_button_comm_wheel_enemy: "Comunicação 'Inimigo'"
+menu_button_switch_weapon: "Troca de arma"
+menu_button_comm_wheel: "Roda de comunicação"
+menu_button_push_to_talk: "Pressionar para falar"
+menu_button_handbrake: "Freio de mão"
+menu_button_aim_down_sight: "Mirar"
+menu_button_comm_wheel_wait: "Comunicação 'Espera'"
+menu_button_reload: "Recarregar"
+menu_button_move_right: "Mover para direita"
+menu_button_sprint: "(pressionar) correr"
+menu_button_activate_warcry: "Ativar Especial"
+menu_button_look: "Olhar"
+menu_button_lean: "Inclinar"
+menu_button_comm_wheel_assistance: "Comunicação 'Preciso de Ajuda'"
+menu_button_jump: "Pular/Cancelar gazua"
+menu_button_chat_message: "Mensagem no chat"
+menu_button_steering: "Direção"
+menu_button_vehicle_change_seat: "Mudar de assento"
+menu_button_stats_screen: "Tela de missão"
+menu_button_vehicle_shooting_stance: "Pose de atirador no passageiro"
+menu_button_weapon_firemode: "Modo de tiro da arma"
+menu_button_vehicle_exit: "Sair do veículo"
+menu_button_vehicle_rear_camera: "Olhar para trás"
+menu_button_melee: "(pressionar) Ataque corpo-a-corpo"
+menu_button_vehicle_change_camera: "Mudar modo de câmera"
+menu_button_throw_grenade: "Jogar granada"
+menu_button_fire_weapon: "Atirar"
+menu_button_shout: "Gritar/interagir"
+menu_button_next_weapon: "Próxima arma"
+menu_button_turn_left: "Virar para esquerda"
+menu_button_deploy: "Jogar a bolsa"
+menu_button_move: "Mover"
+menu_button_comm_wheel_no: "Comunicação 'Não'"
+menu_button_previous_weapon: "Arma anterior"
+menu_button_weapon_slot4: "Corpo-a-corpo"
+menu_button_move_left: "Mover para esquerda"
+menu_button_sprint_WIN32: "Correr"
+menu_button_turn_right: "Virar para direita"
+menu_button_move_back: "Mover para trás"
+menu_button_crouch: "Agachar"
+menu_button_move_forward: "Mover para frente"
+menu_button_toggle_hud: "Alternar HUD"
+menu_button_melee_WIN32: "Ataque corpo-a-corpo"
+menu_button_comm_wheel_yes: "Comunicação 'Sim'"
+menu_button_comm_wheel_found_it: "Comunicação 'Achei'"
+menu_button_comm_wheel_not_here: "Comunicação 'Não está aqui'"
+menu_button_weapon_slot2: "Primário"
+menu_button_apply_resolution_refresh_rate: "Aplicar"
+
+# Opções -> Vídeo
+menu_header_options_video_subtitle: "Vídeo"
+menu_options_video_advanced_button: "Opções de vídeo avan."
+menu_options_video_resolution: "Resolução"
+menu_options_video_refresh_rate: "Taxa de atualização"
+menu_refresh_rate: "Taxa de atualização"
+menu_window_mode: "Modo de vídeo"
+menu_windowed: "Modo janela"
+menu_windowed_fullscreen: "Tela cheia sem borda"
+menu_fullscreen: "Tela cheia"
+menu_options_video_effect_quality: "Qualidade de efeito"
+menu_options_video_brightness: "Brilho"
+menu_options_video_use_headbob: "Ligar balanço da cabeça"
+menu_options_video_use_camera_accel: "Ligar efeito de aceleração de câmera"
+menu_options_video_camera_shake: "Força do efeito da câmera"
+menu_fov_adjustment: "Ajuste do Campo de visão"
+
+# Opções -> Vídeo -> Opções avançadas
+menu_header_options_video_advanced_subtitle: "Vídeo / Opções avançadas"
+menu_toggle_ssao: "Oclusão de ambiente"
+menu_toggle_parallax: "Mapeamento de paralaxe"
+menu_toggle_motion_blur: "Borrão de movimento"
+menu_toggle_dof: "Profundidade de campo"
+menu_toggle_volumetric_light_scattering: "Espalhamento de Luz volumétrica"
+menu_detail_distance: "Distância de detalhes"
+menu_corpse_limit: "Limite de cadáveres"
+menu_options_video_advanced_antialias: "Qualidade do Anti-serrilhado"
+menu_AA_quality: "Qualidade do Anti-serrilhado"
+menu_AA_quality_off: "desligado"
+menu_texture_quality: "Qualidade de textura"
+menu_texture_quality_medium: "Médio"
+menu_texture_quality_very_high: "Muito alto"
+menu_texture_quality_very_low: "Muito baixo"
+menu_texture_quality_high: "Alto"
+menu_texture_quality_low: "Baixo"
+menu_shadow_quality: "Qualidade de sombra"
+menu_options_video_advanced_anisotropic: "Filtro do anisotrópico"
+menu_anisotropic_1: "Desligado"
+menu_anim_lod: "Qualidade de animação"
+menu_anim_lod_2: "Médio"
+menu_anim_lod_3: "Alto"
+menu_anim_lod_1: "Baixo"
+menu_fps_limit: "Limite de frame rate"
+menu_colorblind_setting: "Config. de daltonismo"
+menu_colorblind_setting_off: "desligado"
+menu_colorblind_setting_protanope: "Protanopia"
+menu_colorblind_setting_tritanope: "Tritanopia"
+menu_colorblind_setting_deuteranope: "Deuteranopia"
+menu_options_video_advanced_vsync: "Sincronização vertical"
+menu_vsync_quality_db: "Buffer duplo"
+menu_vsync_quality_off: "desligado"
+menu_vsync_quality_tb: "Buffer triplo"
+
+# Opções -> Áudio
+menu_header_options_sound_subtitle: "Áudio" #Sound",
+menu_master_volume: "VOLUME GERAL"
+menu_music_volume: "VOLUME DA MÚSICA"
+menu_sfx_volume: "VOLUME DOS EFEITOS"
+menu_voice_over_volume: "VOLUME DO DIÁLOGO"
+menu_voice_volume: "VOLUME DO CHAT DE VOZ"
+menu_voicechat_toggle: "USAR CHAT DE VOZ"
+menu_push_to_talk_toggle: "USAR \"PRESSIONAR PARA FALAR\""
+menu_tinnitus_toggle: "USAR EFEITO DE ZUMBIDO"
+
+# Opções -> Interface
+menu_throwable_contours: "Contorno do equipamento arremessado" #Outline Thrown Equipment",
+menu_capitalize_names: "Nomes dos jogadores em maiúsculo" #Capitalize Player Names",
+menu_header_options_interface_subtitle: "Interface"
+menu_options_video_subtitle: "Legendas"
+menu_objective_reminder: "Lembrete de objetivo"
+menu_warcry_ready_indicator: "Indicador de Especial pronto"
+menu_skip_cinematics: "Pular cinemáticas"
+menu_options_video_hud_special_weapon_panels: "Contadores de munição com ícone"
+menu_options_video_hud_crosshairs: "Mira na tela (depende da arma)"
+menu_options_video_hit_confirm_indicator: "Indicador de acerto"
+menu_options_video_hit_indicator_mode_4: "NO IMPACTO"
+menu_options_video_hit_indicator_mode_3: "LIGADO"
+menu_options_video_hit_indicator_mode_2: "SIMPLES"
+menu_options_video_hit_indicator_mode_1: "DESLIGADO"
+menu_hit_indicator: "Indicador de acerto"
+menu_options_video_motion_dot: "Ponto de movimento"
+menu_options_video_motion_dot_size: "Tamanho do ponto de movi."
+menu_options_video_motion_dot_8: "MAIS: CONTORNO"
+menu_options_video_motion_dot_size_5: "BEM GRANDE"
+menu_options_video_motion_dot_mode_6: "QUÁDRUPLO: MAIS"
+menu_options_video_motion_dot_1: "PONTO"
+menu_options_video_motion_dot_mode_5: "QUÁDRUPLO: DIAGONAL"
+menu_options_video_motion_dot_3: "PONTO: EM LINHA"
+menu_options_video_motion_dot_size_3: "MÉDIO"
+menu_options_video_motion_dot_size_6: "BEM, BEM GRANDE"
+menu_options_video_motion_dot_5: "SINAL DE MAIS"
+menu_options_video_motion_dot_mode_4: "DOBRO: VERTICAL"
+menu_options_video_motion_dot_mode_2: "APENAS UM"
+menu_options_video_motion_dot_size_1: "BEM PEQUENO"
+menu_options_video_motion_dot_7: "MAIS: EM LINHA"
+menu_options_video_motion_dot_size_4: "GRANDE"
+menu_options_video_motion_dot_2: "PONTO: CONTORNO"
+menu_options_video_motion_dot_mode_3: "DOBRO: HORIZONTAL"
+menu_options_video_motion_dot_6: "MAIS: CONTORNO"
+menu_options_video_motion_dot_size_2: "PEQUENO"
+menu_options_video_motion_dot_mode_1: "DESLIGADO"
+menu_options_video_motion_dot_4: "PONTO: CONTORNO"
+
+# Opções -> Rede
+menu_header_options_network_subtitle: "Rede" #Network",
+menu_packet_throttling: "Otimização de pacotes"
+menu_net_forwarding: "Encaminhamento"
+menu_net_use_compression: "Usar compressão"
+
+# Cena dos créditos
+01_credits_001: "E agora, por favor, lembre-se dos homens e mulheres que estiveram aqui antes de você."
+01_credits_002: "Que pavimentaram o caminho pela sua glória e fortuna."
+01_credits_003: "Eles escravizaram os seus escritores pelo seu dinheiro."
+01_credits_004: "Eles suaram durante as reuniões."
+01_credits_005: "Mandaram cartas por horas e beberam café até não conseguirem mais."
+01_credits_006: "São os desenvolvedores e sacrificaram muito pela a causa."
+01_credits_007: "Invadem em memória destes leões."
+
+# Cena da introdução
+01_intro_003: "A situação é a seguinte. Hitler está vencendo." #The situation is this. Hitler is winning.",
+01_intro_005: "E vocês são essas tais medidas. Vocês são os melhores, mais capazes assassinos que podemos achar." #And you are those measures. You’re the best, most capable killers we can find.",
+01_intro_0012: "Não teremos misericórdia. Sem regras. Isso não é guerra de bonequinha." #We will be merciless. No rules. This isn’t a gentleman’s war.",
+01_intro_006: "As suas habilidades são inigualáveis. São sobreviventes. E vão fazer um trabalho bem feito." #Your skills are second to none. You’re survivors. And you get the job done.",
+01_intro_0013: "Explodem os seus trens, derrubem as suas pontes, queimem os inimigos vivos." #Blast their trains, blow their bridges, burn the enemy alive.",
+01_intro_007: "E o trabalho que precisamos fazer é ganhar esta guerra." #And the job we need doing is winning this war.",
+01_intro_002: "Agora, eu sou Diretor, então presta bem atenção, por favor." #Now, I’m Control so listen carefully, please.",
+01_intro_0014: "Agora, depois de ter lido os seus arquivos, não espero que pessoas como vocês tenham um senso de dever-" #Now, having read your files I don’t expect fellows like you to do this purely out of a sense of duty-",
+01_intro_004: "Então, precisamos de medidas drásticas." #So, we need drastic measures.",
+01_intro_009: "Resumo, deixe a Europa em chamas, por assim dizer." #In short, set Europe ablaze, as it were.",
+01_intro_001: "Ah, olá!" #Ah, hello!",
+01_intro_0016: "Livros de história não vão lembrar de vocês, mas os seus feitos vão definir. Boa sorte." #History won’t remember you, but your deeds will define it. Good luck.",
+01_intro_0010: "Nosso alvo: Hitler." #Our target: Hitler.",
+01_intro_0011: "Esse chucrute bunda-mole e os seus malditos nazistinhas e tudo que eles apoiam." #That short-arsed Kraut and his nasty Nazi friends and everything they stand for.",
+01_intro_008: "Churchill nos deu uma missão, atacar o Reich por quaisquer métodos." #Churchill has given us a mission - attack the Reich any way we can.",
+01_intro_0015: "então se um pouquinho do ouro nazista, por acaso, sumir, não vamos fazer perguntas." #so if a little Nazi gold happens to go missing no questions will be asked.",
+
+# Cenas do Hitler
+F_05_hugs_the_world_001: "Meu." #Mine.",
+F_05_hugs_the_world_002: "Meu." #Mine.",
+F_06_tin_soldiers_001: "Morto." #Dead.",
+F_07_told_you_so_004: "Bom, então." #Well so.",
+F_07_told_you_so_003: "Eu te avisei." #I told you so.",
+F_07_told_you_so_001: "Nós vamos fazer eles afogarem no próprio sangue!" #We will let them drown in their own blood.",
+F_07_told_you_so_002: "Foi isso que falei." #That’s what I say.",
+F_10_executes_001: "Eu quero execução dupla." #I want double executions.",
+F_10_executes_002: "Que belo dia." #This is a good day.",
+F_11_sings_001: "Dispensado." #Dismiss.",
+F_11_sings_002: "Isso é Berlim, Berlim." #This is Berlin, Berlin.",
+F_03_toasts_001: "Muito bom, meus parabéns." #Great, congratulations.",
+F_04_misunderstands_001: "Traidor." #Traitor.",
+F_09_bras_dhonneur_001: "Vem, vem, vem, vem, vem, vem, vem."
+S_08_Chess_002: "Cai fora!" #Get out!",
+S_08_Chess_001: "Vitória." #Victory.",
+s_01_throws_himself_001: "Traidor!" #Traitor!",
+S_02_Chickens_out_001: "Hitler!" #Hitler!",
+S_02_Chickens_out_002: "Hitler!" #Hitler!",
+S_02_Chickens_out_003: "Eva." #Eva.",
+S_03_salutes_003: "Não!" #No!",
+S_03_salutes_001: "Não."
+S_03_salutes_002: "Some daqui!" #Get out!",
+S_04_Shoots_and_miss_001: "Morto." #Dead.",
+S_06_Plays_with_tin_men_003: "Não." #No.",
+S_12_plays_with_tanks_001: "Cai fora daqui!" #Get out of here!",
+S_06_Plays_with_tin_men_002: "Não." #No.",
+S_06_Plays_with_tin_men_001: "Não." #No.",
+S_05_Crunches_bones_003: "Excelente, meus parabéns." #That’s excellent, congratulations.",
+S_05_Crunches_bones_002: "É, que foi! Não grita, babaca." #Yeah, What! Not so loud, asshole.",
+S_05_Crunches_bones_004: "Cai fora com essa merda de relatório!" #Get out of here with your shitty reports!",
+S_05_Crunches_bones_001: "Só não deixa aquele loiro cagar no parque de novo." #Make sure that Blondie isn’t shitting again in the park.",
+S_09_is_having_a_reverie_001: "Adi! Schnitzel!" #Adi! Schnitzel!",
+S_09_is_having_a_reverie_003: "Não!" #No!",
+S_09_is_having_a_reverie_002: "Mamãe." #Mother.",
+S_11_swears_001: "Mas que merda!" #What a crap!!",
+S_13_flips_a_table_002: "Cai fora!" #Get out!",
+S_13_flips_a_table_001: "Some daqui!" #Get out!",
+S_14_moustache_001: "Ah, não!" #Oh No!",
+
+# HUD
+menu_chat_peer_kicked_unknown: "Alguém que estava se juntando foi expulso." #Someone currently connecting has been kicked."
+menu_chat_peer_left: "$name; saiu." #$name; left."
+menu_chat_peer_lost: "$name; perdeu a conexão." #$name; disconnected."
+menu_chat_peer_failed: "$name; falhou na autenticação." #$name; failed authentication."
+menu_chat_peer_kicked: "$name; foi expulso." #$name; has been kicked."
+menu_chat_peer_added: "$name; está se juntando." #$name; is joining.",
+hud_no_safe_keychain: "Você precisa da chave do cofre" #You need a safe keychain",
+hud_safe_key: "Chave do cofre" #Safe key",
+hud_power_cable: "Cabo de energia" #Power Cable",
+hud_respawning_in: "Respawnando em" #Respawn in",
+hud_active_challenge_card_failed_title: "Carta de desafio fracassado" #Challenge card failed",
+hud_active_challenge_card_title: "Carta ativa" #Active card",
+hint_no_ammo: "Sem munição!" #Out of ammo!",
+hud_no_challenge_card_text: "Use uma carta de desafio para deixar as missões difíceis em troca de mais XP. Use uma carta de bônus para ter uma mãozinha durante a missão." #Use Challenge cards to make missions harder in return for more XP. Use Booster cards to give you a stat bonus for the duration of a mission.",
+hud_level: "Nível" #Level",
+hud_empty_challenge_card_title: "Informações da carta" #Card info",
+carry_item_spy: "espião" #the spy",
+hint_cant_stand_up: "Você não pode ficar de pé aqui." #You can't stand up here.",
+carry_item_corpse: "cadáver" #body",
+hud_equipment_parachute: "Paraquedas" #Parachute",
+hud_equipment_gas_tank: "Tanque de combustível" #Gas tank",
+hud_equipment_landmine: "Mina" #Landmine",
+hud_equipment_blow_torch: "Maçarico" #Blow torch",
+hud_equipment_radio_microphone: "Microfone do rádio" #Radio microphone",
+hud_equipment_safe_keychain: "Chave do cofre" #Safe keychain",
+hud_equipment_mine: "Mina" #Mine",
+hud_equipment_tank_crank: "Manivela do Tanque" #Tank crank",
+hud_equipment_empty_bucket: "Balde vazio" #Empty bucket",
+hud_equipment_scrap_parts: "Partes de sucata" #Scrap parts",
+hud_equipment_bolt_cutter: "Cortador" #Bolt cutter",
+hud_equipment_blow_torch_fuel: "Combustível do maçarico" #Blow torch fuel",
+hud_equipment_radio_reciever: "Fone do rádio" #Radio reciever",
+hud_equipment_radio_antena: "Antena do rádio" #Radio antena",
+hud_equipment_tank_grenade: "Granada de tanque" #Tank grenade",
+hud_equipment_dynamite: "Dinamite" #Dynamite",
+hud_equipment_radio_pipes: "Canos do rádio" #Radio pipes",
+hud_equipment_radio_crystals: "Cristais do rádio" #Radio crystals",
+hud_equipment_gold_bar: "Barra de ouro" #Gold bar",
+hud_equipment_code_book: "Livro de código" #Code book",
+hud_equipment_radio_transmiter: "Transmissor do rádio" #Radio transmiter",
+hud_equipment_full_bucket: "Balde cheio" #full bucket",
+hud_equipment_blacksmith_tong: "Pinça do ferreiro" #Blacksmith tong",
+hud_equipment_tools: "Ferramentas" #Tools",
+hud_equipment_radio_parts: "Partes do rádio" #Radio parts",
+hud_equipment_dynamite_bag: "Bolsa de dinamite" #Dynamite bag",
+hud_equipment_thermite: "Termite" #Thermite",
+hud_carry_drop_all: "Soltar tudo" #Drop All",
+hud_carry_gold: "Ouro" #Gold",
+hud_carrying: "Carregando:" #Carrying:",
+debug_equipment_stash_planks: "Tábuas"
+hud_carry_plank: "Tábuas" #Plank",
+hud_carry_gold_bar: "Barra de ouro" #Gold bar",
+hud_carry_flak_shell: "Bala de antiaérea" #Flak shell",
+hud_carry_bonds: "Títulos" #Bonds",
+hud_carry_baptismal_font: "Fonte batismal" #Baptismal font",
+hud_carry_tank_shells: "Bala de canhão de tanque" #Tank shells",
+hud_carry_parachute: "Paraquedas" #Parachute",
+hud_carry_religious_figurine: "Figurino religioso" #Religious figurine",
+hud_carry_crucifix: "Crucifixo" #Crucifix",
+hud_carry_codemachine_part_03: "Terceira parte da máquina de código" #Third code machine part",
+hud_carry_flak_shell_pallete: "Bala de antiaérea" #AA shell pallete",
+hud_carry_explosives: "Explosivos" #Explosives",
+hud_carry_codemachine_part_02: "Segunda parte da máquina de código" #Second code machine part",
+hud_carry_codemachine_part_01: "Primeira parte da máquina de código" #First code machine part",
+hud_carry_torch_tank: "Combustível do maçarico" #Blow torch fuel tank",
+hud_carry_money_print_plate: "Placa de impressão de dinheiro" #Money printing plate",
+hud_carry_painting: "Pintura" #Painting",
+hud_carry_throw_prompt: "$BTN_USE_ITEM; para jogar o $CARRY_ITEM;" #$BTN_USE_ITEM; to throw $CARRY_ITEM;",
+hud_carry_ladder: "Escada" #Ladder",
+hud_carry_codemachine_part_04: "Quarta parte da máquina de código" #Fourth code machine part",
+hud_carry_contraband_jewelry: "Jóias de contrabando" #Contraband jewelry",
+hud_carry_turret_m2_gun: "Metralhadora montada" #Mounted machine gun",
+hud_carry_candleabrum: "Candelabro" #Candelabrum",
+hud_carry_put_down_prompt: "$BTN_USE_ITEM; para soltar $CARRY_ITEM;" #$BTN_USE_ITEM; to put down $CARRY_ITEM;",
+hud_carry_body: "Cadáver" #Body",
+hud_carry_cigar_crate: "Caixa de charuto" #Cigar crate",
+hud_carry_chocolate_box: "Caixa de chocolate" #Box of chocolate",
+hud_confidential_documents: "Documentos" #Documents",
+hud_active_duty_bonus: "Bônus de dever ativo" #Active duty bonus",
+hud_carry_wine_crate: "Caixa de vinho" #Wine crate",
+hud_greed_golden_inkwell: "Tinteiro dourado" #Golden Inkwell",
+hud_greed_jewelry_box: "Jóias" #Jewelry",
+hud_greed_lighter: "Isqueiro de ouro" #Gold Lighter",
+hud_greed_cache_unlocked_prompt: "$BTN_INTERACT; para pegar espólio" #Hold $BTN_INTERACT; to grab loot",
+hud_greed_gold_bar_acquired: "Adquirido barra de ouro!" #Gold bar acquired!",
+hud_greed_golden_compass: "Bússola dourada" #Golden Compass",
+hud_greed_cache_locked_prompt: "$BTN_INTERACT; começar a destrancar" #$BTN_INTERACT; start lockpicking",
+hud_greed_egg_decoration: "Ovo de Faberge" #Faberge Egg",
+hud_greed_golden_medal: "Medalha de ouro" #Gold Medal",
+hud_greed_globe: "Globo dourado" #Golden Globe",
+hud_greed_vase: "Vaso dourado" #Golden Vase",
+hud_greed_letter_opener: "Abridor de cartas" #Letter Opener",
+hud_greed_coin_collection: "Coleção de moedas" #Coin Collection",
+hud_greed_complete_mission_to_secure: "Conclua a missão com sucesso para assegurar os epólios roubados" #Successfully complete the mission to secure stolen goods",
+hud_greed_eagle_statue: "Estátua de Águia" #Eagle Statue",
+hud_greed_book: "Enciclopédia" #Encyclopedia",
+hud_greed_kaleidoscope: "Caleidoscópio" #Kaleidoscope",
+hud_greed_watch: "Relógio dourado" #Golden Watch",
+hud_trick_or_treat_high_trigger: "Doce alto!" #Candy High!",
+hud_trick_or_treat_buff_undead: "Está... VIVO!" #It's... ALIVE!",
+hud_trick_or_treat_high_title: "Nível de Açúcar no Sangue" #Blood Sugar",
+hud_trick_or_treat_buff_xp: "+$EXPERIENCE;% de XP" #+$EXPERIENCE;% XP",
+hud_trick_or_treat_title: "Doces e Travessuras" #The Tricky Treats",
+menu_enable_event_title: "Ativar evento" #Enable event",
+weapon_inventory_gold_bar_briefing: "Colete $AMOUNT; doces durante o evento para desbloquear o equipamento $WEAPON;." #Collect $AMOUNT; candies during the event to unlock the $WEAPON; equipment.",
+hud_hint_consumable_mission: "INVASÃO fora da lei desbloqueado!" #Outlaw RAID unlocked!",
+hud_driving_prompt_switch_pose: "$BTN_B; trocar de pose" #$BTN_B; switch pose",
+hud_hint_carry_cant_stack_corpse: "Você já está carregando um cadáver" #You are already carrying a body",
+hud_hint_carry_corpse_block_interact: "Não pode interagir enquanto estiver carregando um cadáver" #Can't interact while carrying a body",
+hud_hint_consumable_mission_secured: |
+ Informações de INVASÃO fora da lei encontrado!
+ Conclua a missão para assegurar.
+#Outlaw RAID intel found!$NL;Complete mission to secure.",
+hud_trick_or_treat_high_subtitle: "Nível $TIER; alcançado" #Tier $TIER; reached",
+hud_trick_or_treat_buff_ammo: "Munição cheia" #Ammo Refilled",
+hud_trick_or_treat_buff_health: "Vida cheia" #Health Refilled",
+hud_trick_or_treat_buff_down: "Queda restaurada" #Down Restored",
+hud_trick_or_treat_buff_warcry: "Especial cheio" #Warcry Refilled",
+details_candy_armor_pen: "Penetração de armadura e nariz sangrando" #Armor penetration and nose bleeds",
+details_candy_jump_boost: "Impulso de pulo e fobia de água" #Jump boost and fear of water",
+details_candy_crit_chance: "Chance de crítico e calvície" #Critical hit chance and hairloss",
+hud_hint_deaths_door: "Você não tem quedas restanes" #You have no downs remaining",
+hud_hint_secret_intel: "Novos segredos descobertos!" #New secrets found!",
+hud_hint_consumable_mission_secured_peer: "informações de INVASÃO fora da lei encontrado por $PEER;!" #Outlaw RAID intel found by $PEER;!",
+hud_hint_tutorial_switch_seat: "$BTN_SEAT; trocar de assento" #$BTN_SEAT; Switch seat",
+hud_hint_warcry_ready_desc: "$BTN_ITEM; para ativar o especial" #$BTN_USE_ITEM; to activate warcry",
+hud_hint_tutorial_crouch: "$BTN_CROUCH; agachar" #$BTN_CROUCH; Crouch",
+hud_hint_tutorial_jump: "$BTN_JUMP; Pular"
+hud_loot_secured_title: "Espólio assegurado" #Loot secured",
+hud_vehicle_no_enter_carry: "Não consegue entrar no veículo enquanto carregar espólio" #Can't enter the vehicle while carrying loot",
+mission_objective_activated: "OBJETIVO ATUALIZADO" #OBJECTIVE ACTIVATED ",
+hud_objective_reminder: "LEMBRETE DE OBJETIVO" #Objective reminder",
+hud_hint_obtained_equipment_title: "Adquirido $EQUIPMENT;" #$EQUIPMENT; obtained",
+hud_legend_lockpicking_interact: "$BTN_INTERACT; Destrancar"
+hud_legend_lockpicking_exit: "$BTN_CANCEL; Cancelar" #[ESC]  cancel",
+hint_teammate_helpedup: "$HELPER; ajudou $TEAMMATE;!" #$TEAMMATE; has been helped up by $HELPER;!",
+hint_you_were_helpedup: "$HELPER; te ajudou!" #You have been helped up by $HELPER;!",
+hint_you_helpedup: "Você ajudou $TEAMMATE;!" #You helped $TEAMMATE; up!",
+hint_reminder_about_maps: "MAPA DISPONÍVEL" #MAP AVAILABLE",
+hint_reminder_about_maps_desc: "$BTN_STATS_VIEW; para abrir o mapa" #[TAB] to open the map",
+hud_interact_warcry_ready: "$BTN_USE_ITEM; para ativar o Especial" #$BTN_USE_ITEM; to activate warcry",
+hud_warcry_blocked_pain_train: "Não pode ativar o Especial, tem algo no caminho" #Can't activate warcry, something is in the way",
+hud_warcry_blocked: "Não pode ativar o Especial" #Can't activate warcry",
+hud_warcry_blocked_in_air: "Não pode ativar o Especial enquanto estiver no ar" #Can't activate warcry while in the air",
+hud_hint_warcry_ready_title: "$WARCRY; pronto" #$WARCRY; Ready", 
+hint_full_health: "Você já está com a vida cheia" #You already have full health",
+hint_full_ammo: "Você já está com a munição cheia" #You already have full ammo",
+hint_full_grenades: "Você já está com o equipamento cheio" #You already have the max amount of Equipment.",
+hud_hint_down_restored_title: "Queda restaurada" #Down Restored",
+hud_hint_downs_desc: "$DOWNS;/$DOWNSMAX; Quedas restantes"
+hud_hint_carry_weight_block_interact: "Não tem espaço suficiente para carregar este item" #Not enough space to carry that item",
+hud_hint_downs_title: "Incapacitado" #Downed",
+hud_hint_no_gasoline: "Você precisa da gasolina" #You need gasoline",
+hint_out_of_grenades: "Você está sem equipamento" #You are out of Equipment.",
+hud_int_need_crowbar: "Você precisa do pé-de-cabra" #You need a crowbar",
+hud_equipment_crowbar: "Pé-de-cabra" #Crowbar",
+hud_equipment_fuel_canister: "Galão de gasolina" #Gas canister",
+hud_equipment_empty_fuel_canister: "Galão de gasolina vazio" #Empty gas canister",
+hint_reload: "$BTN_RELOAD; recarregar" #$BTN_RELOAD; reload",
+hint_teammate_dead: "$TEAMMATE; está esperando para respawnar!" #$TEAMMATE; is waiting to respawn!",
+hud_legend_fusecutting_interact: "$BTN_INTERACT; para cortar" #$BTN_INTERACT; to cut",
+hint_teammate_downed: "$TEAMMATE; caiu!" #$TEAMMATE; was downed!",
+
+# Interações (primeira pessoa)
+hud_int_crane_lift: "$BTN_INTERACT; levantar o guindaste" #"$BTN_INTERACT;  lift crane",
+hud_int_hold_attach_cable: "$BTN_INTERACT; conectar o cabo" #hold $BTN_INTERACT;  attach cable",
+hud_int_crane_right: "$BTN_INTERACT; virar o guindaste para direita" #$BTN_INTERACT;  turn crane to the right",
+hud_int_crane_release: "$BTN_INTERACT; soltar o guindaste" #$BTN_INTERACT;  release crane",
+hud_int_crane_left: "$BTN_INTERACT; virar o guindaste para esquerda" #$BTN_INTERACT;  turn crane to the left",
+hud_int_press_move_crane: "$BTN_INTERACT; mover o guindaste" #$BTN_INTERACT;  move the crane",
+hud_int_hold_pull_lever: "$BTN_INTERACT; puxar a alavanca" #hold $BTN_INTERACT;  pull lever",
+hud_int_hold_detach_cable: "$BTN_INTERACT; desconectar o cabo" #hold $BTN_INTERACT;  detach cable",
+hud_int_hold_remove_blocker: "$BTN_INTERACT; remover o bloqueador" #hold $BTN_INTERACT;  remove the blocker",
+hud_int_hold_couple_wagon: "$BTN_INTERACT; conectar o vagão" #hold $BTN_INTERACT;  couple wagon",
+hud_int_hold_decouple_wagon: "$BTN_INTERACT; desconectar o vagão" #hold $BTN_INTERACT;  decouple wagon",
+hud_take_safe_keychain: "$BTN_INTERACT; pegar a chave do cofre" #$BTN_INTERACT;  take the safe keychain",
+hud_no_safe_key: "Você precisa da chave do cofre" #You need a safe key",
+hud_action_exit_turret: "$BTN_INTERACT; para sair do canhão antiaéreo" #[E]  to exit turret",
+hud_take_cable: "$BTN_INTERACT; pegar o cabo de energia" #Hold $BTN_INTERACT; take the power cable",
+hud_hint_need_power_cable: "Requer o cabo de energia" #Requires Power Cable",
+hud_start_generator: "$BTN_INTERACT; para ligar o gerador" #Press $BTN_INTERACT; to start the generator",
+hud_pour_gas_generator: "$BTN_INTERACT; para abastecer o gerador" #Hold $BTN_INTERACT; to pour gas into the generator",
+hud_hold_open_barrier: "$BTN_INTERACT; para abrir a barreira" #hold $BTN_INTERACT;  open barrier"
+hud_int_hold_ignite_flag: "$BTN_INTERACT; para queimar a bandeira" #hold $BTN_INTERACT;  ignite the flag"
+hud_int_hold_contact_mrs_white: "$BTN_INTERACT; para chamar a Sra. White" #hold $BTN_INTERACT; Contact Mrs. White"
+hud_take_plank: "$BTN_INTERACT; para pegar as tábuas" #hold [E] take plank",
+needs_carry_flak_shell: "Você precisa de uma bala antiaérea" #You need a flak shell",
+hud_int_take_dynamite: "$BTN_INTERACT; para pegar os dinamites" #Hold $BTN_INTERACT;  take the dynamite",
+hud_int_answer_radio: "$BTN_INTERACT; para responder o rádio" #Hold $BTN_INTERACT; to answer radio",
+hud_int_set_up_radio: "$BTN_INTERACT; para montar o rádio" #Hold $BTN_INTERACT; to set up radio",
+hud_int_remove_latch: "$BTN_INTERACT; para remover a tranca" #Hold $BTN_INTERACT; to remove latch",
+hud_interact_hold_doctor_bag_heal: "$BTN_INTERACT; para se curar" #Hold [E] to Heal yourself",
+hud_int_change_channel: "$BTN_INTERACT; para mudar de canal" #press $BTN_INTERACT; change the channel",
+hud_take_painting: "$BTN_INTERACT; para pegar a pintura" #Hold $BTN_INTERACT;  take the painting",
+hud_int_vehicle_enter: "$BTN_INTERACT; para entrar no veículo" #Hold [E] enter the vehicle",
+hud_int_open_cargo_door: "$BTN_INTERACT; para abrir a porta da carga" #[E]  open cargo door",
+hud_plant_mine: "$BTN_INTERACT; para plantar a mina" #Hold [E] plant the mine",
+hud_int_pickup_intelligence: "$BTN_INTERACT; para pegar as informações" #Hold [E] to pick up the intelligence",
+hud_int_driving_drive: "$BTN_INTERACT; para entrar no veículo" #Hold [E] to enter vehicle",
+hud_int_hold_connect_cable: "$BTN_INTERACT; para conectar o cabo" #hold [E] connect cable",
+hud_int_hold_unlock_car: "$BTN_INTERACT; para destrancar a caminhonete" #Hold [E]  unlock the truck",
+hud_int_detonate_the_dynamite: "$BTN_INTERACT; para detonar o dinamite" #Press [E] to detonate the dynamite",
+hud_int_hold_fill_canister: "$BTN_INTERACT; para encher o galão" #hold [E] fill the canister",
+hud_sii_lockpick: "$BTN_INTERACT; para destrancar" # [E]  start lockpicking",
+hud_int_dispose_corpse: "$BTN_INTERACT; para pegar o cadáver" #Hold [E] grab the body",
+hud_load_shell: "$BTN_INTERACT; para carregar a bala" #Hold [E] to load the shell",
+hud_int_vehicle_repair: "$BTN_INTERACT; para reparar o veículo" #Hold [E]  repair the vehicle",
+hud_replace_flag: "$BTN_INTERACT; para trocar a bandeira" #Hold [E] to replace the flag",
+hud_int_pick_lock: "$BTN_INTERACT; para destrancar"
+hud_sii_tune_radio: "$BTN_INTERACT; para ligar o rádio" #[E]  tune the radio",
+hud_take_chocolate_box: "$BTN_INTERACT; para pegar a caixa de chocolate" #Hold [E] to take chocolate box",
+hud_int_hold_fill_jeep: "$BTN_INTERACT; para encher o carro" #hold [E] fill the car",
+hud_interact_gold_pile_take_money: "$BTN_INTERACT; para pegar o ouro" #Hold [E] to Take the Gold",
+hud_open_drop_pod: "$BTN_INTERACT; para abrir o pacote" #Hold [E]  open the pod",
+hud_take_wine_crate: "$BTN_INTERACT; para pegar a caixa de vinho" #Hold [E] to take wine crate",
+hud_open_truck_trunk: "$BTN_INTERACT; para abrir o porta-malas da caminhonete" #Hold [E] to open the truck's trunk",
+hud_take_cigar_crate: "$BTN_INTERACT; para pegar a caixa de charuto" #Hold [E] to take cigar crate",
+hud_int_hold_empty_take_canister: "$BTN_INTERACT; pegar o galão de gasolina vazio" #hold [E] take the empty gas canister",
+hud_int_hold_contact_boat_driver: "$BTN_INTERACT; contatar o piloto do barco" #hold [E] Contact boat driver",
+hud_int_open_lid: "$BTN_INTERACT; para revelar" #Press [E]  open lid",
+hud_interact_revive: "$BTN_INTERACT; para reviver aliado" #hold [E] to revive teammate",
+hud_take_code_book: "$BTN_INTERACT; pegar o caderno" #Hold [E]  take the code book",
+hud_int_close_cargo_door: "$BTN_INTERACT; fechar a porta da carga" #[E]  close cargo door",
+hud_take_flak_shell: "$BTN_INTERACT; pegar bala de antiaérea" #Hold [E]  take the AA shell",
+hud_int_take_mine: "$BTN_INTERACT; pegar a mina" #Hold [E] take the mine",
+hud_hold_start_plane: "$BTN_INTERACT; ligar o avião" #hold [E] start plane",
+hud_int_estinguish_flare: "$BTN_INTERACT; extinguir o sinalizador" #[E]  extinguish the flare",
+hud_plant_dynamite: "$BTN_INTERACT; plantar o dinamite" #Hold [E]  plant the dynamite",
+hud_turret_88: "$BTN_INTERACT; usar o canhão antiaéreo" #hold [E] to mount the Flak 88",
+hud_int_enter_foxhole: "$BTN_INTERACT; entrar trincheira" #[E]  enter the foxhole",
+hud_use_power_cable: "$BTN_INTERACT; ligar o cabo de energia" #Hold [E] plug in power cable",
+hud_int_hold_turret_flakvierling: "$BTN_INTERACT; usar canhão antiaéreo" #hold [E]  Man the Flak Gun",
+hud_int_vehicle_drive: "$BTN_INTERACT; dirigir o veículo" #Hold [E] drive the vehicle",
+hud_int_hold_cut_fence: "$BTN_INTERACT; cortar a cerca" #Hold [E] To cut the fence",
+hud_int_take_car_keys: "$BTN_INTERACT; pegar a chave" #Press [E]  take the key",
+hud_int_hold_reinforce_door: "$BTN_INTERACT; reforçar a porta" #hold $BTN_INTERACT; reinforce door",
+hud_take_explosives_crate: "$BTN_INTERACT; para carregar caixas explosivas" #Hold [E] to carry explosives crate",
+details_returns_one_down: "Retorna uma queda!" #Returns 1 Life!",
+hud_open_door_instant: "$BTN_INTERACT; abrir a porta" #$BTN_INTERACT;  open the door",
+hud_int_cut_fuse: "$BTN_INTERACT; para plantar a dinamite" #Press $BTN_INTERACT; to plant dynamite",
+hud_open_hatch: "$BTN_INTERACT; abrir a escotilha" #Hold $BTN_INTERACT;  open the hatch",
+hud_hint_no_canister: "Você precisa do galão de gasolina" #You need a fuel canister",
+hud_int_hold_place_canister: "$BTN_INTERACT; para colocar o galão de gasolina" #hold $BTN_INTERACT; place the canister",
+hud_int_hold_take_canister: "$BTN_INTERACT; para pegar o galão de gasolina" #hold $BTN_INTERACT; take the gas canister",
+hud_desroy_valve: "$BTN_INTERACT; para destruir a válvula" #Hold $BTN_INTERACT; to destroy a valve",
+hud_turn_on_valve: "$BTN_INTERACT; para girar a válvula" #Hold $BTN_INTERACT; to turn on valve",
+hud_activate_burners: "$BTN_INTERACT; ligar o interruptor de controle" #$BTN_INTERACT;  activate control switch",
+hud_activate_switch: "$BTN_INTERACT; ligar o interruptor" #$BTN_INTERACT;  activate switch",
+hud_turret_m2: "$BTN_INTERACT; para usar a arma montada" #Hold $BTN_INTERACT; use the machine gun",
+hud_open_army_crate: "$BTN_INTERACT; abrir a caixa de exército" #Hold $BTN_INTERACT;  open army crate",
+hud_rewire_fuse_pane: "$BTN_INTERACT; mexer nos fios do painel" #$BTN_INTERACT;  rewire fuse panel",
+hud_open_crate_2: "$BTN_INTERACT; abrir a caixa" #$BTN_INTERACT; open the crate",
+hud_int_take_crowbar: "$BTN_INTERACT; pegar o pé-de-cabra" #$BTN_INTERACT;  take the crowbar",
+hud_cut_cage_lock: "$BTN_INTERACT; para cortar a tranca" #Hold $BTN_INTERACT;  cut the lock",
+hud_int_skill_pickpocket: "$BTN_INTERACT; para bater a carteira" #Hold $BTN_INTERACT; to pickpocket",
+hud_take_bonds: "$BTN_INTERACT; para pegar os registros" #Hold $BTN_INTERACT;  take the bonds",
+hud_untie_tehnician: "$BTN_INTERACT; para libertar Lange" #Hold $BTN_INTERACT;  untie Lange",
+hud_place_shell: "$BTN_INTERACT; para colocar a bala" #Hold $BTN_INTERACT; to place the shell",
+hud_carry_spy: "$BTN_INTERACT; para pegar o espião" #Hold $BTN_INTERACT; to pick up the spy",
+hud_int_take_thermite: "$BTN_INTERACT; para pegar a termite" #Press $BTN_INTERACT;  take thermite",
+hud_interact_eat_candy: "$BTN_INTERACT; para comer doces!" #Press $BTN_INTERACT; eat the candy!",
+hud_take_tools: "$BTN_INTERACT; para pegar as ferramentas" #Hold $BTN_INTERACT;  take the tools",
+hud_take_safe_key: "$BTN_INTERACT; pegar a chave do cofre" #$BTN_INTERACT;  take the safe key",
+hud_wake_up_spy: "$BTN_INTERACT; para acordar o espião" #Hold $BTN_INTERACT; to wake up the spy",
+hud_open_door: "$BTN_INTERACT; para destrancar a porta" #Hold $BTN_INTERACT;  lockpick the door",
+hud_int_vehicle_custom_loot: "$BTN_INTERACT; para pegar $LOOT; do veículo" #Hold $BTN_INTERACT;  take $LOOT; from the vehicle",
+hud_int_press_take_loot: "$BTN_INTERACT; para pegar espólio" #Press $BTN_INTERACT; to grab loot",
+hud_int_vehicle_loot: "$BTN_INTERACT; para pegar espólio do veículo" #Hold $BTN_INTERACT;  take loot from the vehicle",
+hud_int_hold_grab_the_bag: "$BTN_INTERACT; para pegar o cadáver" #Hold $BTN_INTERACT;  grab the body",
+hud_int_hold_take_loot: "$BTN_INTERACT; para pegar espólio" #Hold $BTN_INTERACT; to grab loot",
+hud_menu_interaction_select_missions: "$BTN_INTERACT; selecionar missão" #$BTN_INTERACT; select mission",
+hud_menu_interaction_select_mission_join_offline: "O rádio está inativo enquanto estiver no modo offline." #The radio is inactive while in offline mode.",
+hud_menu_interaction_challenge_cards_offline: "Não pode usar cartas de desafios no modo offline." #Cannot use challenge cards in offline mode.",
+hud_menu_interaction_select_skills_menu: "$BTN_INTERACT; ver as habilidades" #$BTN_INTERACT;  train proficiencies",
+hud_menu_interaction_select_weapon_select: "$BTN_INTERACT; Selecionar armas" #$BTN_INTERACT;  select weapons",
+hud_menu_interaction_select_gold_asset_store_menu: "$BTN_INTERACT; ver melhorias com ouro" #$BTN_INTERACT;  view gold upgrades",
+hud_menu_interaction_select_mission_join: "$BTN_INTERACT; se juntar a uma missão" #$BTN_INTERACT;  join mission",
+hud_menu_interaction_challenge_card_view: "$BTN_INTERACT; ver cartas" #$BTN_INTERACT;  view cards",
+hud_menu_interaction_select_profiles: "$BTN_INTERACT; selecionar personagem" #$BTN_INTERACT;  select character",
+hud_menu_interaction_select_comic_book_menu: "$BTN_INTERACT; ver quadrinhos" #$BTN_INTERACT; view comic book",
+hud_play_key_03: "$BTN_INTERACT; tocar piano" #$BTN_INTERACT; play piano",
+hud_play_key_01: "$BTN_INTERACT; tocar piano" #$BTN_INTERACT; play piano",
+hud_play_key_04: "$BTN_INTERACT; tocar piano" #$BTN_INTERACT; play piano",
+hud_play_key_02: "$BTN_INTERACT; tocar piano" #$BTN_INTERACT; play piano",
+hud_menu_interaction_select_intel_menu: "$BTN_INTERACT; ver informações" #$BTN_INTERACT; view intel",
+hud_interact_resupply_all: "$BTN_INTERACT; para recuperar suprimentos" #Hold $BTN_INTERACT; to Resupply",
+hud_interact_ammo_bag_take_ammo: "$BTN_INTERACT; para pegar munição" #Press $BTN_INTERACT; to Take Ammo",
+hud_interact_grenade_crate_take_grenades: "$BTN_INTERACT; para pegar equipamento" #Press $BTN_INTERACT; to Take Equipment",
+hud_int_press_take_dogtags: "$BTN_INTERACT; para pegar as dogtags" #Press $BTN_INTERACT; to take the dogtags",
+hud_take_gold_bar: "$BTN_INTERACT; para pegar uma barra de ouro" #Press $BTN_INTERACT; to take a gold bar",
+hud_interact_doctor_bag_heal: "$BTN_INTERACT; para se curar" #Press $BTN_INTERACT; to Heal yourself",
+hud_menu_interaction_view_missions: "$BTN_INTERACT; ver missões" #[E] view missions",
+hud_int_play_recordings: "$BTN_INTERACT; para tocar as gravações" #press $BTN_INTERACT; play recordings",
+hud_int_hold_place_codemachine: "$BTN_INTERACT; para colocar a máquina Enigma" #hold $BTN_INTERACT; place the Enigma machine",
+hud_int_hold_repair_fusebox: "$BTN_INTERACT; para consertar a caixa de fios" #hold $BTN_INTERACT; Repair the fusebox",
+hud_int_hold_take_recording_device: "$BTN_INTERACT; para pegar o gravador" #hold $BTN_INTERACT; take recording device",
+hud_int_hold_fill_barrel_gasoline: "$BTN_INTERACT; para encher o barril com gasolina" #hold $BTN_INTERACT; Fill the barrel with gasoline",
+hud_int_hold_request_dynamite_airdrop: "$BTN_INTERACT; para ligar para Sra. White" #hold $BTN_INTERACT; Call Mrs. White",
+hud_int_start_recording: "$BTN_INTERACT; para começar a gravação" #press $BTN_INTERACT; start recording",
+hud_int_hold_place_codebook: "$BTN_INTERACT; para colocar o caderno" #hold $BTN_INTERACT; place the codebook",
+hud_take_barrel: "$BTN_INTERACT; para pegar o barril" #hold $BTN_INTERACT; take barrel",
+hud_int_hold_give_full_bucket: "$BTN_INTERACT; para dar o barril cheio" #hold $BTN_INTERACT; give full bucket",
+hud_int_disable_flare: "$BTN_INTERACT; para desligar o sinalizador" #$BTN_INTERACT; disable flare",
+hud_int_hold_place_recording_device: "$BTN_INTERACT; para colocar o gravador" #hold $BTN_INTERACT; place recording device",
+hud_int_replay_last_message: "$BTN_INTERACT; para tocar a última mensagem" #press $BTN_INTERACT; replay last message",
+hud_int_hold_take_crate_canisters: "$BTN_INTERACT; para pegar a caixa de latas" #hold $BTN_INTERACT; take the crate of canisters",
+hud_take_spiked_wine: "$BTN_INTERACT; para pegar o vinho batizado" #hold $BTN_INTERACT; take spiked wine",
+
+# Missões
+menu_mission_selection: "Missões"
+menu_header_missions_screen_name: "Missões"
+menu_mission_selected_mission_type_raid: "Invasões"
+menu_mission_selected_mission_type_operation: "Operações"
+menu_mission_selected_mission_type_consumable: "Invasão fora da lei" #Outlaw Raid",
+menu_difficulty_title: "Dificuldade"
+menu_difficulty_2: "NORMAL"
+menu_difficulty_4: "MUITO DIFÍCIL"
+menu_difficulty_3: "DIFÍCIL"
+menu_difficulty_1: "FÁCIL"
+menu_play_with_team_ai_title: "Jogar com equipe IA"
+menu_start_button_title: "Começar"
+menu_permission: "PRIVACIDADE" #PERMISSION",
+menu_permission_title: "PRIVACIDADE" #Permission",
+menu_permission_private: "Privado" #Private",
+menu_permission_friends: "Amigos" #Friends only",
+menu_permission_public: "Público" #Public",
+menu_toggle_drop_in: "PERMITIR ENTRAR NO MEIO" #ALLOW DROP-IN",
+menu_allow_drop_in_title: "PERMITIR ENTRAR NO MEIO" #Allow Drop-in",
+menu_delete_save_button_title: "Excluir" #"Delete",
+menu_info_button_title: "Informações" #Info",
+menu_intel_button_title: "Inteligência" #Intel",
+menu_audio_button_title: "Áudio" #Audio",
+whisper_info_starts_stealth: "A missão vai começar no furtivo." #The mission will begin in stealth.",
+whisper_info_completely_stealthable: "A missão pode ser concluída no furtivo" #The mission can be completed in stealth.",
+whisper_info_mostly_stealthable: "A missão vai começar no furtivo, mas o alarme é inevitável." #The mission will begin in stealth but an alarm is inevitable.",
+whisper_info_starts_loud: "A missão vai começar barulhenta, atire sem pensar duas vezes." #The mission will begin loud, you're going in kicking.",
+whisper_info_only_stealth: "Se o alarme for soado, a missão fracassará." #If the alarm is raised the mission will be a failure.",
+
+# Personagens
+nationality_russian: "Russo" #Russian",
+nationality_british: "Britânico" #British",
+nationality_american: "Americano" #American",
+nationality_german: "Alemão" #German",
+select_character_level_label: "Nível" #Level",
+skill_class_demolitions_name: "Demolitions" #Demolitions",
+skill_class_demolitions_desc: "Gostam de explodir e quebrar as coisas. Eles são particulamente habilidosos com escopetas e treinados para usar rifles de assalto e submetralhadoras." #DEMOLITIONS raiders like blowing things up or breaking them open. They are particularly skilled with Shotguns, and also trained in the use of Assault Rifles and LMGs.",
+skill_class_recon_name: "Recon" #Recon",
+skill_class_recon_desc: "Preferem manter uma distância durante o tiroteio, usando armas de longo alcance. Eles são habilidosos com rifles de Sniper, também treinados com submetralhadoras e rifles de assalto." #RECON raiders prefer to fight from a distance, providing long range covering fire. They are particularly skilled with Sniper Rifles, and also trained in the use of SMGs and Assault Rifles. ",
+skill_class_assault_name: "Assault" #Assault",
+skill_class_assault_desc: "São literalmente cabeças duras e preferem ter uma luta cara-a-cara. São habilidosos com rifles de assalto, são treinados com submetralhadoras e metralhadoras pesadas." #ASSAULT raiders are hard-hitters that prefer a straight fight. They are particularly skilled with Assault Rifles, and also trained in the use of SMGs and LMGs.",
+skill_class_infiltrator_name: "Insurgent" #Insurgent",
+skill_class_infiltrator_desc: "Têm experiência em combate de curto alcance e corpo-a-corpo. São habilidosos com submetralhadoras, são treinados com escopetas e rifles de assalto." #INSURGENT raiders are experts in close range combat and melee. They are particularly skilled with SMGs, and also trained in the use of Shotguns and Assault Rifles.",
+menu_character_setup: "Personagens"
+menu_header_characters_screen_name: "Personagens"
+character_selection_title: "Personagens"
+character_selection_subtitle: "Perfis"
+character_selection_subtitle_small: "Criar, selecionar e personalizar"
+character_selection_button_customize: "Roupas"
+character_selection_button_nation: "País"
+character_selection_button_delete: "Excluir"
+character_selection_button_rename: "Renomear"
+character_selection_selected_character_button: "Selecionado"
+character_selection_select_character_button: "Selecionar"
+character_stats_health_label: |
+ Vida
+ Total
+character_stats_stamina_label: |
+ Vigor
+ Total
+character_stats_speed_walk_label: |
+ Veloci. de
+ Andar
+character_stats_carry_limit_label: |
+ Limite de
+ Peso
+character_stats_stamina_delay_label: |
+ Atraso do
+ Vigor 
+#Stamina
+#Delay
+character_stats_speed_run_label: |
+ Veloci. de
+ Correr
+#Run
+#Speed
+character_stats_stamina_regen_label: |
+ Regen. de
+ Vigor
+#Stamina
+#Regen
+character_stats_crit_chance_label: |
+ Chance de
+ Crítico
+#Crit
+#Chance
+
+# Habilidades
+menu_character_skills: "Habilidades"
+menu_skill_screen_title: "Habilidades"
+menu_skills: "Habilidades"
+menu_skill_profile_rename_title : "Digite um novo nome do perfil" #Enter new profile name"
+menu_skills_progress_desc_xp: "Até o próximo nível" #Until next tier",
+menu_skills_progress_title_maxed: "No máximo" #Mastered",
+menu_skills_progress_desc_gold: "Para comprar" #To purchase",
+menu_skill_set_title: "Nível $LEVEL; das Habilidades" #Level $LEVEL; Proficiencies",
+menu_skills_category_boost: "Bônus" #Boosts",
+menu_skill_profile_purchase_message: "Tem certeza que deseja gastar $AMOUNT; barras de ouro para comprar este perfil das habilidades?" #Are you sure you want to spend $AMOUNT; gold bars to buy this proficiency profile?",
+menu_skills_next_level: "$XP; de XP até upar de nível" #$XP; XP until Level Up",
+menu_skills_progress_title_level: "Nível $LEVEL;" #Level $LEVEL;",
+menu_skills_category_warcry: "Especiais" #Warcries",
+menu_skills_category_talent: "Talentos" #Talents",
+menu_skills_progress_title_xp: "$XP; XP" #$XP; XP",
+menu_skill_set_unlocked: "Nível $LEVEL; das Habilidades desbloqueada!" #Level $LEVEL; Proficiencies unlocked!",
+menu_skills_progress_desc_level: "Para desbloquear" #To unlock",
+menu_skill_profile_purchase_title: "CONFIRMAR COMPRA" #Confirm Purchase",
+menu_skills_max_level: "No nível máximo" #At max Level",
+menu_skills_progress_desc_challenge: "Progresso" #Progress",
+skill_warcry_duration_desc: "Duração do Especial: |$DURATION;s|" #Warcry duration: |$DURATION;s|",
+
+#### Habilidades ####
+### ESPECIAIS ###
+## Recon ##
+# Sharpshooter
+#skill_warcry_sharpshooter_name: "Atirador" #Sharpshooter",
+skill_warcry_sharpshooter_stat_line_1: |
+ Enquanto estiver ativo, você ganha a habilidade de travar a mira nos inimigos.
+ O efeito da trava vai focar na |cabeça enquanto estiver mirando|.
+#While active, You gain pinpoint aim that will lock-on to enemies.
+#Lock-on effect will lock to the |head when aiming|.",
+skill_warcry_sharpshooter_stat_line_2: "Matar um inimigo regenera |$AMOUNT;| de vida." #Killing an enemy regenerates |$AMOUNT;| health.",
+skill_warcry_sharpshooter_stat_line_4: |
+ Balas de rifles de Sniper podem ricochetear nos inimigos e acertar nos alvos próximos.
+ A regeneração da vida é aumentada para |$AMOUNT;|.
+#Sniper rifle rounds can ricochet off enemies and hit nearby targets.
+#Health regeneration is increased to |$AMOUNT;|.",
+skill_warcry_sharpshooter_desc: "A mira desse cara tá estranho." #Precision fire!",
+skill_warcry_sharpshooter_stat_line_3: "A regeneração da vida é aumentada para |$AMOUNT;|." #Health regeneration is increased to |$AMOUNT;|.",
+warcry_sharpshooter_desc: "As suas armas travam a mira nos alvos, rifles de Sniper focam na cabeça e ricocheteiam nos outros inimigos próximos." #Your weapons lock-on to targets, sniper rifles aim at targets heads and headshots ricochet hurting multiple enemies.",
+#warcry_sharpshooter_name: "Sharpshooter",
+
+# Silver Bullet
+skill_warcry_silver_bullet_stat_line_1: |
+ Enquanto ativo, armas de alcance podem perfurar as |superfícies| e os |inimigos|.
+ Além de poder vê-los por trás das paredes dentro de |$AMOUNT; metros|.
+#While active, Ranged weapons can penetrate through |surfaces| and |enemies|.
+#Additionaly, enemies within |$AMOUNT; meters| are highlighted through walls.",
+skill_warcry_silver_bullet_stat_line_4: "As balas causarão |$PERCENTAGE;| a mais de dano depois de perfurar a parede ou um inimigo." #Bullets deal |$PERCENTAGE;| increased damage after penetrating a surface or an enemy.",
+skill_warcry_silver_bullet_stat_line_2: |
+ Matar um inimigo extende a duração do Especial em |$AMOUNT;| segundo(s).
+ Têm retornos negativos.
+#Killing an enemy extends the warcry's duration by |$AMOUNT;| second.
+#This effect has diminishing returns.",
+skill_warcry_silver_bullet_desc: "Pegue um rifle de alta cadência e perfure as paredes bem grossas." #Load up on super-high velocity rounds and penetrate through the toughest of cover.",
+#skill_warcry_silver_bullet_name: "Silver Bullet"
+skill_warcry_silver_bullet_stat_line_3: |
+ A distância para ver o inimigo por trás da parede é aumentada para |$AMOUNT; metros|.
+ O efeito de diminuir a duração do Especial por atirar é reduzido em |$PERCENTAGE2;|.
+#Enemy highlight radius is increased to |$AMOUNT; meters|.
+#Warcry duration drain for firing weapons is reduced by |$PERCENTAGE2;|.",
+skill_warcry_silver_bullet_info: "Cada tiro diminui a duração restante do Especial." #Every bullet fired drains the remaining warcry duration.",
+
+## Assault ##
+# Berserk
+warcry_berserk_desc: "Reduz o consumo de munição." #Reduce ammo consumption.",
+skill_warcry_berserk_stat_line_4: "As suas armas |não consomem munição| e cada tiro |recarrega| o seu carregador." #Your weapons |consume no ammo| and every shot fired |refills| your current magazine.",
+skill_warcry_berserk_stat_line_2: |
+ A velocidade de calor é reduzida em |$PERCENTAGE2;| nas armas montadas.
+ A regeneração de vida por matar um inimigo é aumentada para |$PERCENTAGE;|.
+#Overheat speed is reduced by |$PERCENTAGE2;| on mounted machine guns.
+#Health regeneration for killing an enemy is increased to |$PERCENTAGE;|.",
+#skill_warcry_berserk_name: "Berserk",
+skill_warcry_berserk_desc: "Eu juro, não sei daonde que tá vindo essas balas." #I don't know where these bullets are coming from.",
+skill_warcry_berserk_stat_line_1: |
+ Enquanto ativo, a munição só é consumida em um |terço| do consumo normal.
+ Matando um inimigo regenera |$PERCENTAGE2;| da vida.
+#While active, ammo is only consumed at a |3rd| of the normal rate.
+#Killing an enemy regenerates |$PERCENTAGE2;| health.",
+skill_warcry_berserk_stat_line_3: |
+ O consumo de munição é reduzido para um |sexto| do consumo normal.
+ A regeneração de vida por matar um inimigo é aumentada para |$PERCENTAGE2;|.
+#Ammo consumption is decreased to a |6th| of the normal rate.
+#Health regeneration for killing an enemy is increased to |$PERCENTAGE2;|.",
+#warcry_berserk_name: "Berserk",
+
+# Sentry
+skill_warcry_sentry_stat_line_3: "Enquanto estiver atirando, a duração do Especial é aumentada em |$PERCENTAGE;|, e o redução de dano é aumentado para |$PERCENTAGE2;|." #While shooting, warcry duration is increased by |$PERCENTAGE;|, and the damage reduction is increased to |$PERCENTAGE2;|.",
+skill_warcry_sentry_desc: "Defende o seu território e bota pressão nos inimigos." #Stand your ground and hold the enemy back with ease.",
+skill_warcry_sentry_stat_line_1: |
+ As armas primárias terão |precisão| e |estabilidade| perfeita,
+ mas a velocidade de movimento é reduzida em |$PERCENTAGE;| enquanto estiver atirando.
+#Primary weapons gain perfect |accuracy| and |stability|,$NL;but movement speed is reduced by |$PERCENTAGE;| while shooting.",
+skill_warcry_sentry_info: "|Recarrega| a sua arma de uma vez após a ativação." #Instantly |reloads| your primary weapon upon activation.",
+#skill_warcry_sentry_name: "Sentry",
+skill_warcry_sentry_stat_line_2: |
+ O tamanho do carregador das armas primárias é aumentado em |$PERCENTAGE;|.
+ Todo dano sofrido é reduzido em |$PERCENTAGE2;| enquanto estiver atirando.
+#Magazine capacity for primary weapons is increased by |$PERCENTAGE;|.$NL;All incoming damage is reduced by |$PERCENTAGE2;| while shooting.",
+skill_warcry_sentry_stat_line_4: "As armas primárias podem perfurar até |$AMOUNT;| inimigos." #Primary weapons can penetrate up to |$AMOUNT;| enemies.",
+
+## Demolitions ##
+# Ignition
+skill_warcry_clustertruck_stat_line_1: |
+ Enquanto estiver ativo, equipe granadas especiais que explodem e viram um aglomerado de granadas.
+ A quantidade sendo |$AMOUNT;|. O algomerado de granadas apenas causam |$PERCENTAGE2;| de dano.
+#While active, equip special grenades that explode into |$AMOUNT;| cluster grenades.
+#These cluster's only deal |$PERCENTAGE2;| damage.",
+skill_warcry_clustertruck_stat_line_3: |
+ A quantidade do algomerado de granadas é aumentada para |$AMOUNT;| e o seu dano é aumentado para |$PERCENTAGE2;|.
+#Cluster grenade count is increased to |$AMOUNT;| and their damage is increased to |$PERCENTAGE2;|.",
+#skill_warcry_clustertruck_name: "Ignition",
+skill_warcry_clustertruck_stat_line_4: |
+ A capacidade da granada especial é aumentada por |$AMOUNT2;|.
+ As granadas |detonam de imediato| próximos aos inimigos.
+#Special grenade capacity is increased by |$AMOUNT2;|.
+#Grenades |immediately detonate| near enemies.",
+skill_warcry_clustertruck_desc: "Minhas granadas têm granadas." #My grenades have grenades.",
+skill_warcry_clustertruck_stat_line_2: |
+ O dano do algomerado de granadas é aumentado para |$PERCENTAGE;|
+ A capacidade da granada especial é aumentada por |$AMOUNT3;|.
+#Cluster grenade damage is increased to |$PERCENTAGE;|.$NL;Special grenade capacity is increased by |$AMOUNT3;|.",
+
+# Scorched Earth
+skill_warcry_scorched_earth_stat_line_4: "As granadas de termite também causam uma |explosão de fogo| no final da sua duração." #Thermite grenades also cause a |fire explosion| at the end of their duration.",
+skill_warcry_scorched_earth_stat_line_3: "A capacidade da granada de termite é aumentada por |$AMOUNT;|." #Thermite grenade capacity is increased by |$AMOUNT;|.",
+skill_warcry_scorched_earth_stat_line_1: "Enquanto estiver ativo, equipa uma granada de termite especial que |queima| os inimigos próximos." #While active, equip a special thermite grenade that |burns| all nearby enemies.",
+skill_warcry_scorched_earth_desc: "Hm, cheiro de churrasco." #I like them crispy.",
+skill_warcry_scorched_earth_stat_line_2: |
+ Atirando uma granada de termite causa uma |explosão de fogo|, reduzindo a sua duração.
+ Isso só pode ocorrer uma vez por granada.
+#Shooting a thermite grenade causes a |fire explosion|, reducing its remaining duration.
+#This can only be done once per grenade.",
+#skill_warcry_scorched_earth_name: "Scorched Earth",
+
+## Insurgent ##
+# Untouchable
+#skill_warcry_ghost_name: "Untouchable",
+skill_warcry_ghost_stat_line_2: "A chance de desviar dos tiros é aumentada para |$PERCENTAGE;|." #The chances of dodging incoming attacks is increased to |$PERCENTAGE;|.",
+skill_warcry_ghost_desc: "Você não pode acertar o quê não pode ver." #You can't hit what you can't see.",
+skill_warcry_ghost_stat_line_4: "A chance de desviar dos tiros é aumentada para |$PERCENTAGE;|." #The chances of dodging incoming attacks is increased to |$PERCENTAGE;|.",
+skill_warcry_ghost_stat_line_1: "Enquanto estiver ativo, você tem uma chance de |$PERCENTAGE;| para desviar dos tiros." #While active, you have a |$PERCENTAGE;| chance to dodge each incoming attack.",
+skill_warcry_ghost_stat_line_3: "A chance de desviar dos tiros é aumentada para |$PERCENTAGE;|." #The chances of dodging incoming attacks is increased to |$PERCENTAGE;|.",
+
+# Pain Train
+skill_warcry_pain_train_stat_line_3: |
+ O cone do impacto é aumentado para |$AMOUNT;| graus.
+ A redução de dano da investida é aumentada para |$PERCENTAGE2;|.
+#Enemy knockback cone is increased to |$AMOUNT;| degrees.
+#Charge damage reduction is increased to |$PERCENTAGE2;|.",
+skill_warcry_pain_train_stat_line_2: "Uma investida pode ser iniciada com a barra do Especial no |$PERCENTAGE;| e batendo contra a parede não removerá o seu Especial." #A charge can be initiated at |$PERCENTAGE;| warcry fill and colliding with a wall won't remove your entire fill progress.",
+skill_warcry_pain_train_desc: "Olha o pau quebrando, eita porra!" #Chaaaaaaarge!!!",
+skill_warcry_pain_train_stat_line_1: |
+ Inicia uma investida incontrolável que |nocauteia| e causa |dano| nos inimigos.
+ O dano sofrido durante a investida é reduzido em |$PERCENTAGE;|. 
+#Initiate an uncontrollable charge that |knocks back| and |damages| enemies.
+#Damage taken while charging is reduced by |$PERCENTAGE;|.",
+skill_warcry_pain_train_stat_line_4: |
+ Atacando os Flamers vai os |atordoar| por alguns segundos mas a investida acabará.
+ A redução de dano do investida é aumentada para |$PERCENTAGE;|. 
+#Charging into Flamers will |stun| them for a few seconds but ends the charge.$NL;Charge damage reduction is increased to |$PERCENTAGE;|.",
+skill_warcry_pain_train_info: "O dano da investida é afetado pelos talentos focados em corpo-a-corpo." #Charge damage is affected by melee talents.",
+#skill_warcry_pain_train_name: "Pain Train",
+
+### BÔNUS ###
+# Box of Chocolates
+skill_box_o_choc_desc: "Fica sem gosto depois de algumas mordidas... O quê eles colocaram aqui?" #Can't feel anything after a few of these... What do they put in them?",
+skill_box_o_choc_stat_line_4: |
+ O intervalo de regeneração de vida é reduzido para cada |$AMOUNT2;| segundos.
+ O bônus de regeneração de vida do Especial é aumentado para |$PERCENTAGE;| por tick. 
+#Health regeneration interval is decreased to every |$AMOUNT2;| seconds.
+#Warcry health regeneration bonus is increased to |$PERCENTAGE;| per tick.",
+skill_box_o_choc_stat_line_1: |
+ A velocidade de regeneração de vida é aumentada em |$PERCENTAGE2;|.
+ Enquanto o Especial estiver ativo, a equipe regenera |$PERCENTAGE;| de vida cada segundo.
+#Critical health regeneration speed is increased by |$PERCENTAGE2;|.
+#While your warcry is active, the team regenerates |$PERCENTAGE;| health every second.",
+skill_box_o_choc_stat_line_2: "O bônus de regeneração de vida do Especial é aumentado para |$PERCENTAGE;| por segundo." #Warcry health regeneration bonus is increased to |$PERCENTAGE;| per second.",
+skill_box_o_choc_stat_line_3: "O bônus de regeneração de vida do Especial é aumentado para |$PERCENTAGE;| por segundo." #Warcry health regeneration bonus is increased to |$PERCENTAGE;| per second.",
+#skill_box_o_choc_name: "Box Of Chocolates"
+
+# Critical Thinking
+skill_critbrain_stat_line_1: |
+ A chance de acerto crítico é aumentada em |$PERCENTAGE2;|.
+ Enquanto o Especial estiver ativo, a chance de crítico da sua equipe é aumentada em |$PERCENTAGE;|.
+#Critical hit chance is increased by |$PERCENTAGE2;|.
+#While your warcry is active, the teams critical hit chance is increased by |$PERCENTAGE;|.",
+skill_critbrain_stat_line_4: |
+ O dano crítico é aumentada em |$PERCENTAGE2;|.
+ O bônus de chance de crítico do Especial é aumentado para |$PERCENTAGE;|.
+#Critical hit damage is increased by |$PERCENTAGE2;|.
+#Warcry critical hits chance bonus is increased to |$PERCENTAGE;|.",
+skill_critbrain_desc: "Pensa rápido, mata rápido." #Quick thinking, faster killing.",
+skill_critbrain_stat_line_2: "O bônus de chance de crítico do Especial é aumentado para |$PERCENTAGE;|." #Warcry critical hits chance bonus is increased to |$PERCENTAGE;|.",
+skill_critbrain_stat_line_3: "O bônus de chance de crítico do Especial é aumentado para |$PERCENTAGE;|." #Warcry critical hits chance bonus is increased to |$PERCENTAGE;|.",
+#skill_critbrain_name: "Critical Thinking",
+
+# Painkiller
+#skill_painkiller_name: "Painkiller",
+skill_painkiller_stat_line_2: "O bônus de redução de dano do Especial é aumentado para |$PERCENTAGE;|." #Warcry damage reduction bonus is increased to |$PERCENTAGE;|.",
+skill_painkiller_stat_line_1: |
+ Dano sofrido do fogo e explosões é reduzido em |$PERCENTAGE2;|.
+ Enquanto o Especial estiver ativo, a sua equipe sofre |$PERCENTAGE;| menos de dano.
+#Damage taken from fire and explosions is reduced by |$PERCENTAGE2;|.
+#While your warcry is active, the teams takes |$PERCENTAGE;| less damage.",
+skill_painkiller_stat_line_3: "O bônus de redução de dano do Especial é aumentado para |$PERCENTAGE;|." #Warcry damage reduction bonus is increased to |$PERCENTAGE;|.",
+skill_painkiller_desc: "Às vezes é prazer, outras é simplesmente dor." #Sometimes pain is pleasure. Sometimes just pain.",
+skill_painkiller_stat_line_4: | 
+ O intervalo que você pode sofrer dano é aumentado em |$PERCENTAGE2;|.
+ O bônus de redução de dano do Especial é aumentado para |$PERCENTAGE;|.
+#The interval you can take damage between is increased by |$PERCENTAGE2;|.
+#Warcry damage reduction bonus is increased to |$PERCENTAGE;|.",
+
+# Midas Touch
+skill_boost_nothing_stat_line_2: "Valor extra dos espólios é aumentado para |$PERCENTAGE;|." #Extra loot value is increased to |$PERCENTAGE;|.",
+skill_boost_nothing_stat_line_1: "O valor dos espólios roubados é aumentado em |$PERCENTAGE;|." #The value of stolen loot is increased by |$PERCENTAGE;|.",
+#skill_boost_nothing_name: "Midas Touch",
+skill_boost_nothing_stat_line_4: "Valor extra dos espólios é aumentado para |$PERCENTAGE;|." #Extra loot value is increased to |$PERCENTAGE;|.",
+skill_boost_nothing_stat_line_3: "Valor extra dos espólios é aumentado para |$PERCENTAGE;|." #Extra loot value is increased to |$PERCENTAGE;|.",
+skill_boost_nothing_desc: "Quer mais?" #Is that enough?",
+status_effect_nothing_info: "O seu egoísmo |não oferece bônus nenhum| para a equipe." #Selfishly grants |no bonuses| to the team.",
+
+# Sprinter
+skill_sprinter_stat_line_4: |
+ A velocidade de correr é aumentada em |$PERCENTAGE2;|.
+ O bônus de velocidade de movimento do Especial é aumentado para |$PERCENTAGE;|.
+#Sprinting movement speed is increased by |$PERCENTAGE2;|.
+#Warcry movement speed bonus is increased to |$PERCENTAGE;|.",
+#skill_sprinter_name: "Sprinter",
+skill_sprinter_stat_line_1: |
+ Os inimigos te detectam |$PERCENTAGE2;| mais devagar enquanto estiver correndo.
+ Enquanto o seu Especial estiver ativo, a velocidade de movimento da sua equipe é aumentada em |$PERCENTAGE;|.
+#Enemies detect you |$PERCENTAGE2;| slower while sprinting.
+#While your warcry is active, the teams movement speed is increased by |$PERCENTAGE;|.",
+skill_sprinter_desc: "Fuma não, pô, singaro dá cârse." #Finally put those smokes away.",
+skill_sprinter_stat_line_2: "O bônus de velocidade de movimento do Especial é aumentado para |$PERCENTAGE;|." #Warcry movement speed bonus is increased to |$PERCENTAGE;|.",
+skill_sprinter_stat_line_3: "O bônus de velocidade de movimento do Especial é aumentado para |$PERCENTAGE;|." #Warcry movement speed bonus is increased to |$PERCENTAGE;|.",
+
+# Cache Basket
+skill_cache_basket_stat_line_2: "O bônus de munição do Especial é aumentado para |$PERCENTAGE;| por segundo." #Warcry ammo regeneration bonus is increased to |$PERCENTAGE;| per second.",
+skill_cache_basket_desc: "Faz eles comerem pólvora." #Make them eat lead with a side of gunpowder.",
+#skill_cache_basket_name: "Cache Basket",
+skill_cache_basket_stat_line_4: |
+ O total de munição das armas é aumentado em |$PERCENTAGE2;|.
+ O bônus de munição do Especial é aumentado para |$PERCENTAGE;| por segundo.
+#Total ammo for weapons is increased by |$PERCENTAGE2;|.
+#Warcry ammo regeneration bonus is increased to |$PERCENTAGE;| per second.",
+skill_cache_basket_stat_line_1: |
+ A munição caída no chão é aumentada em |$PERCENTAGE2;|.
+ Enquanto o seu Especial estiver ativo, a equipe recebe |$PERCENTAGE;|. de munição por cada segundo.
+#Ammo received when picking up supplies is increased by |$PERCENTAGE2;|.
+#While your warcry is active, the team regenerates |$PERCENTAGE;| ammo every second.",
+skill_cache_basket_stat_line_3: "O bônus de munição do Especial é aumentado para |$PERCENTAGE;| por segundo." #Warcry ammo regeneration bonus is increased to |$PERCENTAGE;| per second.",
+
+### TALENTOS ###
+# Fleet Footed
+skill_fleetfoot_stat_line_1: "Você pode se mover |$PERCENTAGE;| mais rápido." #You can move |$PERCENTAGE;| faster.",
+skill_fleetfoot_stat_line_2: "O dano sofrido de quedas não letais |não vão alertar| os inimigos próximos."
+#Damage taken from non lethal falls |won't alert| nearby enemies.",
+skill_fleetfoot_desc: "Pernas quebradas são a última coisa que você vai ter que se preocupar." #Broken legs are the least of your concerns.",
+#skill_fleetfoot_name: "Fleet Footed",
+skill_fleetfoot_stat_line_3: "O dano de quedas não letais é reduzido em |$PERCENTAGE;|." #Non-lethal fall damage is reduced by |$PERCENTAGE;|.",
+skill_fleetfoot_stat_line_4: "O bônus de velocidade de movimento é aumentado para |$PERCENTAGE;| enquanto a vida estiver crítica." #The movement speed bonus is increased to |$PERCENTAGE;| while on critical health.",
+
+# Mounted Gunner
+skill_gunner_stat_line_4: "O dano das armas montadas é aumentado por até |$PERCENTAGE;|, baseado no nível de calor." #Damage of mounted guns is increased by up to |$PERCENTAGE;|, based on overheat level.",
+skill_gunner_desc: "Quando o papo é dar cobertura, nada é melhor do quê uma arma montada." #When it comes to laying down supporting fire, nothing beats a mounted gun.",
+#skill_gunner_name: "Mounted Gunner",
+skill_gunner_stat_line_3: "O dano sofrido é reduzido por até |$PERCENTAGE;| enquanto estiver numa arma montada, baseado no nível de calor." #Damage taken is reduced by up to |$PERCENTAGE;| while on a mounted gun, based on overheat level.",
+skill_gunner_stat_line_2: "A velocidade de girar a arma montada é aumentada em |$PERCENTAGE;|." #Turning speed on mounted guns is increased by |$PERCENTAGE;|.",
+skill_gunner_stat_line_1: "A velocidade do calor é reduzida em |$PERCENTAGE;| nas armas montadas, e em |$PERCENTAGE2;| nas antiaéreas." #Overheat speed is reduced by |$PERCENTAGE;| on mounted machine guns, and by |$PERCENTAGE2;| on anti air guns.",
+
+# Strong Back
+skill_strong_back_stat_line_4: "Você pode se mover |$PERCENTAGE;| mais rápido enquanto estiver carregando itens pesados." #You can move |$PERCENTAGE;| faster while carrying heavy items.",
+skill_strong_back_stat_line_1: "A velocidade de interação para carregar itens é aumentada em |$PERCENTAGE;|." #Interaction speed when picking up carry items is increased by |$PERCENTAGE;|.",
+skill_strong_back_desc: "Você vai ter uma dor nas costas amanhã." #You're gonna be sore in the morning.",
+skill_strong_back_stat_line_2: "O limite de peso é aumentado por |$AMOUNT;|." #Item carrying limit is increased by |$AMOUNT;|.",
+#skill_strong_back_name: "Strong Back",
+skill_strong_back_stat_line_3: "A distância para jogar o item é aumentada em |$PERCENTAGE;|." #Item throw distance is increased by |$PERCENTAGE;|.",
+
+# Locksmith
+skill_locksmith_stat_line_2: |
+ O dano sofrido é reduzido em |$PERCENTAGE;| enquanto estiver usando a |gazua|.
+#Damage taken is reduced by |$PERCENTAGE;| while |lockpicking|.",
+skill_locksmith_stat_line_1: |
+ O espaço para acertar a gazua são |$PERCENTAGE;| mais grandes, mas giram |$PERCENTAGE2;| mais rápido.
+#Lockpick wheels hotspots are |$PERCENTAGE;| larger, but they spin |$PERCENTAGE2;| faster.",
+#skill_locksmith_name: "Locksmith",
+skill_locksmith_desc: "Tentativa e erro... quer dizer, às vezes não." #Trial and error- Mostly error.",
+skill_locksmith_stat_line_4: "Errar a gazua vai deixar a roda mais devagar por entre |0 e $PERCENTAGE;|." #Lockpick fumbles slow the current ring down by |0-$PERCENTAGE;|.",
+skill_locksmith_stat_line_3: "O número de rodas de gazua é reduzido por |$AMOUNT;|, até o mínimo de 1." #The number of lockpicking wheels is reduced by |$AMOUNT; wheel|, to a minimum of 1.",
+
+# Heavy Focus
+skill_focus_desc: "Sem dor, sem ganho." #Forget about the pain- the rewards outweigh it.",
+skill_focus_stat_line_2: "O dano sofrido é reduzido em |$PERCENTAGE;| enquanto estiver num veículo." #Damage taken is reduced by |$PERCENTAGE;| while in a vehicle.",
+#skill_focus_name: "Heavy Focus",
+skill_focus_stat_line_4: "A velocidade do seu movimento |não é afetada| enquanto estiver mirando." #Your movement speed is |unhindered| while aiming down sights.",
+skill_focus_stat_line_1: "O dano sofrido é reduzido em |$PERCENTAGE;| enquanto estiver interagindo." #Damage taken is reduced by |$PERCENTAGE;| while interacting.",
+skill_focus_stat_line_3: "O dano sofrido é reduzido em |$PERCENTAGE;| enquanto estiver mirando." #Damage taken is reduced by |$PERCENTAGE;| while aiming down sights.",
+
+# Medic
+skill_medic_stat_line_4: "|$PERCENTAGE;| da vida recuperada dos suprimentos é compartilhado para os seus aliados próximos." #|$PERCENTAGE;| of health gained from supplies is shared to nearby allies.",
+skill_medic_stat_line_2: "Enquanto estiver revivendo um aliado, os inimigos terão menos |$PERCENTAGE;| menos de probabilidade de focarem em você." #When reviving a teammate enemies are |$PERCENTAGE;| less likely to target you.",
+skill_medic_desc: "Nem tem licença e tá aí dando uma de médico." #Unlicensed and unopposed.",
+skill_medic_stat_line_1: "A vida recuperada dos suprimentos é aumentada em |$PERCENTAGE;|." #Health gained from supplies is increased by |$PERCENTAGE;|.",
+#skill_medic_name: "Medic",
+skill_medic_stat_line_3: "A velocidade de interação enquanto estiver |revivendo| aliados é aumentada em |$PERCENTAGE;|." #Interaction speed when |reviving| allies is increased by |$PERCENTAGE;|.",
+
+# No Holds Barred
+skill_holdbarred_stat_line_4: "Matando um inimigo com arma corpo-a-corpo tem uma chance de |$PERCENTAGE;| de causar pânico para cada inimigo dentro de |10 metros|." #Killing an enemy with melee has a |$PERCENTAGE;| chance to cause panic to each enemy within |10 meters|.",
+#skill_holdbarred_name: "No Holds Barred",
+skill_holdbarred_desc: "Virou sociopata agora?" #Give em' the old one-two.",
+skill_holdbarred_stat_line_3: "As chances de pânico nos inimigos é aumentada em |$PERCENTAGE;|." #The chances of staggering enemies with melee attacks is increased by |$PERCENTAGE;|.",
+skill_holdbarred_stat_line_1: "A velocidade de ataque corpo-a-corpo é aumentada em |$PERCENTAGE;|." #Melee attack speed is increased by |$PERCENTAGE;|.",
+skill_holdbarred_stat_line_2: "A velocidade de força do corpo-a-corpo é aumentada em |$PERCENTAGE;|." #Melee charge speed is increased by |$PERCENTAGE;|.",
+
+# Cry for Help
+skill_helpcry_stat_line_2: "A duração do Especial é aumentada em |$PERCENTAGE;|." #Warcry duration is increased by |$PERCENTAGE;|.",
+skill_helpcry_stat_line_3: "A perda de Especial quando cair é reduzida em |$PERCENTAGE;|." #Warcry meter loss when going down is reduced by |$PERCENTAGE;|.",
+#skill_helpcry_name: "Cry for Help",
+skill_helpcry_info: "A quantidade que enche a barra é determinado pelo Especial equipado." #The amount the meter fills for is determined by the equipped warcry.",
+skill_helpcry_desc: "WAHH... WAAHHHHHHHH!!!"
+skill_helpcry_stat_line_1: |
+ Vai enchendo aos poucos o seu Especial por cada |$AMOUNT;| segundos.
+ O ganho na barra de Especial por matar inimigos é reduzido para |$PERCENTAGE2;|.
+#Partially fill your warcry meter every |$AMOUNT;| seconds.
+#Warcry meter gain from killing enemies is reduced to |$PERCENTAGE2;|.
+skill_helpcry_stat_line_4: "Agora enche o seu Especial por cada |$AMOUNT;| segundos." #The warcry meter now fills every |$AMOUNT;| seconds.",
+
+# Clipazines
+skill_clipazines_stat_line_3: "O tamanho do carregador é aumentado por |$AMOUNT;| para |rifles de assalto| e por |$AMOUNT2;| para |metralhadoras pesadas|." #Magazine size is increased by |$AMOUNT;| for |assault rifles| and by |$AMOUNT2;| for |machine guns|.",
+skill_clipazines_stat_line_4: "Sempre terá um |carregador cheio| independente da munição restante da arma." #Reload a |full magazine| regardless of the weapons remaining total ammo.",
+#skill_clipazines_name: "Stockpile",
+skill_clipazines_hybrid_stat_line_4: "Armas que precisam recarregar uma bala por vez, agora botará |$AMOUNT;| balas de uma vez." #Single loading weapons reload |$AMOUNT;| rounds at once.",
+skill_clipazines_desc: "Precisa de muita força pra espremer alguma gota do limão." #Takes a lot to squeeze more bullets in a magazine like this.",
+#skill_clipazines_demo_name: "Doublebuck",
+skill_clipazines_insurgent_stat_line_3: |
+ O tamanho do carregador é aumentado por |$AMOUNT;| para |submetralhadoras| e por |$AMOUNT2;| para pistolas.
+ Revólveres não contam.
+#Magazine size is increased by |$AMOUNT;| for |sub-machine guns| and by |$AMOUNT2;| for |pistols|.
+#Doesn't apply to revolvers.",
+skill_clipazines_stat_line_2: "A munição caída no chão é aumentada em |$PERCENTAGE;|." #Ammo received when picking up supplies is increased by |$PERCENTAGE;|.",
+#skill_clipazines_recon_name: "Clipazines",
+skill_clipazines_recon_stat_line_3: "O tamanho do carregador é aumentado por |$AMOUNT;| para |rifles de Sniper| e por |$AMOUNT2;| para |submetralhadoras|." #Magazine size is increased by |$AMOUNT;| for |sniper rifles| and by |$AMOUNT2;| for |sub-machine guns|.",
+skill_clipazines_demo_stat_line_3: |
+ O tamanho do carregador é aumentado por |$AMOUNT;| para |escopetas| e por |$AMOUNT2;| para |metralhadoras pesadas|.
+ Escopetas de cano duplo não contam.
+#Magazine size is increased by |$AMOUNT;| for |shotguns| and by |$AMOUNT2;| for |machine guns|.
+#Doesn't apply to double barrel shotguns.",
+#skill_clipazines_insurgent_name: "Backup Mags",
+skill_clipazines_stat_line_1: "Recarregar uma arma é |$PERCENTAGE;| mais rápido quando estiver |vazio|." #Reloading weapons is |$PERCENTAGE;| faster when their magazine is |empty|.",
+
+# Scuttler
+skill_scuttler_desc: "Agachar é tudo que sabe fazer?" #Scuttle away like the mighty crab you are.",
+skill_scuttler_stat_line_3: "A velocidade de recuperação de vigor é aumentada em |$PERCENTAGE;| enquanto estiver agachado." #Stamina regeneration speed is increased by |$PERCENTAGE;| while crouching.",
+#skill_scuttler_name: "Scuttler",
+skill_scuttler_stat_line_2: "A precisão da arma é aumentada em |$PERCENTAGE;| enquanto estiver agachado." #Weapon accuracy is increased by |$PERCENTAGE;| while crouching.",
+skill_scuttler_stat_line_4: "A penalidade de movimento por carregar itens é reduzida em |$PERCENTAGE;| enquanto estiver agachado." #Movement speed penalty for carrying items is reduced by |$PERCENTAGE;| while crouching.",
+skill_scuttler_stat_line_1: "Você agora pode se mover |$PERCENTAGE;| mais rápido enquanto estiver agachado." #You can move |$PERCENTAGE;| faster while crouching.",
+
+# Equal Opportunist
+skill_opportunist_desc: "Era pra gente chupar bala?" #Are we suppossed to eat bullets and shoot syringes?",
+skill_opportunist_name: "Equal Opportunist"
+skill_opportunist_stat_line_2: "Ao pegar munição, |$PERCENTAGE;| da munição ganha também recupera a sua |vida|." #When picking up ammo, |$PERCENTAGE;| of ammo gained is also recovered as |health|.",
+skill_opportunist_stat_line_1: "Ao pegar cura, |$PERCENTAGE;| da vida recuperada também recupera a sua |munição|." #When picking up health, |$PERCENTAGE;| of health recovered is also gained as |ammo|.",
+skill_opportunist_stat_line_3: "Ao pegar equipamento, ou ganha |$PERCENTAGE;| de suprimento de |munição| ou |$AMOUNT2; de vida|." #When picking up equipment, either gain |$PERCENTAGE;| of a regular |ammo| supply or |$AMOUNT2; health|.",
+skill_opportunist_stat_line_4: "Ao pegar qualquer suprimentos, ganha entre |0 e $PERCENTAGE;| na barra de Especial." #When taking any supplies, gain |0-$PERCENTAGE;| fill on your warcry meter.",
+
+# Anatomist
+skill_anatomist_desc: "Eu não sou um doutor, mas isso tem cara de que vai doer." #I'm not a doctor but I think this will hurt.",
+skill_anatomist_stat_line_1: "Armas primárias causarão |$PERCENTAGE;| mais de dano quando atirarem no corpo do inimigo." #Primary weapons deal |$PERCENTAGE;| increased damage when shooting enemies in the body.",
+skill_anatomist_stat_line_2: "Armas secundárias causarão |$PERCENTAGE;| mais de dano quando atirarem na cabeça do inimigo." #Secondary weapons deal |$PERCENTAGE;| increased damage when shooting enemies in the head.",
+skill_anatomist_stat_line_4: "Atirando nas pernas dos inimigos podem |atordoar eles|. A chance é baseado no dano da arma." #Shooting enemies in the legs can |knock them over|. The chance is based on weapon damage.",
+#skill_anatomist_name: "Anatomist",
+skill_anatomist_stat_line_3: "A chance de crítico é aumentada em |$PERCENTAGE;| para rifles de Sniper e |$PERCENTAGE2;| para submetralhadoras." #Critical hit chance is increased by |$PERCENTAGE;| for sniper rifles, and by |$PERCENTAGE2;| for sub-machine guns.",
+
+# Big-Game Hunter
+#skill_big_game_name: "Big-Game Hunter",
+skill_big_game_stat_line_2: "Dano causado contra os inimigos especiais detectados é aumentado em |$PERCENTAGE;|." #Damage dealt against sensed special enemies is increased by |$PERCENTAGE;|.",
+skill_big_game_stat_line_3: "O alcance de detecção dos inimigos especiais é aumentado para |$AMOUNT;| metros." #Special enemy detection range is increased to |$AMOUNT;| meters.",
+skill_big_game_desc: "Parece que o jogo virou." #The Hunters have become the Hunted.",
+skill_big_game_stat_line_4: "Matando um inimigo especial detectado regenerá |$PERCENTAGE;| da sua vida por |$SECONDS;| segundos." #Killing a marked special enemy grants you |$PERCENTAGE;| health regeneration for |$SECONDS;| seconds.",
+skill_big_game_stat_line_1: "Você pode detectar inimigos especiais dentro de |$AMOUNT2;| metros, automaticamente os marcando por cada |$AMOUNT;| segundos." #You can sense nearby special enemies within |$AMOUNT2;| meters, automatically marking them every |$AMOUNT;| seconds.",
+
+# Steady Aim
+skill_steadiness_stat_line_3: "O balanço da arma com rifles de Sniper é reduzido em |$PERCENTAGE;| enquanto estiver mirando." #Weapon sway with sniper rifles is reduced by |$PERCENTAGE;| while scoped in.",
+skill_steadiness_stat_line_2: "Matando inimigos com |tiros na cabeça| enche a barra de Especial por um adicional |$PERCENTAGE;|." #Killing enemies with |headshots| fills the warcry meter by an additional |$PERCENTAGE;|.",
+skill_steadiness_desc: "Inspira, conta até quatro, expire." #Inhale, count to four, exhale.",
+skill_steadiness_stat_line_1: "Enquanto estiver mirando com o rifle de Sniper, você |não sofre com os efeitos de recuo|, mas o seu movimento é reduzido em |$PERCENTAGE2;|." #While scoped in with sniper rifles, you |don't suffer from flinching effects|, but your movement speed is reduced by |$PERCENTAGE2;|.",
+#skill_steadiness_name: "Steady Aim",
+skill_steadiness_stat_line_4: "A velocidade de puxar o ferrolho do rifle de Sniper é aumentada em |$PERCENTAGE;| enquanto estiver mirando." #Rechambering speed for sniper rifles is increased by |$PERCENTAGE;| while scoped in.",
+
+# Fitness Freak
+#skill_fitness_freak_name: "Fitness Freak",
+skill_fitness_freak_stat_line_1: "O vigor mínimo necessário para começar a correr é reduzido em |$PERCENTAGE;|." #The minimum stamina required to start sprinting is decreased by |$PERCENTAGE;|.",
+skill_fitness_freak_stat_line_3: "O vigor máximo é aumentado em |$PERCENTAGE;|." #Maximum stamina is increased by |$PERCENTAGE;|.",
+skill_fitness_freak_stat_line_4: "Você pode correr em |qualquer direção|." #You can sprint in |any direction|.",
+skill_fitness_freak_desc: "8 vezes mais rápido que o campeão olímpico." #The 8 times marathon running champion.",
+skill_fitness_freak_stat_line_2: "A velocidade de regeneração de vigor é aumentada em |$PERCENTAGE;|." #Stamina regeneration speed is increased by |$PERCENTAGE;|.",
+
+# Perseverance
+skill_perseverance_stat_line_4: "Enquanto ativo, você poderá |reviver os aliados|." #While Perseverance is active you are now able to |revive teammates|.",
+skill_perseverance_info: "Enquanto ativo, você |não poderá| interagir com qualquer coisa." #While Perseverance is active, interactions are |prohibited|.",
+#skill_perseverance_name: "Perseverance",
+skill_perseverance_desc: "Eles vão ter dificuldade em te abater." #They can't put you down that easy.",
+skill_perseverance_stat_line_3: "O tempo máximo que o Especial pode prolongar a sua vida é aumentado para |$AMOUNT;| segundos." #The maximum time the warcry meter can prolong your life for is increased to |$AMOUNT;| seconds.",
+skill_perseverance_stat_line_1: "Quando sofrer dano letal, o seu Especial prolongará a sua vida por um máximo de |$AMOUNT;| segundos até acabar." #When taking lethal damage your warcry meter prolongs your life for a maximum of |$AMOUNT;| seconds until it runs dry.",
+skill_perseverance_stat_line_2: |
+ Matando um inimigo enquanto o Especial estiver ativo, aumenta o tempo por |$AMOUNT;| segundos.
+ Têm retornos negativos.
+#Killing an enemy while Perseverance is active increases the timer by |$AMOUNT;| seconds.$NL;This effect has diminishing returns.",
+
+# Apex Predator
+#skill_predator_name: "Apex Predator",
+skill_predator_stat_line_2: "A velocidade de interação para carregar os |corpos| é aumentada em |$PERCENTAGE;|." #Interaction speed when picking up |bodies| is increased by |$PERCENTAGE;|.",
+skill_predator_stat_line_1: "Você pode se mover |$PERCENTAGE;| mais rápido enquanto estiver carregando corpos." #You can move |$PERCENTAGE;| faster while carrying bodies.",
+skill_predator_stat_line_4: "Por |$AMOUNT;| segundos depois de alertar um inimigo, qualquer ataque corpo-a-corpo vai o derrubar." #For |$AMOUNT;| seconds after alerting an enemy, any melee strike will stumble them.",
+skill_predator_stat_line_3: "O tempo que você ainda pode matar instantaneamente com um ataque corpo-a-corpo e tiro na cabeça depois de alertar um inimigo é aumentado por |$AMOUNT;| segundos." #The grace time where you can still insta-kill enemies with melee and headshots after getting alerted is increased by |$AMOUNT;| seconds.",
+skill_predator_desc: "Hesitação faz a presa." #Hesitation makes the prey.",
+
+# Grenadier
+skill_grenadier_stat_line_2: "O dano sofrido de |explosões| é reduzido em |$PERCENTAGE;|." #Damage taken from |explosions| is reduced by |$PERCENTAGE;|.",
+#skill_grenadier_pro_name: "Master Grenadier",
+#skill_grenadier_name: "Grenadier",
+skill_grenadier_info: "Apenas aplica para equipamento de |granadas|." #Only applies to |throwable grenade| equipment.",
+skill_grenadier_stat_line_4: "O raio de explosão das suas granadas é aumentado em |$PERCENTAGE;|." #The explosion radius of your grenades is increased by |$PERCENTAGE;|.",
+skill_grenadier_stat_line_3: "Matar inimigos com |explosões| enche a barra de Especial com um adicional de |$PERCENTAGE;|." #Killing enemies with |explosives| fills the warcry meter by an additional |$PERCENTAGE;|.",
+skill_grenadier_desc: "Um bom granadeiro pode sobreviver um acidente... ou não." #A good grenadier can survive an accident or two.",
+skill_grenadier_stat_line_1: "A quantidade de |granadas| que você pode carregar é aumentada por |$AMOUNT;|." #The amount of |grenades| you can carry is increased by |$AMOUNT;|.",
+
+# Pickpocket
+skill_pickpocket_stat_line_2: "Atacando com uma arma corpo-a-corpo em um inimigo roubará |$AMOUNT;| de vida dele." #Meleeing an enemy will also steal |$AMOUNT;| health from them.",
+#skill_pickpocket_name: "Pickpocket",
+skill_pickpocket_stat_line_1: |
+ Atacando com um ataque corpo-a-corpo em um inimigo roubará |$PERCENTAGE;| de munição, independente da arma equipada.
+ Isso não pode ocorrer mais de uma vez por cada |$SECONDS;| segundos.
+#Meleeing an enemy will steal |$PERCENTAGE;| ammo for your current weapon.
+#This can only occur once every |$SECONDS;| seconds.",
+skill_pickpocket_info: "Um inimigo só pode ser roubado uma vez." #An enemy can only be pickpocketed once.",
+skill_pickpocket_desc: "Ser um batedor de carteira tá pagando." #The penny pinching pickpocket proves profitable.",
+skill_pickpocket_stat_line_3: "Ficando perto demais do inimigo vai ter uma |detecção mais devagar| invés de ser instantaneamente." #Going too close to enemies will |slowly detect you| instead of instantly.",
+skill_pickpocket_stat_line_4: |
+ Você pode interagir com inimigos desavisados para |roubar espólios| dos bolsos deles.
+ As chances de espólios é baseado na dificuldade.
+#You can interact with unaware enemies to |steal valuables| from them.
+#The chances for valuables is based on difficulty.",
+
+# Fast Hands
+skill_fast_hands_stat_line_2: |
+ A velocidade de escalar é aumentada em |$PERCENTAGE;|.
+ A velocidade de manto é aumentada em |$PERCENTAGE2;|.
+#Ladder climbing speed is increased by |$PERCENTAGE;|.
+#Mantling speed is increased by |$PERCENTAGE2;|.",
+skill_fast_hands_desc: "A memória muscular faz você recarregar enquanto dorme." #Increased muscle-memory lets you reload even while sleeping.",
+#skill_fast_hands_name: "Fast Hands",
+skill_fast_hands_stat_line_1: "A velocidade de mirar com a sua arma é |$PERCENTAGE;| mais rápido." #Aiming down sights speed is |$PERCENTAGE;| faster.",
+skill_fast_hands_stat_line_3: "A velocidade de trocar a arma é aumentada em |$PERCENTAGE;|." #Weapon swap speed is increased by |$PERCENTAGE;|.",
+skill_fast_hands_stat_line_4: "A velocidade de recarregar é aumentada em |$PERCENTAGE;|." #Reload speed is increased by |$PERCENTAGE;|.",
+
+# Marshal
+skill_marshal_stat_line_4: "O dano da pistola é aumentado em |$PERCENTAGE;| por cada acúmulo." #Pistol damage is increased by |$PERCENTAGE;| for each stack.",
+skill_marshal_stat_line_1: |
+ Acertos consecutivos com pistolas vão acumulando até |$AMOUNT;|. Os acúmulos somem depois de |$AMOUNT3;| segundo(s).
+ Cada acúmulo aumenta a velocidade de recarga da pistola em |$PERCENTAGE2;|.
+#Consecutive hits with pistols build up to |$AMOUNT;| stacks. Stacks decay after |$AMOUNT3;| second.
+#Each stack increases pistol reload speed by |$PERCENTAGE2;|.",
+#skill_marshal_pro_name: "Field Marshal",
+#skill_marshal_name: "Marshal",
+skill_marshal_stat_line_3: "O tempo para o acúmulo sumir é aumentado para |$AMOUNT;| segundos." #Stack decay timer is increased to |$AMOUNT;| seconds.",
+skill_marshal_stat_line_2: |
+ O dano do ataque corpo-a-corpo da pistola é aumentado em |$PERCENTAGE;| por cada acúmulo.
+ Consumirá todo acúmulo após o ataque.
+#Pistol melee damage is increased by |$PERCENTAGE;| for each stack.
+#Meleeing an enemy consumes all stacks.",
+skill_marshal_desc: "Pow! POW! POW!!"
+skill_marshal_info: "Errando tiros não removerá os acúmulos." #Missed shots won't remove any stacks.",
+
+# Farsighted
+skill_farsighted_stat_line_3: "Matando inimigos em uma longa distância enche a barra de Especial |$PERCENTAGE;| mais rápido." #Long range kills fill the warcry meter |$PERCENTAGE;| faster.",
+skill_farsighted_desc: "Kratus na mira do rifle de Sniper pode estar mais perto do que parece." #Krauts in the rifle scope may be closer than they appear.",
+#skill_farsighted_name: "Farsighted",
+skill_farsighted_info: "O limite de distância para ativar esta habilidade é de |17| metros." #The long range activation threshold is |17| meters.",
+skill_farsighted_stat_line_2: "O nível de zoom enquanto estiver mirando é aumentado em |$PERCENTAGE;|." #Zoom level while aiming down sights is increased by |$PERCENTAGE;|.",
+skill_farsighted_stat_line_1: "Armas primárias causarão |$PERCENTAGE;| mais de dano nas distâncias longas, mas |$PERCENTAGE;| menos quando perto." #Primary weapons deal |$PERCENTAGE;| more damage at long ranges, but |$PERCENTAGE;| less at close range.",
+skill_farsighted_stat_line_4: "A chance de crítico é aumentada em |$PERCENTAGE;| em longas distâncias." #Critical hit chance is increased by |$PERCENTAGE;| at long ranges.",
+
+# Revenant
+skill_revenant_desc: "Não temeria mal algum, porque a minha arma estás comigo." #I will fear no evil, for my weapons are with me.",
+skill_revenant_stat_line_3: "Todo dano sofrido é reduzido em |$PERCENTAGE;| por |$SECONDS;| segundos depois de ser revivido." #All damage taken is reduced by |$PERCENTAGE;| for |$SECONDS;| seconds after being revived.",
+skill_revenant_stat_line_2: "Você pode |mirar| enquanto estiver incapacitado." #You can |aim down sights| while downed.",
+skill_revenant_stat_line_4: |
+ A chance de crítico é aumentada em |$PERCENTAGE;| enquanto estiver incapacitado.
+ Este efeito persiste por |$SECONDS;| segundos depois de ser ajudado.
+#Critical hit chance is increased by |$PERCENTAGE;| while downed.
+#This effect persists for |$SECONDS;| seconds after being revived.",
+skill_revenant_stat_line_1: "Você pode cair mais |$AMOUNT;| vez antes de morrer, mas o tempo para morrer é |$PERCENTAGE2;| mais curto." #You can go down |$AMOUNT;| more time before dying, but bleedout time is |$PERCENTAGE2;| shorter.",
+#skill_revenant_name: "Revenant",
+
+# High-Dive
+skill_high_dive_info: "Não pode mergulhar quando o vigor estiver baixo demais." #A dive cannot be initiated when stamina is too low.",
+#skill_high_dive_name: "High-Dive",
+skill_high_dive_stat_line_2: "A velocidade da queda enquanto estiver mergulhando é aumentada em |$PERCENTAGE;|." #Falling speed while diving is increased by |$PERCENTAGE;|.",
+skill_high_dive_stat_line_1: "Agachando enquanto estiver no ar, iniciará um |mergulho no chão|. Qualquer dano de queda gastará a sua barra de vigor." #Crouching while in the air initiates a |ground dive|. Landing from a dive any fall damage you'd take will be inflicted to stamina instead.",
+skill_high_dive_stat_line_3: |
+ Caindo de um mergulho vai |nocautear| inimigos próximos.
+ Isso só pode ocorrer uma vez cada |$SECONDS;| segundos.
+#Landing from a dive will |knock down| nearby enemies.
+#This can only occur once every |$SECONDS;| seconds.",
+skill_high_dive_stat_line_4: "Caindo de um mergulho lhe salvará de dano de queda letal, deixando com apenas |1| de vida. Não aplica às quedas que te matariam." #Landing from a dive will save you from lethal fall damage, leaving you with |1| health. Doesn't apply to falls that would kill you.",
+skill_high_dive_desc: "BOLA DE CANHÃO!" #CANNONBALL!",
+
+# Pack Mule
+skill_pack_mule_stat_line_3: "O limite de peso é aumentado por |$AMOUNT;|." #Item carrying limit is increased by |$AMOUNT;|.",
+skill_pack_mule_stat_line_2: "A quantidade de |equipamento| que pode carregar é aumentada por |$AMOUNT;|." #The amount of |equipment| you can carry is increased by |$AMOUNT;|.",
+skill_pack_mule_stat_line_1: "A munição total das armas é aumentada em |$PERCENTAGE;|." #Total ammo for weapons is increased by |$PERCENTAGE;|.",
+skill_pack_mule_desc: "Nunca é demais." #You can never have too many bullets or loot.",
+#skill_pack_mule_name: "Pack Mule",
+skill_pack_mule_stat_line_4: "|$PERCENTAGE;| da munição recuperada dos suprimentos é compartilhado para aliados próximos." #|$PERCENTAGE;| of ammo gained from supplies is shared to nearby allies.",
+
+# Bellhop
+skill_bellhop_stat_line_2: "O consumo de vigor por carregar itens é reduzido em |$PERCENTAGE;|." #Stamina consumption penalty for carrying items is reduced by |$PERCENTAGE;|.",
+skill_bellhop_stat_line_3: "A penalidade de carregar itens é nulado enquanto estiver segurando uma |arma corpo-a-corpo| ou |equipamento|." #Item carrying penalties are negated while holding |melee weapons| or |equipment|.",
+skill_bellhop_stat_line_4: "O consumo de vigor é reduzido para |$PERCENTAGE;|." #The stamina consumption reduction is increased to |$PERCENTAGE;|.",
+#skill_bellhop_name: "Bellhop",
+skill_bellhop_desc: "Wojtek teria tanto orgulho!" #Wojtek would be proud!",
+skill_bellhop_stat_line_1: "O limite de peso é aumentado por |$AMOUNT;| desde que a sua arma primária esteja guardada." #Item carrying limit is increased by |$AMOUNT;| while your primary weapon is holstered.",
+
+# Rally
+skill_rally_stat_line_2: "Tiros na cabeça recupera |$PERCENTAGE;| mais de vida." #Dealing headshots recovers |$PERCENTAGE;| more health.",
+skill_rally_stat_line_1: |
+ |$PERCENTAGE;| do dano sofrido ficará guardado para recuperar vida, até no máximo |$AMOUNT2;| pontos.
+ causando dano nos inimigos |recupera uma parte da vida| desta cura.
+#|$PERCENTAGE;| of damage taken stays behind as recoverable health, up to |$AMOUNT2;| points.
+#Damaging enemies |recovers a portion of health| from this pool.",
+skill_rally_desc: "A melhor defesa é uma arma carregada." #The best defense is a loaded gun.",
+#skill_rally_name: "Rally",
+skill_rally_stat_line_4: "A quantidade de cura guardada do dano sofrido é aumentada para |$PERCENTAGE;|." #The amount of recoverable health gained from taking damage is increased to |$PERCENTAGE;|.",
+skill_rally_stat_line_3: "A cura guardada máxima é aumentada para |$AMOUNT;| pontos de uma vez." #Maximum recoverable health is increased to |$AMOUNT;| points at once.",
+skill_rally_info: |
+ A cura guardada não pode ser curado com medkits.
+ Também |desativa| a regeneração de vida crítica.
+#Recoverable health can't be healed by medkits.
+#Also |disables| critical health regeneration.",
+
+# Brutality
+skill_brutality_stat_line_1: "Desmembrar inimigos enche a barra de Especial por um adicional |$PERCENTAGE;|." #Dismembering enemies fills the warcry meter by an additional |$PERCENTAGE;|.",
+#skill_brutality_name: "Brutality",
+skill_brutality_stat_line_4: |
+ Desmembrar um inimigo lhe dará |$PERCENTAGE;| de chance crítico por |$SECONDS;| segundos.
+ Isso só pode ocorrer uma vez cada |$SECONDS;| segundos.
+#Dismembering an enemy grants you |$PERCENTAGE;| critical hit chance for |$SECONDS;| seconds.
+#This can only occur once every |$SECONDS;| seconds.",
+skill_brutality_stat_line_2: "A chance de crítico é aumentado em |$PERCENTAGE;| para armas no modo de |tiro único|." #Critical hit chance is increased by |$PERCENTAGE;| for weapons in |single fire| mode.",
+skill_brutality_desc: "Você sabe aonde atirar para causar mais dor." #You know just where to hit to cause the most pain.",
+skill_brutality_stat_line_3: "A chance de desmembrar é aumentada em |$PERCENTAGE;| para armas no modo de |tiro único|." #Dismemberment chance is increased by |$PERCENTAGE;| for weapons in |single fire| mode.",
+
+# Do or Die
+skill_do_die_desc: "É matar ou morrer, não tem outro jeito." #Bada boom, knock him out of his buttocks.",
+skill_do_die_stat_line_4: "Matando um inimigo com armas corpo-a-corpo aumenta a sua velocidade de ataque em |$PERCENTAGE;| por |$SECONDS;| segundos." #Killing an enemy with melee weapons increases their attack speed by |$PERCENTAGE;| for |$SECONDS;| seconds.",
+skill_do_die_stat_line_1: "A recuperação do corpo-a-corpo é aumentada em |$PERCENTAGE;|." #Melee recovery speed is increased by |$PERCENTAGE;|.",
+#skill_do_die_name: "Do or Die",
+skill_do_die_stat_line_2: "Matando inimigos com o |corpo-a-corpo| enche a barra de Especial por um adicional |$PERCENTAGE;|." #Killing enemies with |melee| fills the warcry meter by an additional |$PERCENTAGE;|.",
+skill_do_die_stat_line_3: "Você pode |carregar| e |atacar| com as armas corpo-a-corpo enquanto estiver correndo." #You can |charge| and |attack| with melee weapons while sprinting.",
+
+# Saboteur
+skill_saboteur_stat_line_3: "O limite de peso para |itens explosivos| é reduzido em |$PERCENTAGE;|." #Carry weight for |explosive items| is reduced by |$PERCENTAGE;|.",
+skill_saboteur_desc: "Aprendiz do Irlandês." #The Irishman's apprentice.",
+skill_saboteur_stat_line_4: |
+ Você pode usar uma granada para sabotar armas montadas.
+ Armas sabotadas explodirão quando usadas por inimigos até no máximo |4| vezes.
+#You can use a grenade to sabotage mounted machine guns.
+#Sabotaged guns will explode when used by enemies up to |4| times.",
+#skill_saboteur_name: "Saboteur",
+skill_saboteur_stat_line_2: "O tamanho da roda para cortar o fusível é aumentado em |$PERCENTAGE;|." #The size of the fuse cutting wheel hotspot is increased by |$PERCENTAGE;|.",
+skill_saboteur_stat_line_1: "A velocidade de interação relacionado com |minas e dinamites| é aumentada em |$PERCENTAGE;|." #Interaction speeds for |mine and dynamite| related actions is increased by |$PERCENTAGE;|.",
+
+# Fragmentation Tombstone
+#skill_fragstone_name: "Fragmentation Tombstone",
+skill_fragstone_stat_line_2: "Você pode usar |equipamento| enquanto estiver no incapacitado." #You can use |equipment| while downed.",
+skill_fragstone_stat_line_1: |
+ Depois de ser incapacitado, várias |granadas| vão cair ao redor de você.
+ A quantidade é baseado no equipamento equipado, e consome |1|.
+#After getting downed, a number of |cluster grenades| drop around you.
+#The amount dropped is based on current equipment, and consumes |1|.",
+skill_fragstone_stat_line_3: "A quantidade de granadas ao redor de você é afetada pelas |habilidades que aumentam as suas capacidades|." #The amount of grenades dropped is affected by |capacity increasing talents|.",
+skill_fragstone_stat_line_4: "A habilidade não consumirá mais nenhum equipamento." #Dropping cluster grenades no longer consumes an equipment.",
+skill_fragstone_desc: "Até que a morte nos explodiu." #Until death blew us apart.",
+
+# Sapper
+skill_sapper_desc: "Olha onde pisa." #Watch your step.",
+#skill_sapper_name: "Sapper",
+skill_sapper_stat_line_3: "Quando você tiver um pé-de-cabra no seu inventário, você pode abrir abrir caixas sem a necessidade de gazua." #When you have a crowbar in your inventory, you can open locked crates without the need to lockpick.",
+skill_sapper_stat_line_1: "A quantidade de |minas de aproximação| que você pode carregar é aumentada por |$AMOUNT;|." #The amount of |spring mines| you can carry is increased by |$AMOUNT;|.",
+skill_sapper_stat_line_2: "A velocidade das interações relacionadas ao |pé-de-cabra| é aumentada em |$PERCENTAGE;|." #Interaction speed for |crowbar| related actions is increased by |$PERCENTAGE;|.",
+skill_sapper_stat_line_4: |
+ Jogar granadas ou minas debaixo dos tanques vão |desativá-los| por |$AMOUNT;| segundos.
+ Isso só pode ocorrer uma vez cada |$AMOUNT2;| segundos.
+#Throwing grenades or mines under tanks will |disable| them for |$AMOUNT;| seconds.
+#This can only occur once every |$AMOUNT2;| seconds.",
+
+# Blamm-fu
+skill_blammfu_stat_line_3: "As suas granadas causam |$PERCENTAGE;| menos de dano em você e seus aliados." #Your grenades deal |$PERCENTAGE;| less damage to you and your allies.",
+skill_blammfu_desc: "Um técnica antiga passada pelo avô do Sterling." #An ancient technique passed down by Sterling's grandfather.",
+skill_blammfu_stat_line_1: "Atacando um inimigo com corpo-a-corpo enquanto tiver uma granada equipada, tem uma chance de |$PERCENTAGE;| de detonar nas suas mãos." #Meleeing an enemy with an equipped grenade has a |$PERCENTAGE;| chance to detonate it in your hands.",
+skill_blammfu_stat_line_2: "A velocidade de troca das granadas é aumentada em |$PERCENTAGE;|." #Switch speed from and to grenades is increased by |$PERCENTAGE;|.",
+#skill_blammfu_name: "Blamm-Fu",
+skill_blammfu_stat_line_4: "A chance de detonação do ataque corpo-a-corpo é aumentada para |$PERCENTAGE;|." #The melee detonation chance is increased to |$PERCENTAGE;|.",
+
+# Handy Man
+skill_handyman_stat_line_2: "A velocidade de interação quando estiver |mexendo nos fios| é aumentada em |$PERCENTAGE;|." #Interaction speed when |rewiring| is increased by |$PERCENTAGE;|.",
+skill_handyman_stat_line_3: "A velocidade de interação quando estiver |reparando| veículos é aumentada em |$PERCENTAGE;|." #Interaction speed when |repairing| vehicles is increased by |$PERCENTAGE;|.",
+skill_handyman_stat_line_1: "A velocidade de interação para |itens comuns| é aumentada em |$PERCENTAGE;|." #Interaction speed for |common items| is increased |$PERCENTAGE;|.",
+skill_handyman_stat_line_4: "Concluir uma interação vai lhe conceder um impulso em todas as interações em |$PERCENTAGE;| por |$SECONDS;| segundos." #Completing an interaction will boost all interaction speed by |$PERCENTAGE;| for |$SECONDS;| seconds.",
+skill_handyman_desc: "O pau pra toda obra." #Become one with the machines.",
+#skill_handyman_name: "Handy Man",
+
+# Duck and Cover
+skill_duck_and_cover_desc: "Desvie, agacha, tropeça, mergulha... Desvie." #Dodge, Duck, Dip, Dive... Dodge",
+skill_duck_and_cover_stat_line_1: "O atraso para começar a regenerar o vigor é reduzido em |$PERCENTAGE;|." #Stamina regeneration delay is reduced by |$PERCENTAGE;|.",
+skill_duck_and_cover_stat_line_4: "Matando um inimigo causará o seu vigor para |começar regenerar| de imediato" #Killing an enemy causes your stamina to immediately |start regenerating|.",
+#skill_duck_and_cover_name: "Duck and Cover",
+skill_duck_and_cover_stat_line_3: "A penalidade de consumo de vigor por carregar itens é reduzido em |$PERCENTAGE;|." #Stamina consumption penalty for carrying items is reduced by |$PERCENTAGE;|.",
+skill_duck_and_cover_stat_line_2: "A perda de vigor quando pular ou subir sobre obstáculos enquanto estiver correndo é reduzido em |$PERCENTAGE;|." #Stamina loss when jumping or vaulting while sprinting is reduced by |$PERCENTAGE;|.",
+
+# Brass Knuckle Boxer
+#skill_boxer_name: "Brass Knuckle Boxer",
+skill_boxer_stat_line_1: "O dano sofrido de quaisquer ataque corpo-a-corpo dos inimigos é reduzido em |$PERCENTAGE;|." #Damage taken from enemy melee attacks is decreased by |$PERCENTAGE;|.",
+skill_boxer_desc: "Por causa de treino, você ficou mais duro com os seus socos e aguenta mais porrada." #Because of training, you punch harder and block better than ever before.",
+skill_boxer_stat_line_4: |
+ As suas armas corpo-a-corpo podem causar dano de |tiro na cebaça|.
+ Matando um inimigo com a arma corpo-a-corpo na cabeça vai sempre desmembrar eles.
+#Your melee weapons can deal |headshot| damage.
+#Killing enemies with with melee headshots will always dismember them.",
+skill_boxer_stat_line_2: "Matando inimigos com arma |corpo-a-corpo| enche a barra de Especial por um adicional |$PERCENTAGE;|." #Killing enemies with |melee| fills the warcry meter by an additional |$PERCENTAGE;|.",
+skill_boxer_stat_line_3: "O dano das armas corpo-a-corpo é aumentado em |$PERCENTAGE;|." #The damage of melee weapons is increased by |$PERCENTAGE;|.",
+
+# Lead Belly
+skill_leaded_stat_line_2: "As balas absorvidas são diretamente adicionadas no carregador da sua arma equipada." #Absorbed bullets are directly added into your equipped weapon's magazine.",
+#skill_leaded_name: "Lead Belly",
+skill_leaded_stat_line_4: "As balas absorvidas não causam |nenhum dano|." #Absorbed bullets no longer deal |any damage|.",
+skill_leaded_stat_line_3: "A absorção de bala é reduzido por cada |$AMOUNT;º| bala." #Bullet absorption is reduced to every |$AMOUNT;th| bullet.",
+skill_leaded_stat_line_1: |
+ Por cada |$AMOUNT;º| bala que te acertar é absorvido como munição para sua arma equipada.
+ A absorção de bala apenas causará |$PERCENTAGE2;| de dano.
+#Every |$AMOUNT;th| bullet that hits you is absorbed as ammo for your equipped weapon.
+#The absorbed bullet only deals |$PERCENTAGE2;| damage.",
+skill_leaded_desc: "Você não vai ter imunidade contra as balas por levar muito tiro, ou será que sim?" #You can't build up immunity to bullets by getting shot a lot, or can you?",
+
+# Agile
+skill_agile_desc: "Se diverte, corra e atire." #Run and gun, and have fun.",
+skill_agile_stat_line_2: "A precisão da arma é aumentada em |$PERCENTAGE;| enquanto estiver se movendo." #Weapon accuracy is increased by |$PERCENTAGE;| while moving.",
+#skill_agile_name: "Agile",
+skill_agile_stat_line_1: "O tempo para poder usar a arma depois de correr é reduzido em |$PERCENTAGE;|." #The time to ready weapons after sprinting is decreased by |$PERCENTAGE;|.",
+skill_agile_stat_line_3: "O dano sofrido é reduzido em |$PERCENTAGE;| enquanto estiver correndo." #Damage taken is reduced by |$PERCENTAGE;| while sprinting.",
+skill_agile_stat_line_4: "Você pode |recarregar e correr| ao mesmo tempo." #You can |reload| your weapons while |sprinting|.",
+
+# Tough Customer
+skill_toughness_stat_line_2: "Matando inimigos enquanto estiver na |vida crítica| enche a barra de Especial por um adicional |$PERCENTAGE;|." #Killing enemies while on |critical health| fills the warcry meter by an additional |$PERCENTAGE;|.",
+skill_toughness_desc: "Tudo por minha conta." #All the shots are on me.",
+skill_toughness_stat_line_4: "Uma vez incapacitado, você pode |sobreviver| dano letal, lhe curando de volta para vida crítica." #Once per down, you can |survive| lethal damage, healing you back to critical health.",
+skill_toughness_stat_line_3: "O dano sofrido é reduzido em |$PERCENTAGE;| enquanto estiver na vida crítica." #Damage taken is reduced by |$PERCENTAGE;| while on critical health.",
+#skill_toughness_name: "Tough Customer",
+skill_toughness_stat_line_1: "O limite de regeneração de vida crítica é aumentado em |$PERCENTAGE;|." #Critical health regeneration threshold is increased by |$PERCENTAGE;|.",
+
+# Armas
+character_customization_locked_drop_label: "Pode ser desbloqueada como um prêmio da missão" #Can be earned as a mission reward",
+menu_header_weapons_screen_name: "Armas" #Weapons
+menu_weapons_upgrade: "MELHORAR" #UPGRADE
+menu_weapons_stats_accuracy: "PRECISÃO" #ACCURACY
+menu_weapons_stats_knockback: "IMPACTO" #KNOCKBACK
+menu_filter_all: "TUDO" #ALL
+menu_weapons_filter_equippable: "DESBLOQUEADO" #EQUIPPABLE
+menu_weapons_tab_category_secondary: "SECUNDÁRIO" #SECONDARY
+menu_weapons_stats_rate_of_fire: "CADÊNCIA" #RATE OF FIRE
+menu_weapons_tab_category_grenades: "EQUIPAMENTO" #EQUIPMENT
+menu_weapons_apply: "APLICAR" #APPLY
+menu_weapons_stats_throw_distance: "DISTÂNCIA DO ARREMESSO" #THROW DISTANCE
+menu_weapons_tab_category_melee: "CORPO-A-CORPO" #MELEE
+menu_weapons_stats_grenade_throw: "ARREMESSO" #THROW
+menu_weapons_stats_total_ammo: "TOTAL DE MUNI." #TOTAL AMMO
+#menu_weapons_stats_tier_abbreviation: "T" #T
+menu_weapons_locked_wrong_class: "Apenas disponível para: $CLASSES;" #Only available for: $CLASSES;
+menu_weapons_tab_category_primary: "PRIMÁRIO" #PRIMARY
+menu_weapons_equip: "EQUIPAR" #EQUIP
+menu_weapons_equipped: "EQUIPADO" #EQUIPPED
+menu_weapons_locked_higher_level: "Alcance nível $LEVEL; para desbloquear" #Reach level $LEVEL; to unlock
+menu_weapons_clear: "LIMPAR SELEÇÃO" #CLEAR SELECTION
+menu_weapons_respec: "RETREINAR" #RETRAIN
+menu_weapons_skins: "SKINS" #SKINS
+menu_weapons_stats_damage: "DANO" #DAMAGE
+menu_weapons_stats_magazine: "CARREGADOR" #MAGAZINE
+menu_weapons_stats_spread: "PRECISÃO" #SPREAD
+menu_weapons_stats_stability: "ESTABILIDADE" #STABILITY
+menu_weapons_stats_range: "DANO DE ALCANCE" #DAMAGE RANGE
+menu_weapons_stats_charge_time: "TEMPO DE FORÇA" #CHARGE TIME
+menu_weapons_stats_grenade_diameter: "DIÂMETRO" #DIAMETER
+menu_weapons_stats_grenade_capacity: "QUANTIDADE" #AMOUNT
+
+# Cartas de Desafio
+menu_challenge_cards_choose_suggested_card: "Escolha a carta de desafio" #Choose challenge card",
+menu_challenge_cards_suggest_raid_title: "Sugerir cartão de desafio na invasão" #Suggest raid challenge card",
+menu_select_card_buton: "SELECIONAR" #SELECT",
+menu_clear_selection: "REMOVER SELEÇÃO" #"Clear selection",
+hud_challenge_card_failed: "O desafio $CARD; fracassou!" #Card $CARD; failed!",
+menu_challenge_cards: "Cartas" #Cards
+menu_challenge_cards_view_title: "Cartas de Desafio" #Challenge Cards",
+effect_all_chests_are_locked: "Todos os báus estarão trancados, mas com recompensas melhores." #All chests are locked with greater rewards.",
+effect_shooting_your_primary_weapon_consumes_both_ammos: "Atirar com a sua arma primária consome a munição da secundária e da primária." #Shooting your primary weapon consumes both primary and secondary ammo.",
+effect_melee_kills_regenerate_health: "Matando com a arma corpo-a-corpo regenerá $EFFECT_VALUE_1; de vida." #Every melee kill regenerates $EFFECT_VALUE_1; health.",
+effect_set_bleedout_timer: "Tempo até morrer quando estiver incapacitado é reduzido para $EFFECT_VALUE_1; segundos." #Bleedout timer reduced to $EFFECT_VALUE_1; seconds",
+challenge_card_effect_failed_message_player_died: "Carta de desafio fracassado - Jogador morreu" #Challenge card effect failed - Player died",
+challenge_card_effect_failed_message_player_used_ilegal_weapon_category: "Carta de desafio fracassado - Jogador usou categoria de arma incorreta" #Challenge card effect failed - Player used ilegal weapon category",
+effect_player_primary_and_secondary_ammo_capacity_lowered: "A capacidade da munição das armas primárias e das secundárias é reduzido por $EFFECT_VALUE_1;." #Primary and Secondary ammo capacity lowered by $EFFECT_VALUE_1;",
+effect_enemies_vulnerable_only_to_explosion_and_melee: "Inimigos são apenas vulneráveis às explosões e ataques corpo-a-corpo." #Enemies vulnerable only to explosions and melee.",
+effect_player_critical_chance_increased: "Chances críticas são aumentadas por $EFFECT_VALUE_1;." #Critical chances increased by $EFFECT_VALUE_1;.",
+challenge_card_effect_failed_message_player_failed_interaction_mini_game: "Carta de desafio fracassado - Jogador fracassou na interação do minigame" #Challenge card effect failed - Player failed interacion mini game",
+effect_player_random_reload: "Recarregar a arma o deixará com a quantidade aleatória de balas." #Reloading weapons leaves them with random amount of bullets.",
+effect_no_bleedout_pumpkin_revive: "Você morrerá instantaneamente quando a vida chegar ao zero e o único jeito de ser revivido é a sua equipe destruindo uma abóbora especial." #There is no bleedout and players can only be revived by others destroying a special pumpkin",
+effect_no_movement_penalty_for_carrying_heavy_objects: "Sem penalidade de movimento quando estiver carregando itens pesados." #No movement penalties for carrying heavy objects",
+effect_ammo_pickups_refill_grenades: "Ao pegar munição do chão, também pegará equipamento. Todo inimigo agora é desmembrado." #Ammo pickups refill Equipment. Every enemy is dismembered.",
+effect_warcries_disabled: "Os Especiais são desativados." #Warcries are disabled.",
+effect_pistol_damage_increased: "O dano da pistola é aumentado por $EFFECT_VALUE_1;." #Pistol damage increased by $EFFECT_VALUE_1;",
+effect_player_no_secondary_ammo: "Sem arma secundária e a capacidade de munição é reduzida por 100%." #No secondary weapon. (ammo capacity lowered by 100%)",
+effect_loot_drop_chance_decreased: "A chance de cair suprimentos é reduzida por $EFFECT_VALUE_1;." #Enemy loot drop chances lowered by $EFFECT_VALUE_1;",
+effect_player_health_regenerates_on_every_kill: "A vida regenera $EFFECT_VALUE_1; quando matar um inimigo." #Health regenerates $EFFECT_VALUE_1; on every kill.",
+effect_players_cannot_die_during_raid: "Nenhum dos jogadores podem morrer durante a invasão." #None of the players can ever die during the raid.",
+effect_enemies_take_increased_damage: "Os inimigos sofrem $EFFECT_VALUE_1; mais de dano." #Enemies take $EFFECT_VALUE_1; more damage.",
+effect_headshots_are_instakills: "Tiros na cabeça matam os inimigos instantaneamente." #Headshots are instant kill.",
+effect_players_cant_use_warcry: "O desafio fracassará se um jogador usar um Especial." #Fails if player uses a Warcry.",
+effect_special_enemies_deal_increased_damage: "Os inimigos especiais causam $EFFECT_VALUE_1; mais de dano." #Special enemies deal $EFFECT_VALUE_1; more damage.",
+effect_player_dooms_day: "Jogadores podem apenas atirar as suas armas sem mirar e não podem correr." #Players can only hipfire weapons and can no longer sprint.",
+effect_loot_drop_effect_decreased: "A recompensa dos espólios é reduzida por $EFFECT_VALUE_1;." #Loot pickup rewards reduced by $EFFECT_VALUE_1;",
+effect_players_cannot_die_during_operation: "Nenhum dos jogadores podem morrer durante a operação." #None of the players can ever die during the duration of the operation.",
+challenge_card_effect_failed_message_player_used_warcry: "Carta de desafio fracassado - alguém usou o especial :D" #Challenge card effect failed - someone used warcry :D:D:D",
+challenge_card_effect_failed_message_player_went_to_bleedout: "Carta de desafio fracassado - Jogador ficou incapacitado" #Challenge card effect failed - Player went to bleedout",
+effect_melee_avail_warcries_disabled: "O jogador apenas pode usar uma arma corpo-a-corpo. Os Especiais são desativados." #Player can only use a melee weapon. Warcries are disabled.",
+effect_player_no_primary_ammo: "Sem arma primária e a capacidade de munição é reduzida por 100%." #No primary weapon. (ammo capacity lowered by 100%)",
+effect_all_chests_are_tier3: "Todas as caixas são caixas de metais e sempre começará com pé-de-cabra." #All crates are metal lockers and start with a crowbar.",
+effect_enemies_vulnerable_only_to_headshots: "Inimigos são vulneráveis apenas para tiros na cabeça." #Enemies vulnerable only to headshots.",
+effect_trick_or_treat_malus: "A maioria dos suprimentos são substituídos com doces." #Most supplies are replaced with candy.",
+effect_enemies_health_increased: "Inimigos têm $EFFECT_VALUE_1; mais de vida." #Enemies have $EFFECT_VALUE_1; more Health",
+effect_player_carry_invert_speed: "A penalidade de peso agora é positivo." #Carry weight penalties are instead positives.",
+effect_player_movement_speed: "A velocidade de movimento do jogador é aumentada por $EFFECT_VALUE_1;." #Player movement speed is increased by $EFFECT_VALUE_1;.",
+effect_lucky_day: "As chances de acerto crítico e suprimentos dos inimigos é aumentada por $EFFECT_VALUE_1;." #Critical hit chances and enemy supply drop chances are increased by $EFFECT_VALUE_1;.",
+effect_bleedout_timer_increased: "O tempo até morrer quando for incapacitado é aumentado por $EFFECT_VALUE_1; segundos." #Bleedout timer increased by $EFFECT_VALUE_1; seconds.",
+effect_enemies_deal_increased_damage: "Inimigos causam $EFFECT_VALUE_1; mais de dano." #Enemies deal $EFFECT_VALUE_1; more damage.",
+effect_loot_drop_chance_increased: "A chance de cair suprimentos é aumentada por $EFFECT_VALUE_1;." #Loot drop chance increased by $EFFECT_VALUE_1;",
+challenge_card_effect_failed_message_player_spent_all_ammo: "Carta de desafio fracassado - Jogador gastou toda munição" #Challenge card effect failed - Player spent all ammo",
+challenge_card_effect_failed_message_complete_raid_within_time: "Carta de desafio fracassado - Concluir a invasão dentro do tempo" #Challenge card effect failed - Complete raid within time",
+challenge_card_effect_failed_message_player_emptied_a_clip: "Carta de desafio fracassado - alguém esvaziou o carregador" #Challenge card effect failed - someone emptied a magazine",
+effect_enemies_melee_damage_increase: "O dano corpo-a-corpo causado pelos inimigos é aumentado por $EFFECT_VALUE_1;." #Enemies melee damage to players is increased by $EFFECT_VALUE_1;.",
+effect_trick_or_treat_positive: "Inimigos mortos soltarão pacotes de doces com bônus." #Killed enemies drop special candy-buff baskets.",
+effect_player_slower_reload: "A velocidade de recarga do jogador é reduzida por $EFFECT_VALUE_1;." #Player reload speed decreased by $EFFECT_VALUE_1;",
+effect_loot_drop_effect_increased: "As recompensas dos espólios é aumentada por $EFFECT_VALUE_1;." #Loot pickup rewards increased by $EFFECT_VALUE_1;",
+effect_loot_drop_pickups_desappear: "Os suprimentos dos inimigos mortos somem depois de $EFFECT_VALUE_1; segundos." #Enemy loot drops disappear after $EFFECT_VALUE_1; seconds.",
+effect_player_faster_reload: "A velocidade de recarga do jogador é aumentada por $EFFECT_VALUE_1;." #Player reload speed increased by $EFFECT_VALUE_1;",
+effect_enemies_take_more_damage: "Inimigos sofrem $EFFECT_VALUE_1; mais de dano." #Enemies take $EFFECT_VALUE_1; more damage",
+effect_critical_hit_chance_increase: "As chances de acerto crítico é aumentada por $EFFECT_VALUE_1;." #Critical chances increased by $EFFECT_VALUE_1;",
+effect_headshot_doesnt_do_damage: "Tiros na cabeça não causam dano." #Headshots don't do damage",
+effect_headshots_damage_increased: "O dano do tiro da cabeça é aumentado por $EFFECT_VALUE_1;." #Headshot damage increased by $EFFECT_VALUE_1;",
+effect_player_primary_and_secondary_ammo_capacity_increased: "A capacidade de munição da primária e da secundária é aumentada por $EFFECT_VALUE_1;." #Primary and Secondary ammo capacity increased by $EFFECT_VALUE_1;",
+effect_player_movement_speed_reduced: "A velocidade de todo movimento é reduzida por $EFFECT_VALUE_1;." #All movement speeds reduced by $EFFECT_VALUE_1;",
+effect_player_movement_speed_increased: "A velocidade do movimento do jogador é enormemente aumentada." #Player movement speed is greatly increased.",
+effect_shooting_secondary_weapon_fills_primary_ammo: "Atirando com a sua secundária enche a sua primária de munição." #Shooting your secondary weapon fills up your primary ammo.",
+effect_players_cannot_bleedout_during_raid: "Nenhum dos jogadores podem ficar incapacitados durante uma invasão." #None of the players can ever go to bleedout during the raid.",
+effect_players_cant_fail_minigame: "As recompensas da carta de desafio serão nulados quando fracassar um minigame." #Challenge card rewards are nullified when failing a minigame.",
+effect_player_health_reduced: "A vida do jogador é reduzida por $EFFECT_VALUE_1;." #Player Health is reduced by $EFFECT_VALUE_1;",
+effect_player_health_increased: "A vida do jogador é aumentada por $EFFECT_VALUE_1;." #Player Health is increased by $EFFECT_VALUE_1;",
+effect_health_drain_per_minute: "$EFFECT_VALUE_1; da vida drenada por minuto." #$EFFECT_VALUE_1; health drained per minute.",
+effect_player_can_only_walk_backwards_or_sideways: "Você pode apenas andar para trás e para os lados." #You can only walk backwards or sideways (strafe)",
+effect_enemies_impervious_to_explosive_damage: "Os inimigos não são afetados ao dano explosivo." #Enemies are impervious to explosive damage.",
+effect_player_grenade_damage_increased: "O dano da granada é aumentado por $EFFECT_VALUE_1;." #Grenade damage increased by $EFFECT_VALUE_1;.",
+effect_players_cant_empty_any_clips: "Deve ser concluído sem que nenhum jogador esvazie o carregador de qualquer arma." #Must be completed without any player emptying the magazine of any weapon.",
+effect_melee_damage_increased_health_regen: "O dano corpo-a-corpo é aumentado. A vida é regenerada com o tempo." #Melee damage is increased. Health is regenerated over time.",
+effect_only_attack_in_air: "É apenas possível atacar enquanto estiver no ar." #Attacking is possible only while in air",
+effect_player_low_health_damage: "O dano é enormemente aumentado quando a vida estiver baixa." #Damage output greatly increased on low HP",
+menu_challenge_cards_no_mission_selected: "Uma missão deve ser escolhida antes de escolher uma carta!" #Mission must be selected before choosing a card!",
+card_type_operation: "Operação" #Operation",
+card_type_raid: "Invasão" #Raid",
+loot_rarity_default: "Padrão" #Default",
+loot_rarity_rare: "Raro" #Rare",
+loot_rarity_common: "Comum" #Common",
+loot_rarity_uncommon: "Incomum" #Uncommon",
+loot_rarity_halloween: "Halloween" #Halloween",
+challenge_cards_label_experience: "experiência" #experience",
+menu_card_not_selected: "Carta de desafio ainda não Selecionado" #Challenge card not selected",
+menu_filter_other: "Outros" #Other",
+
+# Tela de melhoria de ouro
+gold_asset_store_insuficient_gold_label: "Ouro insuficiente" #Insufficient gold"
+
+# Tela de pronto
+menu_challenge_cards_host_skip_suggestions: "Continuar sem a carta" #Continue without a card",
+menu_leave_lobby_button: "Sair do lobby" #Leave lobby",
+menu_suggest_card_buton: "SUGERIR" #SUGGEST",
+menu_challenge_cards_waiting_choose_card: "Esperando por uma carta de desafio" #Waiting for a challenge card",
+menu_challenge_cards_waiting_choose_card_msg": "Por favor, espere enquanto $PEER_NAME; está escolhendo a carta." #Please wait, $PEER_NAME; is choosing the challenge card",
+menu_suggest_card_button: "Sugerir carta" #Suggest card",
+menu_waiting_is_not_ready: "NÃO ESTÁ PRONTO" #NOT READY",
+menu_ready_button: "PRONTO" #Ready",
+menu_ready: "Pronto" #Ready",
+menu_not_ready: "Não está pronto" #Not ready",
+menu_leave_ready_up_button: "Voltar" #Back out",
+menu_select_card_button: "Selecionar carta" #Select card",
+menu_no_cards_in_offline_mode: "Não pode usar cartas de desafios em modo offline." #Cannot use challenge cards in offline mode",
+
+# Tela de missão concluída/fracassada
+menu_greed_description: "Colete itens valiosos e objetos durante a missão para ganhar mais barras de ouro. Os bens roubados vão ser adicionados no seu bolso após concluir a missão." #Collect valuable items and objects throughout missions to earn additional gold bars. The stolen goods will be added to your stash upon successfully completing the mission.",
+menu_congratulations: "Parabéns" #Congratulations",
+menu_loot_screen_dialog_text: "Tem certeza" #Are you sure?"
+menu_loot_screen_redeem_worth_title: "Vale" #Worth"
+menu_loot_screen_gold_bars_description: "Barras de ouro \"liberados\" dos inimigos que podem ser usados em várias situações. A quantidade que não foi gasta vai ficar numa pilha no seu acampamento, só para exibir o seu sucesso e riqueza." #Gold bars 'liberated' from the enemy can be used for a variety of purposes. Those that aren't spent will pile up in your camp as a display of your wealth and success."
+menu_loot_screen_dog_tags: "Dog tags" #Dog Tags"
+menu_loot_screen_bonus_xp_points: "Bônus de XP" #XP Bonus"
+menu_loot_screen_redeem_character_customization_dialog_title: "Resgatando a personalização do personagem por $XP; XP" #Redeeming character customization for $XP; XP"
+menu_loot_screen_bracket_unlocked_title: "Você ganhou" #You won"
+menu_loot_screen_bracket_gold: "Ouro" #Gold"
+menu_loot_screen_redeem_weapon_point_dialog_title: "Resgatando pontos de arma por $XP; XP" #Redeeming weapon point for $XP; XP"
+menu_loot_screen_acquired_loot: "Espólio adquirido" #Acquired loot"
+menu_loot_screen_total_loot: "Espólio total" #Total loot"
+menu_loot_screen_redeem_xp: "Resgatar" #Redeem"
+menu_loot_screen_card_pack_description: "Pacotes de cartas contém cartas de desafios e de bônus. Você pode escolher uma carta antes de iniciar uma missão, as de desafios adicionam penalidades ou condições que devem ser cumpridas, mas em troca aumenta o ganho de XP, enquanto as de bônus simplesmente dão uma mãozinha, mas não vem nenhum XP adicional." #Card packs contain Challenge and Booster cards. You can choose to use a card before starting a mission - Challenge cards impose penalties or conditions on the mission but increase the XP earned, while Booster cards give a stat bonus but no extra XP."
+menu_loot_screen_bracket_silver: "Prata" #Silver",
+menu_loot_screen_bracket_bronze: "Bronze" #Bronze",
+menu_loot_screen_card_pack: "Pacote de cartas" #Card Pack",
+menu_loot_screen_bonus_loot: "Bônus de Espólio" #Bonus Loot",
+menu_loot_screen_redeemed_for_xp: "Resgatado por $XP; pontos de XP!" #Redeemed for $XP; experience points!",
+menu_loot_screen_character_customization: "Personalização de personagem" #Character customization",
+menu_loot_screen_gold_bars_type: "Ouro" #Gold",
+menu_loot_screen_experience_bonus_description: "Uma quantidade de bônus de XP foi adicionado na sua missão. Pontos de XP desbloqueiam altos níveis do personagem." #A bonus amount of experience points has been added to your mission total. Experience points unlock higher character levels.",
+menu_loot_screen_title: "Prêmio" #Reward",
+menu_loot_screen_top_stats: "Prêmios de estatísticas" #Stat Awards",
+menu_loot_screen_bracket_unlocked: "$BRACKET; prêmio do espólio" #$BRACKET; loot prize",
+menu_loot_screen_experience_bonus_title: "Bônus de XP" #Experience bonus",
+menu_loot_screen_weapon_point: "Ponto da arma" #Weapon point",
+menu_loot_screen_melee_weapon: "Arma corpo-a-corpo" #Melee weapon",
+menu_loot_screen_gold_bars_single: "Uma barra de ouro" #a gold bar",
+menu_loot_screen_gold_bars: "Barras de ouro" #gold bars",
+menu_loot_screen_redeemed_duplicate_customization: "Personalização já existente! \nResgatado por $XP; pontos de XP!" #Existing customization! $NL;Redeemed for $XP; experience points!",
+menu_double_unlock: "Desbloqueio duplo!" #Double unlock!",
+gold_bars: "Barras de ouro" #Gold bars",
+menu_total_xp: "Total de XP" #Total XP",
+menu_greed_loot_title: "Espólios" #Loot",
+footer_continue: "Continuar" #Continue",
+top_stats_title_label: "Bônus de experiência" #Experience bonus awards",
+top_stats_title_label_failure: "Hall da vergonha" #Hall of Shame",
+menu_header_experience_fail: "XP: Fracasso" #XP: Fail",
+menu_header_experience_success: "XP: Sucesso" #XP: Success",
+menu_better_luck_next_time: "Boa sorte na próxima vez" #Better luck next time",
+menu_keep_it_up: "Continue assim!" #Keep it up!",
+menu_almost_there: "Você está quase lá!" #You're almost there!",
+xp_multiplicative_card: "Bônus da carta" #Card Bonus",
+xp_additive_event: "Evento concluído" #Event Completed",
+xp_multiplicative_level_difference: "Bônus de diferença de nível" #Level Difference Bonus",
+xp_additive_loot_redeemed: "Espólio resgatado" #Loot Redeemed",
+xp_multiplicative_num_players: "Bônus de jogadores" #Human Players Bonus",
+xp_multiplicative_event_fail: "Penalidade de fracasso do evento" #Event Failed Penalty",
+xp_label: "Experiência" #Experience",
+xp_multiplicative_side_quest_bonus: "Bônus de missão secundária" #Side Mission Bonus",
+xp_additive_operation: "Operação concluída" #Operation Completed",
+xp_multiplicative_tiny_objectives_bonus: "Bônus de objetivos" #Objectives Bonus",
+xp_multiplicative_sugar_high_bonus: "Bônus de Doces e Travessuras" #Tricky Treats Bonus",
+xp_multiplicative_extra_objectives_bonus: "Bônus de objetivos" #Objectives Bonus",
+xp_multiplicative_tiny_loot_bonus: "Bônus de espólio" #Loot Bonus",
+xp_additive_card: "Bônus da carta" #Card Used",
+xp_multiplicative_difficulty: "Bônus de dificuldade" #Difficulty Bonus",
+xp_multiplicative_stealth_bonus: "Bônus de sigilo" #Stealth Bonus",
+xp_multiplicative_escort_survived_bonus: "Bônus de escolta" #Escort Bonus",
+level_unlocked: "Nível $LEVEL; da habilidade desbloqueada!" #Level $LEVEL; Proficiencies unlocked!",
+stats_label: "Estatísticas" #Stats",
+menu_stat_total_kills_title: "Matou" #Kills",
+menu_stat_accuracy_title: "Precisão" #Accuracy",
+menu_stat_headshots_title: "Tiros na cabeça" #Headshots",
+menu_stat_special_kills_title: "Matou especiais" #Special kills",
+menu_stat_teammates_revived_title: "Aliados revividos" #Teammates revived",
+menu_stat_bleedouts_title: "Quedas" #Bleedouts",
+top_stat_most_head_shots: "Deu mais tiro na cabeça" #Headshots Bonus",
+top_stat_most_specials: "Matou mais especiais" #Specials Killed Bonus",
+top_stat_most_accurate: "Mais preciso" #Accuracy Bonus",
+top_stat_most_downs: "Penalidade de queda" #Bleedout Penalty",
+top_stat_most_kills: "Matou mais inimigos" #Kills Bonus",
+top_stat_most_revives: "Reviveu mais" #Revives Bonus",
+loading_mission_completed: "Missão concluída" #Mission Completed",
+loading_mission_failed: "Missão fracassada" #Mission Failed",
+menu_fail: "Fracasso" #Fail"
+bottom_stat_least_kills: "Matou menos" #Least Kills",
+bottom_stat_least_specials: "Matou menos especiais" #Least Specials Killed",
+bottom_stat_least_accurate: "Menos preciso" #Least Accurate",
+bottom_stat_most_downs: "Caiu mais" #Most Bleedouts",
+bottom_stat_least_head_shots: "Menos tiros na cabeça" #Least Headshots",
+bottom_stat_least_revives: "Reviveu menos" #Least Revives",
+
+# Dicas
+tip_tips: "Dica:" #Tip:",
+tip_steelsight: "Mirando com a sua arma fará mais preciso do que atirar sem mirar." #Aiming down your sights is more accurate than shooting from the hip.",
+tip_shoot_in_bleed_out: "Enquanto estiver incapacitado, você ainda pode atirar com a sua arma secundária." #While in bleed-out, you can still fire your sidearm.",
+tip_challenge_cards_2: "Quando jogar com outras pessoas, considere usar uma carta de bônus para facilitar as missões." #When playing online consider using booster cards to make harder raids easier.",
+tip_select_reward: "Enquanto sobe de nível, você pode adquirir e melhorar as suas habilidades, que pode dar uma variedade de bônus." #As raiders rank up, they can train and improve Proficiencies, which can give them a wide variety of bonuses.",
+tip_help_bleed_out: "Se um jogador cair, ele entrará no estado de 'incapacitado', onde ele não poderá se mover e pode apenas atirar com a sua arma secundária." #If a raider is shot down he goes into "bleed-out", where he can't move and can only shoot with his sidearm.",
+tip_new_grenade_throw_hold: "Os jogadores podem segurar a granada por cinco segundos antes delas explodirem." #Raiders can cook grenades for 5 seconds before they explode themselves.",
+tip_new_consumable_missions: "Fique de olho em arquivos confidenciais, se você encontrar um e concluir a missão, vai desbloquear missões secretas fora da lei." #Keep an eye out for confidential files, if you find one and escape you will unlock secret outlaw raids.",
+tip_detection_2: "Inimigos gritarão quando avistarem um jogador, alertando os outros guardas próximos." #Enemies will call out when spotting a raider, alerting nearby enemies.",
+tip_head_shot: "Tiros na cabeça são mais efetivos e causam um dano massivo. Inimigos com capacetes vão sofrer menos dano na cabeça." #Shots to the head are more effective and inflict significantly more damage. Enemies with helmets take slightly less headshot damage.",
+tip_crowbar: "Algumas caixas de suprimentos dos inimigos só podem ser abertas com um pé-de-cabra. Se encontrar um, não esquece de pegá-la." #Some enemy supply crates can only be opened with a crowbar. If you find one, be sure to grab it.",
+tip_objectives: "O seu objetivo atual é exibido no canto superior direito da tela. Uma descrição mais detalhada pode ser encontrada na tela de informações. " #Your current objective is shown in the upper-right corner of the screen. A more detailed description can be seen in the info screen.",
+tip_flamers: "Os lança-chamas são inimigos com armadura pesada, atire no tanque de gás vermelho e vai explodir, o matando instantaneamente e deixando fogo no chão." #Flamers are heavily armored, shoot the big red gas tank and the flamer will explode- killing him instantly and leaving behind a pool of fire.",
+tip_detection_1: "Ficando mais perto dos inimigos vai os alertar instantaneamente, agachado vai reduzir o alcance da detecção." #Getting too close to enemies will alert them instantly, crouching will greatly reduce the detection range.",
+tip_supply_crates: "As caixas de suprimentos dos inimigos podem ter munição, equipamento e cura médica." #Looting enemy supply crates can provide Ammo, Equipment and Medical supplies.",
+tip_melee_attack: "Uma pancada com a coronha da sua arma pode ser uma boa forma de finalizar o seu inimigo. Útil especialmente se você não tiver muita munição." #A hit with the butt of your weapon can be a good way to finish off an opponent. This can be especially useful if you are low on ammo.",
+tip_tactical_reload: "Você pode recarregar a sua arma a qualquer momento. Certifique-se que esteja com o carregador cheio antes de entrar em uma nova área." #You can reload your weapon at any time. Make sure that you always have a full magazine before entering a new area.",
+tip_switch_to_sidearm: "Trocando para sua arma secundária é mais rápido do que recarregar a sua primária." #Switching to your sidearm is quicker than reloading your primary weapon.",
+tip_new_objective_bonuses: "Algumas missões podem recompensar bônus de experiência por ir além dos objetivos obrigatórios." #Some raids can reward bonus experience for going above and beyond your required objectives.",
+tip_commanders: "Capitães vão juntar os inimigos e deixar as coisas mais difíceis para você, mate eles assim que possível." #Captains will rally enemies and make things very difficult for you, kill them as soon as possible.",
+tip_first_aid_loot_drop: "Usando caixas médicas grandes vão recuperar uma queda sua, use-as para prevenir que morre." #Using large medical cases will return a single down, Use them to prevent dying for good.",
+tip_grenade_loot_drop: "Pegando as granadas que você não precisa vai deixar o resto para trás que podem ser coletadas para depois." #Picking up grenades you don't need will leave behind spares that can be collected later.",
+tip_automatic_pickups: "Alguns suprimentos soltos no chão podem ser coletadas automaticamente; pequenas curas médicas, pequenas bolsas de munições e pilhas de munições." #Some loot drops on the ground will be automatically picked up; small health bandages, small ammo pouches and medium ammo piles will be picked up when needed.",
+tip_weapon_effecienty: "Armas diferentes são mais efetivos em alcances diferentes, e assim são apropriados para situações diferentes." #Different weapons are effective at different ranges, and are therefore suited to different situations.",
+tip_grenade_using: "Se consegue ouvir eles, mas não pode atirar neles, jogue uma granada!" #If you can hear them but you cant shoot them you can probably grenade them!",
+tip_bag_sprinting: "Quando estiver carregando itens pesados, vai consumir mais vigor enquanto estiver correndo." #When carrying heavy items you consume more stamina while sprinting.",
+tip_new_grenade_throw_alt: "Jogue granadas em diferentes ângulos com o botão alternativo do mouse" #Throw grenades at different angles with the alternative mouse button.",
+tip_new_weapon_parts: "Não gostou da aparência de alguma parte da sua arma favorita? Você pode tirar a parte cosmética clicando no ícone da modificação." #Don't like the looks of some weapon parts on your favorite gun? Toggle cosmetic parts off by clicking attachments with the tool icon.",
+tip_new_honk_honk: "Quando estiver pilotando um veículo, você pode buzinar com o botão de atirar." #When in a vehicle as the driver you can honk the horn with the fire button.",
+tip_new_level_fourty: "Tente subir de nível das outras classes, você pode gostar." #Try leveling up other classes, you might enjoy it.",
+tip_challenge_cards_1: "Quando jogar com outras pessoas, considere usar uma carta de desafio para conseguir mais experiência." #When playing online consider using challenge cards to earn even more experience.",
+tip_silent_headshots: "Atirar num inimigo que não está em alerta, pode matá-lo instantaneamente mirando na cabeça." #Shooting an enemy who is not yet alerted can instantly kill them but only if you aim for the head.",
+tip_outlaw_rewards: "Missões fora da lei vão recompensar ouro extra na dificuldade mais alta." #Outlaw raids will award extra gold the higher difficulty you play them on.",
+tip_weapon_spread: "A maioria das armas são mais precisas quando atirar em rajadas." #Most weapons are more accurate when fired in bursts.",
+
+# Menu dos Servidores
+menu_mission_join_server_list_title: "Servidores" #Servers",
+menu_mission_join_server_list_columns_mission_type: "Missão" #Mission",
+menu_mission_join_server_list_columns_difficulty: "Dificuldade" #Difficulty",
+menu_mission_join_server_list_columns_host_name: "Host" #Host",
+menu_mission_join_server_list_columns_players: "Jogadores" #Players",
+menu_mission_join_filters_friends_only: "Apenas amigos" #Friends Only",
+menu_mission_join_filters: "Filtros" #FILTERS ",
+menu_mission_join_filters_level_appropriate_servers: "Servidores com nível apropriado" #Level appropriate servers",
+menu_mission_join_filters_difficulty_filter: "Filtro de dificul." #Difficulty filter",
+menu_mission_join_filters_mission_filter: "Filtro de missão" #Mission filter",
+#menu_mission_join_server_list_columns_card: "",
+menu_mission_join_multiplayer_warning: "Para conectar às outras partidas, por favor, use esta opção enquanto estiver no modo sozinho." #To connect to other games, please use this option while in single player mode.",
+#menu_mission_join_server_list_columns_progress: "",
+menu_mission_join_filters_distance_filter: "Filtro de distância" #Distance filter",
+#menu_mission_join_server_list_columns_time: "",
+menu_mission_join_filters_maximum_servers: "Máximo de servidores" #Maximum servers",
+menu_mission_join_filters_apply: "Atualizar" #Refresh",
+#menu_mission_join_server_list_columns_level_name: "",
+menu_mission_join_users_online_count: "JOGADORES ONLINE: " #ONLINE PLAYERS: ",
+menu_mission_join_join: "Se juntar" #Join",
+#menu_mission_join_server_list_columns_level: "",
+menu_mission_join_filters_kick_filter: "Filtro de expulsão" #Kick filter",
+menu_mission_join_filters_show: "Filtros" #Filter",
+menu_mission_join_filters_new_servers_only: "Apenas novos servidores" #New servers only",
+menu_mission_join_filters_in_camp_servers_only: "Apenas no acampamento" #In camp servers only",
+menu_any: "Qualquer" #Any",
+menu_dist_filter_worldwide: "O Mundo Todo" #Worldwide",
+menu_dist_filter_close: "Perto" #Close",
+menu_dist_filter_default: "Padrão" #Default",
+menu_dist_filter_far: "Longe" #Far",
+
+# Comunicação no chat
+com_wheel_yes: "Sim" #Yes",
+com_wheel_target_say_not_here: "$TARGET;, não está aqui!" #$TARGET;, it's not here!",
+com_wheel_say_wait: "Espere!" #Wait!",
+com_wheel_target_say_follow_me: "$TARGET;, me segue!" #$TARGET;, follow me!",
+com_wheel_target_say_enemy: "$TARGET;, inimigos estão próximos!" #$TARGET;, enemies are near!",
+com_wheel_no: "Não" #No",
+com_wheel_target_say_yes: "Afirmativo, $TARGET;!" #Affirmative, $TARGET;!",
+com_wheel_say_found_it: "Achei!" #Found it!",
+com_wheel_assistance: "Preciso de ajuda" #Assistance",
+com_wheel_say_follow_me: "Me segue!" #Follow me!",
+com_wheel_wait: "Espere" #Wait",
+com_wheel_follow_me: "Me segue" #Follow me",
+com_wheel_enemy: "Inimigo" #Enemy",
+com_wheel_found_it: "Achei" #Found it",
+com_wheel_toss_ammo: "Jogar munição" #Toss Ammo",
+com_wheel_target_say_found_it: "$TARGET;, achei!" #$TARGET;, I found it!",
+com_wheel_say_no: "Não" #No",
+com_wheel_say_yes: "Sim" #Yes",
+com_wheel_target_say_no: "Negativo, $TARGET;!" #Negative, $TARGET;!",
+com_wheel_target_say_assistance: "$TARGET;, preciso de ajuda!" #$TARGET;, I need help!",
+com_wheel_warcry: "Especial" #Warcry",
+com_wheel_target_say_wait: "$TARGET;, espere!" #$TARGET;, wait!",
+com_wheel_not_here: "Não está aqui" #Not here",
+com_wheel_say_not_here: "Não está aqui!" #Not here!",
+com_wheel_say_assistance: "Preciso de ajuda!" #Need Assistance!",
+com_wheel_say_enemy: "Inimigo está aqui!" #Enemy is here!",
+
+# Bounty Raid
+endless_bounties_already_completed: "já concluído" #already completed",
+menu_mission_next_bounty_raid: "Próxima invasão diária" #Next Bounty Raid",
+bounty_locked_progression: "Invasão diária já concluída" #Daily Bounty already completed",
+menu_mission_selected_mission_type_bounty_raid: "Invasão diária" #Bounty Raid",
+menu_ger_op_random_long_hl: "Blitz Longa" #Long Blitz",
+menu_ger_op_random_long_desc: "Um objetivo perigoso surgiu no mapa, localize-o e destrua-o.\n\nUma operação de seis missões aleatórias.\n\nDuas missões terão itens valiosos." #A dangerous objective threat has appeared, locate it and destroy the problem.\n\nSix stage randomized operation.\n\nTwo stages in the operation will contain valuable jobs.",
+menu_ger_op_random_medium_desc: "Um objetivo decente surgiu no mapa, localize-o e dê um fim a ele.\n\nUma operação de quatro missões aleatórias.\n\nUma missão terá itens valiosos." #A decent objective threat has appeared, locate it and dismantle the problem.\n\nFour stage randomized operation.\n\nOne stage in the operation will contain valuable jobs.",
+menu_ger_op_random_medium_hl: "Blitz Média" #Medium Blitz",
+menu_ger_op_random_short_desc: "Um objetivo pequeno surgiu no mapa, localize-o e dissolva o problema.\n\nUma operação de duas missões aleatórias." #A minor objective threat has appeared, locate it and dissolve the problem.\n\nTwo stage randomized operation.",
+menu_ger_op_random_short_hl: "Blitz Curta" #Short Blitz",
+
+# Operações
+random_mission_photo_1_title: "Missão normal" #Regular Mission",
+random_mission_photo_1_description: "Uma missão selecionada aleatoriamente." #A simple randomly selected mission",
+random_mission_photo_2_title: "Final" #Finale",
+random_mission_photo_2_description: "Uma missão final selecionada aleatoriamente." #A randomly selected finale mission",
+random_mission_photo_3_title: "Missão valiosa" #Valuable Mission",
+random_mission_photo_3_description: "Uma missão valiosa selecionada aleatoriamente." #A valuable randomly selected mission",
+menu_free_play_slot_title: "Operações Individuais" #Free Play",
+free_play_tutorialization_title: "Operações Individuais" #Operations Free Play",
+free_play_tutorialization_description: "Inicia qualquer missão de uma operação de sua escolha sem precisar jogá-la inteira." #Launch any individual mission from an operation of your choosing without having to play through an entire operation.",
+operations_tutorialization_title: "Informações das Operações" #Operations Info",
+operations_tutorialization_description: "Com várias missões em diferentes lugares, Operações não são para aqueles medrosos. Em outras palavras, levar meias extras pode ser uma boa ideia, estocando munição? Melhor ainda. Claro, todo esforço valerá a pena.\n\nProgresso é salvo entre as missões." #Spanning several missions over multiple locations, Operations are not for the faint of heart. In other words, packing clean socks might be a good idea, and stocking up on ammo an even better one. But of course, all that effort will not go unnoticed.$NL;$NL;Progress is saved between missions."
+menu_empty_save_slot_title: "Espaço vazio" #Empty slot",
+
+# Efeitos das cartas de desafio Diárias
+effect_player_cannot_sprint: "Jogadores não podem correr." #Players cannot sprint.",
+effect_player_melee_damage_negative: "Armas corpo-a-corpo causam $EFFECT_VALUE_1; menos de dano." #Melee weapons deal $EFFECT_VALUE_1; less damage."
+effect_enemy_damage_resistance_positive: "Inimigos sofrem $EFFECT_VALUE_1; mais de dano." #Enemies take $EFFECT_VALUE_1; more damage."
+effect_player_secondary_damage_negative: "Armas secundárias causam $EFFECT_VALUE_1; menos de dano." #Secondary weapons deal $EFFECT_VALUE_1; less damage."
+effect_player_health_positive: "A vida do jogador é aumentada por $EFFECT_VALUE_1;." #Player Health is increased by $EFFECT_VALUE_1;."
+effect_enemies_damage_positive: "Inimigos causam $EFFECT_VALUE_1; menos de dano." #Enemies deal $EFFECT_VALUE_1; less damage."
+effect_player_primary_damage_negative: "Armas primárias causam $EFFECT_VALUE_1; menos de dano." #Primary weapons deal $EFFECT_VALUE_1; less damage."
+effect_player_melee_damage_positive: "Armas corpo-a-corpo causam $EFFECT_VALUE_1; mais de dano." #Melee weapons deal $EFFECT_VALUE_1; more damage."
+effect_enemy_health_negative: "Inimigos sofrem $EFFECT_VALUE_1; menos de dano." #Enemies take $EFFECT_VALUE_1; less damage."
+effect_melee_only_negative: "Apenas armas corpo-a-corpo permitidos." #Melee weapons only."
+effect_player_primary_ammo_capacity_negative: "A capacidade de munição das armas primárias é reduzida para $EFFECT_VALUE_1;." #Primary weapons ammo capacity is reduced to $EFFECT_VALUE_1;."
+effect_player_primary_ammo_capacity_positive: "A capacidade de munição das armas primárias é aumentada por $EFFECT_VALUE_1;." #Primary weapons ammo capacity is increased by $EFFECT_VALUE_1;."
+effect_enemy_damage_resistance_negative: "Inimigos causam $EFFECT_VALUE_1; menos de dano." #Enemies take $EFFECT_VALUE_1; less damage."
+effect_enemies_damage_negative: "Inimigos causam $EFFECT_VALUE_1; mais de dano." #Enemies deal $EFFECT_VALUE_1; more damage."
+effect_bags_dont_slow_players_down: "Itens que carreguem nas costas não deixem os jogadores lentos." #Carry items do not slow players down."
+effect_bleedout_timer_positive: "O tempo até morrer é aumentado por $EFFECT_VALUE_1; segundos." #Bleedout timer increased by $EFFECT_VALUE_1; seconds."
+effect_player_health_negative: "A vida do jogador é reduzida por $EFFECT_VALUE_1;." #Player Health is reduced by $EFFECT_VALUE_1;."
+effect_warcries_disabled_negative: "As habilidades especiais estão desativadas." #Warcries are disabled."
+effect_player_secondary_damage_positive: "Armas secundárias causam $EFFECT_VALUE_1; mais de dano." #Secondary weapons deal $EFFECT_VALUE_1; more damage."
+effect_modify_lives_positive: "Jogadores têm $EFFECT_VALUE_1; queda(s) a mais." #Players have $EFFECT_VALUE_1; more lives."
+effect_player_crit_chance_positive: "A chance de crítico é aumentado por $EFFECT_VALUE_1;." #Crit chances are increased by $EFFECT_VALUE_1;."
+effect_enemy_health_positive: "Os inimigos sofrem $EFFECT_VALUE_1; mais de dano." #Enemies take $EFFECT_VALUE_1; more damage."
+effect_player_reload_speed_positive: "Os jogadores recarregam $EFFECT_VALUE_1; mais rápido." #Players reload $EFFECT_VALUE_1; faster."
+effect_player_primary_damage_positive: "Armas primárias causam $EFFECT_VALUE_1; mais de dano." #Primary weapons deal $EFFECT_VALUE_1; more damage."
+effect_ammo_pickups_refill_equipment: "Munição caída no chão também recupera equipamento." #Ammo loot drops refill equipment."
+effect_modify_lives_negative: "Jogadores têm $EFFECT_VALUE_1; queda(s) a menos. (Mínimo de uma queda)" #Players have $EFFECT_VALUE_1; less lives. (Minimum of 1 life)"
+effect_player_reload_speed_negative: "Jogadores recarregam $EFFECT_VALUE_1; mais lento." #Players reload $EFFECT_VALUE_1; slower."
+effect_loot_drop_chance_negative: "A chance de cair suprimentos é reduzida por $EFFECT_VALUE_1;." #Loot drop chance decreased by $EFFECT_VALUE_1;."
+effect_player_secondary_ammo_capacity_positive: "A capacidade de munição das armas secundárias é aumentada por $EFFECT_VALUE_1;." #Secondary weapons ammo capacity is increased by $EFFECT_VALUE_1;."
+effect_bleedout_timer_negative: "O tempo até morrer é reduzido por $EFFECT_VALUE_1; segundos." #Bleedout timer decreased by $EFFECT_VALUE_1; seconds."
+effect_player_movement_speed_positive: "A velocidade do movimento do jogador é aumentado por $EFFECT_VALUE_1;." #Player movement speed is increased by $EFFECT_VALUE_1;."
+effect_player_movement_speed_negative: "A velocidade do movimento do jogador é reduzido por $EFFECT_VALUE_1;." #Player movement speed is reduced by $EFFECT_VALUE_1;."
+effect_loot_drop_chance_positive: "A chance de cair suprimentos é aumentado por $EFFECT_VALUE_1;." #Loot drop chance increased by $EFFECT_VALUE_1;."
+effect_player_secondary_ammo_capacity_negative: "A capacidade de munição das armas secundárias é reduzida para $EFFECT_VALUE_1;." #Secondary weapons ammo capacity is reduced to $EFFECT_VALUE_1;."
+
+# Armas
+menu_inventory_tier: "Nível" #Tier",
+menu_weapon_challenge_completed: "Desafio concluído" #Challenge completed",
+menu_weapon_challenge_locked: "Desafio bloqueado" #Challenge locked",
+menu_weapon_challenge_in_progress: "Em progresso" #In progress",
+weapon_catagory_pistol: "Pistola" #Pistol",
+weapon_catagory_shotgun: "Escopeta" #Shotgun",
+weapon_catagory_snp_short: "Sniper" #Sniper",
+weapon_catagory_lmg_short: "Pesada" #LMG",
+weapon_catagory_assault_rifle_short: "Rifle" #AR",
+weapon_catagory_smg_short: "SMT" #SMG",
+weapon_catagory_lmg: "Metralhadora Pesada" #Machine Gun",
+weapon_catagory_assault_rifle: "Rifle de Assalto" #Assault Rifle",
+weapon_catagory_snp: "Rifle de Sniper" #Sniper Rifle",
+weapon_catagory_smg: "Submetralhadora" #Sub-machine Gun",
+weapon_skill_decrease_recoil_desc: "Aumenta a estabilidade da arma." #Increases the stability of the gun",
+weapon_skill_hip_fire_kill_completed: "Matou $AMOUNT; inimigos sem mirar com a $WEAPON;." #Killed $AMOUNT; enemies with hip-fire from the $WEAPON;",
+weapon_skill_kill_within_range_completed: "Matou $AMOUNT; inimigos dentro de $RANGE; metros com a $WEAPON;." #Killed $AMOUNT; enemies that are less than $RANGE; meters away with the $WEAPON;",
+weapon_skill_headshot_kill_briefing: "Mate $AMOUNT; inimigos com tiros na cabeça com a $WEAPON;." #Kill $AMOUNT; enemies with headshots from the $WEAPON;",
+weapon_skill_kill_specials_completed: "Matou $AMOUNT; Oficiais, Snipers e Observadores com a $WEAPON;." #Killed $AMOUNT; enemy Officers, Snipers and Spotters with the $WEAPON;",
+weapon_skill_kill_flamers_completed: "Matou $AMOUNT; Lança-chamas com a $WEAPON;." #Killed $AMOUNT; flamers with the $WEAPON;",
+weapon_skill_tighter_spread_name: "Precisão" #Decrease Spread",
+weapon_skill_challenge_unlocked_level: "Alcance nível $LEVEL; para desbloquear o nível $TIER; da arma e conclua os desafios anteriores." #Reach level $LEVEL; to unlock Tier $TIER; and complete the preceding challenges to activate this challenge",
+weapon_skill_increase_magazine_name: "Tamanho do carregador" #Increase Mag Size",
+weapon_skill_kill_within_range_briefing: "Mate $AMOUNT; inimigos dentro de $RANGE; metros com a $WEAPON;." #Kill $AMOUNT; enemies that are less than $RANGE; meters away with the $WEAPON;",
+weapon_skill_wider_spread_desc: "Aumenta o espalhamento das balas da arma." #Increases the projectile spread for the weapon.",
+weapon_skill_increase_magazine_desc: "Aumenta a quantidade de munição do carregador." #Increases the amount of bullets the magazine can hold",
+weapon_skill_collect_ammo_completed: "Coletou $AMOUNT; de munição da $WEAPON; durante as missões." #Collected $AMOUNT; ammo for the $WEAPON; in missions",
+weapon_skill_headshot_kill_completed: "Matou $AMOUNT; inimigos com tiros na cabeça com a $WEAPON;." #Killed $AMOUNT; enemies with headshots from the $WEAPON;",
+weapon_skill_faster_reload_desc: "Aumenta a velocidade de recarregar a arma." #Increases the speed at which the weapon reloads",
+weapon_skill_headshots_beyond_range_briefing: "Mate $AMOUNT; inimigos com tiros na cabeça a uma distância de $RANGE; metros com a $WEAPON;." #Kill $AMOUNT; enemies with headshots that are more than $RANGE; meters away with the $WEAPON;",
+weapon_skill_kill_flamers_briefing: "Mate $AMOUNT; lança-chamas com a $WEAPON;." #Kill $AMOUNT; flamers with the $WEAPON;",
+weapon_skill_faster_ads_name: "A velocidade de mirar" #Increase Aim down sight speed",
+weapon_skill_increase_damage_desc: "Aumenta o dano da arma." #Increases the damage that this weapon does",
+weapon_skill_generic_kill_briefing: "Mate $AMOUNT; inimigos com a arma." #Kill $AMOUNT; enemies with the $WEAPON;",
+weapon_skill_faster_ads_desc: "Aumenta a velocidade que você mira com a arma" #Increases the speed at which you can go into Aim down sight mode",
+weapon_skill_wider_spread_name: "Espalhamento" #Increase Spread",
+weapon_skill_steelsight_kill_completed: "Matou $AMOUNT; inimigos enquanto estava mirando com a $WEAPON;." #Killed $AMOUNT; enemies while aiming down sights with the $WEAPON;",
+weapon_skill_challenge_unlocked_level_different_class: "Alcance nível $LEVEL; da classe $CLASS; para desbloquear o nível $TIER; da arma e conclua os desafios anteriores." #Reach level $LEVEL; with the $CLASS; class to unlock Tier $TIER; and complete the preceding challenges to activate this challenge",
+weapon_skill_tighter_spread_desc: "Diminui o espalhamento das balas da arma." #Decreases the projectile spread for the weapon.",
+weapon_skill_faster_reload_name: "Velocidade da recarga" #Increase Reload speed",
+weapon_skill_increase_damage_name: "Dano" #Increase Damage",
+weapon_skill_decrease_recoil_name: "Estabilidade" #Decrease Recoil",
+weapon_skill_challenge_locked: "Desbloqueia o nível $TIER; das melhorias da arma e conclua os desafios anteriores." #Unlock Tier $TIER; weapon upgrades and complete the preceding challenges to activate this challenge.",
+weapon_skill_generic_kill_completed: "Matou $AMOUNT; inimigos com a $WEAPON;." #Killed $AMOUNT; enemies with the $WEAPON;",
+weapon_skill_last_round_kill_briefing: "Mate $AMOUNT; inimigos com a última bala da $WEAPON;." #Kill $AMOUNT; enemies with the last round in the $WEAPON;",
+weapon_skill_last_round_kill_completed: "Matou $AMOUNT; inimigos com a última bala da $WEAPON;." #Killed $AMOUNT; enemies with the last round in the $WEAPON;",
+weapon_skill_hip_fire_kill_briefing: "Mate $AMOUNT; inimigos sem mirar com a $WEAPON;." #Kill $AMOUNT; enemies with hip-fire from the $WEAPON;",
+weapon_skill_steelsight_kill_briefing: "Mate $AMOUNT; inimigos enquanto estiver mirando com a $WEAPON;." #Kill $AMOUNT; enemies while aiming down sights with the $WEAPON;",
+weapon_skill_hip_fire_headshot_kill_briefing: "Mate $AMOUNT; inimigos com tiros na cabeça, sem mirar com a $WEAPON;." #Perform $AMOUNT; hip-fire headshots with the $WEAPON;",
+weapon_skill_hip_fire_headshot_kill_completed: "Matou $AMOUNT; inimigos com tiros na cabeça, sem ter mirado com a $WEAPON;." #Performed $AMOUNT; hip-fire headshots with the $WEAPON;",
+weapon_skill_collect_ammo_briefing: "Colete $AMOUNT; de munição da $WEAPON; durante as missões." #Collect $AMOUNT; ammo for the $WEAPON; in missions",
+weapon_skill_kill_specials_briefing: "Mate $AMOUNT; Oficiais, Snipers ou Observadores com a $WEAPON;." #Kill $AMOUNT; enemy Officers, Snipers or Spotters with the $WEAPON;",
+weapon_skill_kill_beyond_range_briefing: "Mate $AMOUNT; inimigos a uma distância de $RANGE; metros com a $WEAPON;." #Kill $AMOUNT; enemies that are more than $RANGE; meters away with the $WEAPON;",
+weapon_skill_kill_beyond_range_completed: "Matou $AMOUNT; inimigos a uma distância de $RANGE; metros com a $WEAPON;." #Killed $AMOUNT; enemies that are more than $RANGE; meters away with the $WEAPON;",
+weapon_skill_headshots_beyond_range_completed: "Matou $AMOUNT; inimigos com tiros na cabeça a uma distância de $RANGE; metros com a $WEAPON;." #Killed $AMOUNT; enemies with headshots that are more than $RANGE; meters away with the $WEAPON;",

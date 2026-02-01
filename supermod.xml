@@ -7,7 +7,7 @@
 		version="0.8">
 
 	<updates>
-        <update provider="modworkshop" identifier="51497" important="true"/>
+        <update provider="github" identifier="gabsF/raidwwii_translate_brazilian" branch="master"/>
     </updates>
 
 	<hooks>

@@ -7,7 +7,9 @@
 		version="0.8">
 
 	<updates>
-        <update provider="github" identifier="gabsF/raidwwii_translate_brazilian" branch="master"/>
+        <update identifier="RAIDWWIIBrazilianLocalization" important="true" critical="true">
+			<host meta="https://github.com/gabsF/raidwwii_translate_brazilian/releases/latest/download/meta.json"/>
+		</update>
     </updates>
 
 	<hooks>

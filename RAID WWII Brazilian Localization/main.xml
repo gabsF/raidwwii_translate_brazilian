@@ -1,5 +1,4 @@
-<mod name="Raid WWII Brazilian" author="gabsF" global_key="RaidWWIIBrazilian" min_lib_ver="3.0">
-    <AssetUpdates id="51497" version="0.8" provider="modworkshop"/>
+<mod name="Raid WWII Brazilian" author="gabsF" global_key="RAIDWWIIBrazilianLocalization" min_lib_ver="3.0">
 
     <Localization directory="loc">
         <group language="english">

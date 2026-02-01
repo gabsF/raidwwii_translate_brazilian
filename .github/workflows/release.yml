@@ -15,7 +15,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
     - name: Archive Mod
       run: |
-         .\.github\7za.exe -tzip a ".\payday2_traducao_pt-br.zip" ".\Localization Brazilian Portuguese"
+         .\.github\7za.exe -tzip a ".\raidwwii_traducao_pt-br.zip" ".\RAID WWII Brazilian Localization"
       shell: powershell
     - name: Create New Release
       id: create_release
@@ -23,8 +23,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: pd2translationbrazilian
-        release_name: Release pd2translationbrazilian
+        tag_name: raidwwiitranslationbrazilian
+        release_name: Release raidwwiitranslationbrazilian
         draft: false
         prerelease: false
         body: |
@@ -36,13 +36,13 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
-        asset_path: ./payday2_traducao_pt-br.zip
-        asset_name: payday2_traducao_pt-br.zip
+        asset_path: ./raidwwii_traducao_pt-br.zip
+        asset_name: raidwwii_traducao_pt-br.zip
         asset_content_type: application/zip
     - name: Hash mod and create mod meta file
       id: create_meta_file
       run: |
-         $(cat .\.github\meta.json).Replace("%HASH%", $(./.github/hash.exe "./Localization Brazilian Portuguese").Substring(17)) > ./meta.json
+         $(cat .\.github\meta.json).Replace("%HASH%", $(./.github/hash.exe "./RAID WWII Brazilian Localization").Substring(17)) > ./meta.json
     - name: Upload meta file to Release
       id: upload-meta-asset 
       uses: actions/upload-release-asset@v1

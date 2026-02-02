@@ -4,7 +4,8 @@
         description="Um mod que traduz RAID: World War II para Português do Brasil."
         author="gabsF"
         priority="-100"
-		version="0.81"
+		version="0.82"
+		image="icon.png"
 	>
 
 	<updates>

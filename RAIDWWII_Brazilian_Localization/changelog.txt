@@ -1,3 +1,2 @@
-0.82 - 02/02/2026
+0.83 - dd/mm/aaaa
 * Progresso da tradução do Ambar Train.
-* Adicionado um ícone do mod.

@@ -467,6 +467,17 @@ S_13_flips_a_table_001: "Some daqui!" #Get out!",
 S_14_moustache_001: "Ah, não!" #Oh No!",
 
 # HUD
+hud_no_tools_Lange: "Lange precisa das ferramentas" #"Bring tools to Lange",
+hint_wrong_grenades: "Isso não é para o seu equipamento equipado." #This is not for your current Equipment.",
+hud_car_key: "Chave da caminhonete" #Truck key",
+hint_bellhop_overweight: "Não pode trocar de arma devido ao peso!" #Cannot swap to primary with excess weight!",
+hud_action_mounting_turret_blocked_taken: "Esta torreta está ocupada!" #"Someone else is using this turret!",
+hud_pumpkin_revive_destroyed: "Abóbora destruída pelo $HELPER;! Revivendo..." #Pumpkin destroyed by $HELPER;! Reviving...",
+hud_hint_need_fuel_hose: "Requer a mangueira de combustível" #Requires fuel hose",
+hud_int_need_gold_bar: "Você precisa de uma barra de ouro" #You need a gold bar",
+hint_no_dynamite: "Você precisa de uma dinamite" #You need a dynamite",
+hint_no_mine: "Você precisa de uma mina" #You need a mine",
+already_has_gas_canister: "Você já está carregando um galão de gasolina" #You are already carrying a gas canister",
 menu_chat_peer_kicked_unknown: "Alguém que estava se juntando foi expulso." #Someone currently connecting has been kicked."
 menu_chat_peer_left: "$name; saiu." #$name; left."
 menu_chat_peer_lost: "$name; perdeu a conexão." #$name; disconnected."
@@ -885,6 +896,7 @@ menu_skill_profile_purchase_title: "CONFIRMAR COMPRA" #Confirm Purchase",
 menu_skills_max_level: "No nível máximo" #At max Level",
 menu_skills_progress_desc_challenge: "Progresso" #Progress",
 skill_warcry_duration_desc: "Duração do Especial: |$DURATION;s|" #Warcry duration: |$DURATION;s|",
+skill_warcry_duration_upgraded_desc" : "Duração do Especial: |$DURATION2;s| (Base: |$DURATION;s|)" #Warcry duration: |$DURATION2;s| (Base: |$DURATION;s|)",
 
 #### Habilidades ####
 ### ESPECIAIS ###

@@ -1,2 +1,3 @@
 0.83 - dd/mm/aaaa
 * Progresso da tradução do Ambar Train.
+* Traduzido algumas partes que estavam faltando.

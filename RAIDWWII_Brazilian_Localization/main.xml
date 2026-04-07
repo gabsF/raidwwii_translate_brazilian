@@ -16,6 +16,8 @@
 			<loc file="missions/treasury.yaml" />
 			<loc file="missions/op_enigmatic.yaml" />
 			<loc file="missions/trainyard.yaml" />
+			<!-- <loc file="missions/bridge.yaml" />
+			<loc file="missions/op_bridge.yaml" /> -->
 
 		</group>
     </Localization>
